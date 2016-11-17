@@ -3,10 +3,15 @@
 .fonts_cordiaupc { font-family: "CordiaUPC"; }
 .fonts_size_title { font-size: 3rem; }
 .fonts_size_subtitle { font-size: 2.625rem; }
+
 .weight_light { font-weight: lighter; }
 .weight_bold { font-weight: bold; }
+
 .color_white { color: #fff; }
+
+.full-height {  height: 100%; }
 .margin-section { margin-top: 25px; margin-bottom: 25px; }
+
 button, .button {
     display: inline-block;
     margin: 0.75rem;
@@ -124,14 +129,13 @@ ul {
     background-image: url('../images/bg-aica.jpg');
     background-repeat:repeat;
     overflow: hidden;
+    position: relative;
 }
 .aica-pic { padding: 0; }
 .aica-content {
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
-    /*border: 5px solid #9AD3DE;
-    box-sizing: border-box;*/
 }
 .btn-aica{
     font-family: "DBAdmanX";
@@ -141,6 +145,8 @@ ul {
     color: #fff;
     background-color: #284a2b;
 }
+
+
 
 /* CSR */
 .csr {
