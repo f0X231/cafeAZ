@@ -1,0 +1,301 @@
+/* All */
+.fonts_dbadmanx { font-family: "DBAdmanX"; }
+.fonts_cordiaupc { font-family: "CordiaUPC"; }
+.fonts_size_title { font-size: 3rem; }
+.fonts_size_subtitle { font-size: 2.625rem; }
+.weight_light { font-weight: lighter; }
+.weight_bold { font-weight: bold; }
+.color_white { color: #fff; }
+.margin-section { margin-top: 25px; margin-bottom: 25px; }
+button, .button {
+    display: inline-block;
+    margin: 0.75rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.1875rem;
+    outline: none;
+    font-family: inherit;
+    font-size: 1.125em;
+    font-weight: 300;
+    line-height: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+    opacity:0.9;
+}
+button:hover, .button:hover { opacity: 1; }
+
+
+
+/* Element */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('../images/bg.jpg');
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-size: 1rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Cover */
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51,51,51,0.7);
+    z-index: 10;
+}
+.cover {
+    position: absolute;
+    width: 55%;
+    height: 55%;
+
+    -vendor-animation-delay: 5s;
+}
+.leaf01 { left: 0; top: 0; z-index: 12; background: red; }
+.leaf02 { left: 0; bottom: 0; z-index: 11; background: yellow; }
+.leaf03 { left: 20%; bottom: 0; z-index: 13; background: gray; }
+.leaf04 { right: 0; bottom: 0; z-index: 14; background: green; }
+.leaf05 { right: 0; top: 0; z-index: 15; background: blue; }
+.leaf06 { right: 20%; top: 0; z-index: 16; background: orange; }
+
+
+/* Menu */
+.menu-btn { cursor: pointer; }
+
+/* Slide */
+.navigation-circle {
+    border-radius: 50%;
+    border: 1px solid #284a2b;
+}
+
+/* Franchise */
+.franchise {
+    background-image: url('../images/bg-franchise.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+.btn-franchise {
+    font-family: "DBAdmanX";
+    font-weight: bold;
+    font-size: 1.125rem;
+
+    color: #000;
+    background-color: #fbb813; /* #284a2b;*/
+}
+
+/* About Us */
+.aboutus-detail {
+    font-size: 1.25rem;
+}
+.btn-aboutus{
+    font-family: "DBAdmanX";
+    font-weight: bold;
+    font-size: 1.125rem;
+
+    color: #fff;
+    background-color: #284a2b;
+}
+
+/* AICA */
+.aica {
+    background-image: url('../images/bg-aica.jpg');
+    background-repeat:repeat;
+    overflow: hidden;
+}
+.aica-pic { padding: 0; }
+.aica-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    /*border: 5px solid #9AD3DE;
+    box-sizing: border-box;*/
+}
+.btn-aica{
+    font-family: "DBAdmanX";
+    font-weight: bold;
+    font-size: 1.125rem;
+
+    color: #fff;
+    background-color: #284a2b;
+}
+
+/* CSR */
+.csr {
+    background-image: url('../images/bg-csr.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+.csr-content {
+    position: relative;
+    height: 100%;
+}
+.csr-detail {
+    position: absolute;
+    left: 12%;
+    bottom: 10%;
+    width: 76%;
+    color: #fff;
+}
+.csr-txt label {
+    display: inline;
+    color: #fbb813;
+}
+.csr-title, .csr-title label  {
+    font-family: "DBAdmanX";
+    font-weight: bold;
+    font-size: 2.625rem;
+    vertical-align: bottom;
+    line-height: 35px;
+}
+.csr-overview {
+    font-family: "CordiaUPC";
+    font-size: 1.125rem;
+    vertical-align: bottom;
+}
+.csr-overview label {
+    font-family: "CordiaUPC";
+    font-style: italic;
+    font-size: 1.125rem;
+}
+
+/* News */
+.news a:hover { color: #888888; }
+.news-description, .news-datetime {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.news-description {
+    font-family: "DBAdmanX";
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 25px;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    overflow: hidden;
+}
+.news-datetime {
+    font-family: "CordiaUPC";
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+/* footer */
+.leaf-footer {
+    z-index: 2;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    z-index: 8;
+}
+footer ul {
+    line-height: 150px;
+    vertical-align: middle;
+}
+footer li {
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+footer li a:hover { color: #888888; }
+.footer-copyright {
+    border-top: 1px solid #888888;
+    line-height: 55px;
+}
+.footer-copyright i {
+    font-size: 1rem;
+}
+
+
+/* Overide */
+.thumbnail:hover, .thumbnail:focus { box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.5); }
+
+
+
+
+
+/* Media Query */
+/* Small screens : max-width 640px, mobile-only styles, use when QAing mobile issues  */
+@media only screen and (max-width: 40em) {
+    .franchise {
+        background-image: url('../images/bg-franchise-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+    }
+    .news-picture { margin-bottom: 8px; }
+    .news-description {
+        height: 80px;
+        min-height: 80px;
+        max-height: 80px;
+        margin-bottom: 8px;
+    }
+    .news-datetime { margin-bottom: 25px; }
+    footer ul {
+        line-height: inherit;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer li { padding: 5px; }
+}
+
+/* Medium screens :
+    min-width 641px, medium screens
+    min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) {
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .news-description {
+        height: 80px;
+        min-height: 80px;
+        max-height: 80px;
+    }
+}
+
+/* Large screens :
+    min-width 1025px, large screens
+    min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen and (min-width: 64.063em) {
+}
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* XLarge screens :
+    min-width 1441px, xlarge screens
+    min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+@media only screen and (min-width: 90.063em) {
+}
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+}
+
+/* XXLarge screens : min-width 1921px, xxlarge screens */
+@media only screen and (min-width: 120.063em) {
+}
