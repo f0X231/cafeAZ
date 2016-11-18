@@ -11,11 +11,12 @@
 
 .full-height {  height: 100%; }
 .margin-section { margin-top: 25px; margin-bottom: 25px; }
+.margin-section2x { margin-top: 50px; margin-bottom: 50px; }
 
 button, .button {
     display: inline-block;
-    margin: 0.75rem;
-    padding: 0.75rem 1.5rem;
+    margin: 0.55rem;
+    padding: 0.55rem 1.5rem;
     border: none;
     border-radius: 0.1875rem;
     outline: none;
@@ -89,10 +90,8 @@ ul {
 .menu-btn { cursor: pointer; }
 
 /* Slide */
-.navigation-circle {
-    border-radius: 50%;
-    border: 1px solid #284a2b;
-}
+.slide-layer-3 { z-index: 231; }
+.slide-layer-4 { z-index: 320; }
 
 /* Franchise */
 .franchise {
@@ -101,6 +100,14 @@ ul {
     background-position: center;
     background-size: cover;
     height: 350px;
+}
+.franchise-row {
+    height: 100%;
+}
+.franchise-txt {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .btn-franchise {
     font-family: "DBAdmanX";
@@ -131,11 +138,18 @@ ul {
     overflow: hidden;
     position: relative;
 }
+.aica-pic, .aica-txt { display: table; }
 .aica-pic { padding: 0; }
+.aica-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
 .aica-content {
     background-color: #fff;
-    padding: 30px;
     border-radius: 10px;
+    margin: 0 auto;
+    padding: 2.5%;
+    width: 90%;
 }
 .btn-aica{
     font-family: "DBAdmanX";
@@ -145,7 +159,6 @@ ul {
     color: #fff;
     background-color: #284a2b;
 }
-
 
 
 /* CSR */
@@ -257,6 +270,11 @@ footer li a:hover { color: #888888; }
         background-size: cover;
         height: 350px;
     }
+    .aica-middle {
+        margin-top: 25px;
+        padding-bottom: 25px;
+        line-height: 160%;
+    }
     .news-picture { margin-bottom: 8px; }
     .news-description {
         height: 80px;
@@ -277,8 +295,10 @@ footer li a:hover { color: #888888; }
     min-width 641px, medium screens
     min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 40.063em) {
+
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .aica-middle { line-height: 160%; }
     .news-description {
         height: 80px;
         min-height: 80px;

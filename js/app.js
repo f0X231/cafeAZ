@@ -1,3 +1,6 @@
+
+$(document).foundation();
+
 $(document).ready(function() {
 
 	/*$('.overlay').on('click mousemove', function () {
@@ -10,16 +13,18 @@ $(document).ready(function() {
     	$('.overlay').addClass('animated fadeOut');
 	});*/
 
-	/*$('.slide-animation').DrSlider({
+	$('.slide-animation').DrSlider({
 			transitionSpeed: 1500,
 			duration: 8000,
 			showProgress: false,
+			showControl: false,
 			showNavigation: true,
-			classNavigation: 'navigation-circle',
+			navigationType: 'circle',
 			navigationColor: '#ffffff',
 			navigationHighlightColor: '#284a2b',
 			navigationHoverColor: '#284a2b',
+			positionNavigation: 'in-right-bottom',
 			onReady: function() {}
-	});*/
+	});
 
 });
