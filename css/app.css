@@ -1,13 +1,29 @@
 /* All */
+.clearfix { display: inline-block; }
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
 .fonts_dbadmanx { font-family: "DBAdmanX"; }
 .fonts_cordiaupc { font-family: "CordiaUPC"; }
 .fonts_size_title { font-size: 3rem; }
 .fonts_size_subtitle { font-size: 2.625rem; }
+.fonts_size_slide_title { font-size: 2.215rem; }
+.fonts_size_slide_txt { font-size: 1.25}
 
 .weight_light { font-weight: lighter; }
 .weight_bold { font-weight: bold; }
 
+.color_primary { color: #274b2b; }
 .color_white { color: #fff; }
+.color_gray { color: #808080; }
+.color_black { color: #000; }
+.bg_white { background-color: #fff; }
+.bg_black { background-color: #000; }
 
 .full-height {  height: 100%; }
 .margin-section { margin-top: 25px; margin-bottom: 25px; }
@@ -18,7 +34,10 @@ button, .button {
     margin: 0.55rem;
     padding: 0.55rem 1.5rem;
     border: none;
-    border-radius: 0.1875rem;
+    border-radius: 0.1875rem;           /* CSS3 Property */
+    -moz-border-radius: 0.1875rem;      /* Firefox */
+    -webkit-border-radius: 0.1875rem;   /* Chrome/Safari */
+    -khtml-border-radius: 0.1875rem;    /* Linux browsers */
     outline: none;
     font-family: inherit;
     font-size: 1.125em;
@@ -60,197 +79,307 @@ ul {
     padding: 0;
 }
 
+/* All Pages */
+          /* Menu */
+          .menu-btn {
+              cursor: pointer;
+              position: absolute;
+              top: 30px;
+              left: 25px;
+              color: #fff;
+              z-index: 231;
+          }
 
-/* Cover */
-.overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(51,51,51,0.7);
-    z-index: 10;
-}
-.cover {
-    position: absolute;
-    width: 55%;
-    height: 55%;
+          /* Slide */
+          .slide-layer-2 { z-index: 123; }
+          .slide-layer-3 { z-index: 231; }
+          .slide-layer-4 { z-index: 320; }
 
-    -vendor-animation-delay: 5s;
-}
-.leaf01 { left: 0; top: 0; z-index: 12; background: red; }
-.leaf02 { left: 0; bottom: 0; z-index: 11; background: yellow; }
-.leaf03 { left: 20%; bottom: 0; z-index: 13; background: gray; }
-.leaf04 { right: 0; bottom: 0; z-index: 14; background: green; }
-.leaf05 { right: 0; top: 0; z-index: 15; background: blue; }
-.leaf06 { right: 20%; top: 0; z-index: 16; background: orange; }
-
-
-/* Menu */
-.menu-btn { cursor: pointer; }
-
-/* Slide */
-.slide-layer-3 { z-index: 231; }
-.slide-layer-4 { z-index: 320; }
-
-/* Franchise */
-.franchise {
-    background-image: url('../images/bg-franchise.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-}
-.franchise-row {
-    height: 100%;
-}
-.franchise-txt {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.btn-franchise {
-    font-family: "DBAdmanX";
-    font-weight: bold;
-    font-size: 1.125rem;
-
-    color: #000;
-    background-color: #fbb813; /* #284a2b;*/
-}
-
-/* About Us */
-.aboutus-detail {
-    font-size: 1.25rem;
-}
-.btn-aboutus{
-    font-family: "DBAdmanX";
-    font-weight: bold;
-    font-size: 1.125rem;
-
-    color: #fff;
-    background-color: #284a2b;
-}
-
-/* AICA */
-.aica {
-    background-image: url('../images/bg-aica.jpg');
-    background-repeat:repeat;
-    overflow: hidden;
-    position: relative;
-}
-.aica-pic, .aica-txt { display: table; }
-.aica-pic { padding: 0; }
-.aica-middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-.aica-content {
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 0 auto;
-    padding: 2.5%;
-    width: 90%;
-}
-.btn-aica{
-    font-family: "DBAdmanX";
-    font-weight: bold;
-    font-size: 1.125rem;
-
-    color: #fff;
-    background-color: #284a2b;
-}
+          /* footer */
+          .leaf-footer {
+              z-index: 2;
+          }
+          footer {
+              background-color: #000;
+              color: #fff;
+              z-index: 8;
+          }
+          footer ul {
+              line-height: 150px;
+              vertical-align: middle;
+          }
+          footer li {
+            display: inline-block;
+            padding-left: 25px;
+            padding-right: 25px;
+          }
+          footer li a:hover { color: #888888; }
+          .footer-copyright {
+              border-top: 1px solid #888888;
+              line-height: 55px;
+          }
+          .footer-copyright i {
+              font-size: 1rem;
+          }
 
 
-/* CSR */
-.csr {
-    background-image: url('../images/bg-csr.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-}
-.csr-content {
-    position: relative;
-    height: 100%;
-}
-.csr-detail {
-    position: absolute;
-    left: 12%;
-    bottom: 10%;
-    width: 76%;
-    color: #fff;
-}
-.csr-txt label {
-    display: inline;
-    color: #fbb813;
-}
-.csr-title, .csr-title label  {
-    font-family: "DBAdmanX";
-    font-weight: bold;
-    font-size: 2.625rem;
-    vertical-align: bottom;
-    line-height: 35px;
-}
-.csr-overview {
-    font-family: "CordiaUPC";
-    font-size: 1.125rem;
-    vertical-align: bottom;
-}
-.csr-overview label {
-    font-family: "CordiaUPC";
-    font-style: italic;
-    font-size: 1.125rem;
-}
+/* Home */
+          /* Cover Pages */
+          .overlay {
+              position: fixed;
+              width: 100%;
+              height: 100%;
+              left: 0;
+              top: 0;
+              background: rgba(51,51,51,0.7);
+              z-index: 10;
+          }
+          .cover {
+              position: absolute;
+              width: 55%;
+              height: 55%;
 
-/* News */
-.news a:hover { color: #888888; }
-.news-description, .news-datetime {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.news-description {
-    font-family: "DBAdmanX";
-    font-size: 1.25rem;
-    font-weight: bold;
-    line-height: 25px;
+              -vendor-animation-delay: 5s;
+          }
+          .leaf01 { left: 0; top: 0; z-index: 12; background: red; }
+          .leaf02 { left: 0; bottom: 0; z-index: 11; background: yellow; }
+          .leaf03 { left: 20%; bottom: 0; z-index: 13; background: gray; }
+          .leaf04 { right: 0; bottom: 0; z-index: 14; background: green; }
+          .leaf05 { right: 0; top: 0; z-index: 15; background: blue; }
+          .leaf06 { right: 20%; top: 0; z-index: 16; background: orange; }
 
-    height: 50px;
-    min-height: 50px;
-    max-height: 50px;
-    overflow: hidden;
-}
-.news-datetime {
-    font-family: "CordiaUPC";
-    font-size: 0.875rem;
-    font-style: italic;
-}
 
-/* footer */
-.leaf-footer {
-    z-index: 2;
-}
-footer {
-    background-color: #000;
-    color: #fff;
-    z-index: 8;
-}
-footer ul {
-    line-height: 150px;
-    vertical-align: middle;
-}
-footer li {
-  display: inline-block;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-footer li a:hover { color: #888888; }
-.footer-copyright {
-    border-top: 1px solid #888888;
-    line-height: 55px;
-}
-.footer-copyright i {
-    font-size: 1rem;
-}
+
+          /* Section Franchise */
+          .franchise {
+              background-image: url('../images/bg-franchise.jpg');
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              height: 350px;
+          }
+          .franchise-row {
+              height: 100%;
+          }
+          .franchise-txt {
+              position: relative;
+              top: 50%;
+              transform: translateY(-50%);
+          }
+          .btn-franchise {
+              font-family: "DBAdmanX";
+              font-weight: bold;
+              font-size: 1.125rem;
+
+              color: #000;
+              background-color: #fbb813; /* #284a2b;*/
+          }
+
+          /* Section About Us */
+          .aboutus-detail {
+              font-size: 1.25rem;
+          }
+          .btn-aboutus{
+              font-family: "DBAdmanX";
+              font-weight: bold;
+              font-size: 1.125rem;
+
+              color: #fff;
+              background-color: #284a2b;
+          }
+
+          /* Section AICA */
+          .aica {
+              background-image: url('../images/bg-aica.jpg');
+              background-repeat:repeat;
+              overflow: hidden;
+              position: relative;
+          }
+          .aica-pic, .aica-txt { display: table; }
+          .aica-pic { padding: 0; }
+          .aica-middle {
+              display: table-cell;
+              vertical-align: middle;
+          }
+          .aica-content {
+              background-color: #fff;
+              border-radius: 10px;            /* CSS3 Property */
+              -moz-border-radius: 10px;       /* Firefox */
+              -webkit-border-radius: 10px;    /* Chrome/Safari */
+              -khtml-border-radius: 10px;     /* Linux browsers */
+              margin: 0 auto;
+              padding: 2.5%;
+              width: 90%;
+          }
+          .btn-aica{
+              font-family: "DBAdmanX";
+              font-weight: bold;
+              font-size: 1.125rem;
+
+              color: #fff;
+              background-color: #284a2b;
+          }
+
+
+          /* Section CSR */
+          .csr {
+              background-image: url('../images/bg-csr.jpg');
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              height: 350px;
+          }
+          .csr-content {
+              position: relative;
+              height: 100%;
+          }
+          .csr-detail {
+              position: absolute;
+              left: 12%;
+              bottom: 10%;
+              width: 76%;
+              color: #fff;
+          }
+          .csr-txt label {
+              display: inline;
+              color: #fbb813;
+          }
+          .csr-title, .csr-title label  {
+              font-family: "DBAdmanX";
+              font-weight: bold;
+              font-size: 2.625rem;
+              vertical-align: bottom;
+              line-height: 35px;
+          }
+          .csr-overview {
+              font-family: "CordiaUPC";
+              font-size: 1.125rem;
+              vertical-align: bottom;
+          }
+          .csr-overview label {
+              font-family: "CordiaUPC";
+              font-style: italic;
+              font-size: 1.125rem;
+          }
+
+          /* Section News */
+          .news a:hover { color: #888888; }
+          .news-description, .news-datetime {
+              padding-left: 5%;
+              padding-right: 5%;
+          }
+          .news-description {
+              font-family: "DBAdmanX";
+              font-size: 1.25rem;
+              font-weight: bold;
+              line-height: 25px;
+
+              height: 50px;
+              min-height: 50px;
+              max-height: 50px;
+              overflow: hidden;
+          }
+          .news-datetime {
+              font-family: "CordiaUPC";
+              font-size: 0.875rem;
+              font-style: italic;
+          }
+
+
+
+
+
+/* Products Pages */
+          .products-list-coffee, .products-list-milk, .products-list-tea, .products-list-fruit {
+              margin-bottom: 60px;
+          }
+          .products-header-row {
+              border-bottom: 1px solid #000;
+              margin-bottom: 25px;
+          }
+          .products-header-title {
+              font-size: 2rem;
+              padding-top: 8px;
+          }
+          .products-header-icon {
+              line-height: 35px;
+          }
+          .products-header-icon-txt {
+              font-size: 0.875rem;
+          }
+          .seed_icon {
+              background-image: url('../images/icon_seed_green.png');
+              background-repeat: no-repeat;
+              background-position: center;
+              margin: 6.5px auto;
+              width: 12px;
+              height: 12px;
+          }
+          .products-list-selectd {
+              line-height: 25px;
+          }
+          a:hover .products-list-selectd {
+              background-color: #274b2b;
+          }
+          a:hover .products-list-selectd .seed_icon {
+              background-image: url('../images/icon_seed_white.png');
+          }
+
+
+/* Products Detail */
+          .product-detail-content {
+              padding-left: 5%;
+              padding-right: 5%;
+          }
+          .products-detail-header {
+              font-weight: bold;
+              font-size: 2rem;
+              border-bottom: 1px solid #000;
+              margin-bottom: 30px;
+          }
+          .products-detail-txt {
+              margin-bottom: 50px;
+          }
+          .product-detail-icon {
+              width: 76px;
+              height: 76px;
+              background-repeat: no-repeat;
+              margin: 0 auto;
+          }
+          .pdicon-hot { background-image: url('../images/products_icon_hot.png'); }
+          .pdicon-cool { background-image: url('../images/products_icon_cool.png'); }
+          .pdicon-smooty { background-image: url('../images/products_icon_smooty.png'); }
+          .pdicon-hot:hover { background-image: url('../images/products_icon_hot_hover.png'); }
+          .pdicon-cool:hover { background-image: url('../images/products_icon_cool_hover.png'); }
+          .pdicon-smooty:hover { background-image: url('../images/products_icon_smooty_hover.png'); }
+          .share-to-social {
+              display: inline-block;
+              line-height: 25px;
+          }
+          .goback-to-products a {
+              line-height: 25px;
+              vertical-align: middle;
+          }
+          .goback-to-products:hover .icon-goback  { background-image: url('../images/icon_back_hover.png');  }
+          .icon-goback {
+              background-image: url('../images/icon_back.png');
+              width: 24px;
+              height: 24px;
+              display: inline-block;
+          }
+          .social-share  {
+              display: inline-block;
+              background-image: url('../images/products_social.png');
+              width: 24px;
+              height: 24px;
+          }
+          .ss-twitter { background-position: left 0px top 0px; }
+          .ss-facebook { background-position: right 52px top 0px; }
+          .ss-googleplus { background-position: right 79px top 0px; }
+          .ss-print { background-position: right 107px top 0px; }
+
+
+
 
 
 /* Overide */
@@ -283,6 +412,7 @@ footer li a:hover { color: #888888; }
         margin-bottom: 8px;
     }
     .news-datetime { margin-bottom: 25px; }
+    .products-header-title { font-size: 1.375rem; }
     footer ul {
         line-height: inherit;
         padding-top: 10px;

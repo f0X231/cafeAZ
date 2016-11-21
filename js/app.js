@@ -23,7 +23,7 @@ $(document).ready(function() {
 			navigationColor: '#ffffff',
 			navigationHighlightColor: '#284a2b',
 			navigationHoverColor: '#284a2b',
-			positionNavigation: 'in-right-bottom',
+			positionNavigation: 'in-right-middle',
 			onReady: function() {}
 	});
 

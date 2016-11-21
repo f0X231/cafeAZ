@@ -14,6 +14,9 @@
   visibility: hidden;
   -webkit-overflow-scrolling: touch;
   /* enables momentum scrolling in iOS overflow elements */
+
+  background-image: url('../images/bg-aica.jpg');
+  background-repeat: repeat;
 }
 .pushy a {
   display: block;
@@ -152,16 +155,21 @@
 .pushy-submenu-open {
   /* Submenu Icon */
 }
+.pushy-submenu-open > a {
+    background-color: #000;
+}
 .pushy-submenu-open ul {
-  max-height: 1000px;
+    max-height: 1000px;
+    margin: 0;
+    padding: 0;
 }
 .pushy-submenu-open .pushy-link {
   opacity: 1;
 }
 .pushy-submenu-open a::after {
-  -webkit-transform: translateY(-50%) rotate(90deg);
-  -ms-transform: translateY(-50%) rotate(90deg);
-  transform: translateY(-50%) rotate(90deg);
+    -webkit-transform: translateY(-50%) rotate(90deg);
+    -ms-transform: translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(90deg);
 }
 
 .no-csstransforms3d .pushy-submenu-closed ul {
