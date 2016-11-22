@@ -13,7 +13,7 @@ $(document).ready(function() {
     	$('.overlay').addClass('animated fadeOut');
 	});*/
 
-	$('.slide-animation').DrSlider({
+	/*$('.slide-animation').DrSlider({
 			transitionSpeed: 1500,
 			duration: 8000,
 			showProgress: false,
@@ -25,6 +25,6 @@ $(document).ready(function() {
 			navigationHoverColor: '#284a2b',
 			positionNavigation: 'in-right-middle',
 			onReady: function() {}
-	});
+	});*/
 
 });

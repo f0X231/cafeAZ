@@ -320,6 +320,7 @@ ul {
           }
           a:hover .products-list-selectd {
               background-color: #274b2b;
+              color: #fff;
           }
           a:hover .products-list-selectd .seed_icon {
               background-image: url('../images/icon_seed_white.png');
