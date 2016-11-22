@@ -301,6 +301,9 @@ ul {
               font-size: 2rem;
               padding-top: 8px;
           }
+          .products-slider {
+              margin-top: -80px;
+          }
           .products-header-icon {
               line-height: 35px;
           }
