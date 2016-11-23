@@ -83,8 +83,8 @@
                 <div class="columns small-10 medium-8 large-6 small-offset-1 medium-offset-2 large-offset-3">
                     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                         <ul class="orbit-container">
-                            <button class="orbit-previous"><img src="images/icon_prev.png" /></button>
-                            <button class="orbit-next"><img src="images/icon_next.png" /></button>
+                            <!--button class="orbit-previous"><img src="images/icon_prev.png" /></button>
+                            <button class="orbit-next"><img src="images/icon_next.png" /></button-->
 
                             <li class="is-active orbit-slide">
                                 <img class="orbit-image" src="images/banner/products-coffee.png" alt="Space">
@@ -96,15 +96,10 @@
                             </li>
                         </ul>
 
-                        <!--nav class="orbit-bullets">
-                            <button class="is-active" data-slide="0">
-                                <span class="show-for-sr">First slide details.</span>
-                                <span class="show-for-sr">Current Slide</span>
-                            </button>
-                            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-                            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-                            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-                        </nav-->
+                        <nav class="orbit-bullets">
+                            <button class="is-active" data-slide="0"></button>
+                            <button data-slide="1"></button>
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -388,15 +383,16 @@
         <script src="js/what-input.js"></script>
         <script src="js/foundation.min.js"></script>
         <script src="js/pushy.min.js"></script>
-        <script src="js/app.js"></script>
         <script type="text/javascript">
-        		jQuery(document).ready(function(){
+            $(document).foundation();
+            
+        	jQuery(document).ready(function(){
                 $('#landing-content').mousemove(function(e){
                     var x = -(e.pageX + this.offsetLeft) / 20;
                     var y = -(e.pageY + this.offsetTop) / 20;
                     $(this).css('background-position', x + 'px ' + y + 'px');
                 });
-        		});
+        	});
       	</script>
     </body>
 

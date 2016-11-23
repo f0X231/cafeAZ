@@ -347,7 +347,7 @@ ul {
           }
 
 
-/* Products Detail */
+/* Products Detail Pages */
           .icon-badge li {
               display: inline-block;
               margin-left: 10px;
@@ -441,34 +441,99 @@ ul {
               padding-right: 0.375rem;
           }
           .transition-promotion-products {
-              -webkit-transform: scale(1.6);
-              -moz-transform: scale(1.6);
-              -o-transform: scale(1.6);
-              transform: scale(1.6);
+              -webkit-transform: scale(1.2);
+              -moz-transform: scale(1.2);
+              -o-transform: scale(1.2);
+              transform: scale(1.2);
           }
-          .promotion-picture .promotion-thumbnail {
+          .promotion-thumbnail {
+              width: 300px;
+              height: 400px;
+
               -webkit-transition: all .4s ease-in-out;
               -moz-transition: all .4s ease-in-out;
               -o-transition: all .4s ease-in-out;
               -ms-transition: all .4s ease-in-out;
           }
-          .promotion-picture { margin-bottom: 8px; }
+          .promotion-picture { 
+              margin-bottom: 8px; 
+              min-height: 420px;
+              max-height: 420px;
+              overflow: hidden;
+          }
           .promotion-description {
-              height: 40px;
-              min-height: 40px;
-              max-height: 40px;
+              font-family: "DBAdmanX";
+              font-size: 1.25rem;
+              font-weight: bold;
+
+              height: 35px;
+              min-height: 35px;
+              max-height: 35px;
               margin-bottom: 8px;
               overflow: hidden;
           }
-          .promotion-datetime { margin-bottom: 25px; }
+          .promotion-datetime { 
+              margin-bottom: 25px; 
+              font-family: "CordiaUPC";
+              font-size: 0.875rem;
+              font-style: italic;
+          }
 
+
+/* Promotion Detail Pages */
+          .promotions-detail-header,  .promotions-detail-header-l2 {
+              font-size: 2rem;
+              overflow: hidden;
+          }
+          .promotions-detail-slide-show {
+              margin-top: -80px
+              z-index: 231;
+          }
+          .promotions-detail-header { font-weight: bold; }
+          .promotions-detail-header-l2 {  border-bottom: 1px solid #000; }
+          .promotions-detail-txt {
+              margin: 25px 0 50px 0;
+          }
+          .btn-branch {
+              font-family: "DBAdmanX";
+              font-weight: bold;
+              font-size: 1.125rem;
+
+              color: #000;
+              background-color: #fbb813; /* #284a2b;*/
+          }
+          .branch-pin {
+              margin-top: -40px;
+          }
+
+
+/* News Pages */
+          .news-detail-header { 
+              font-weight: bold; 
+              font-size: 2rem;
+              overflow: hidden;
+          }
+          .news-detail-datetime { 
+              margin-bottom: 25px; 
+              font-family: "CordiaUPC";
+              font-size: 0.875rem;
+              font-style: italic;
+          }
+          .news-detail-txt {
+              margin: 25px 0 50px 0;
+          }
 
 
 
 
 /* Overide */
 .thumbnail:hover, .thumbnail:focus { box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.5); }
-
+.orbit-bullets { margin-top: -20px; }
+.orbit-bullets button {
+    width: 0.8rem;
+    height: 0.8rem;
+    padding: 0;
+}
 
 
 
@@ -497,6 +562,16 @@ ul {
     }
     .news-datetime { margin-bottom: 25px; }
     .products-header-title { font-size: 1.375rem; }
+    .promotion-thumbnail {
+        width: 300px;
+        height: 400px;
+    }
+    .promotion-picture { 
+        margin-bottom: 8px; 
+        min-height: 400px;
+        max-height: 400px;
+        overflow: hidden;
+    }
     footer ul {
         line-height: inherit;
         padding-top: 10px;

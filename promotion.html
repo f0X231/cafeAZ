@@ -82,42 +82,42 @@
           <div class="row small-up-1 medium-up-3 large-up-3">
               <div class="columns">
                   <a href="#">
-                      <p class="promotion-picture"><img src="http://placehold.it/400x300&text=Picture A" class="promotion-thumbnail" alt=""></p>
+                      <p class="promotion-picture text-center"><img src="images/promotion01.jpg" class="promotion-thumbnail" alt=""></p>
                       <p class="promotion-description">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
                       <p class="promotion-datetime">27 พฤษภาคม 2559</p>
                   </a>
               </div>
               <div class="columns">
                   <a href="#">
-                      <p class="promotion-picture"><img src="http://placehold.it/400x300&text=Picture B" class="promotion-thumbnail" alt=""></p>
+                      <p class="promotion-picture text-center"><img src="images/promotion02.jpg" class="promotion-thumbnail" alt=""></p>
                       <p class="promotion-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
                       <p class="promotion-datetime">27 พฤษภาคม 2559</p>
                   </a>
               </div>
               <div class="columns">
                   <a href="#">
-                      <p class="promotion-picture"><img src="http://placehold.it/400x300&text=Picture C" class="promotion-thumbnail" alt=""></p>
+                      <p class="promotion-picture text-center"><img src="images/promotion03.jpg" class="promotion-thumbnail" alt=""></p>
                       <p class="promotion-description">Drive Awake application</p>
                       <p class="promotion-datetime">23 พฤษภาคม 2559</p>
                   </a>
               </div>
               <div class="columns">
                   <a href="#">
-                      <p class="promotion-picture"><img src="http://placehold.it/400x300&text=Picture A" class="promotion-thumbnail" alt=""></p>
+                      <p class="promotion-picture text-center"><img src="images/promotion04.jpg" class="promotion-thumbnail" alt=""></p>
                       <p class="promotion-description">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
                       <p class="promotion-datetime">27 พฤษภาคม 2559</p>
                   </a>
               </div>
               <div class="columns">
                   <a href="#">
-                      <p class="promotion-picture"><img src="http://placehold.it/400x300&text=Picture B" class="promotion-thumbnail" alt=""></p>
+                      <p class="promotion-picture text-center"><img src="images/promotion01.jpg" class="promotion-thumbnail" alt=""></p>
                       <p class="promotion-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
                       <p class="promotion-datetime">27 พฤษภาคม 2559</p>
                   </a>
               </div>
               <div class="columns">
                   <a href="#">
-                      <p class="promotion-picture"><img src="http://placehold.it/400x300&text=Picture C" class="promotion-thumbnail" alt=""></p>
+                      <p class="promotion-picture text-center"><img src="images/promotion02.jpg" class="promotion-thumbnail" alt=""></p>
                       <p class="promotion-description">Drive Awake application</p>
                       <p class="promotion-datetime">23 พฤษภาคม 2559</p>
                   </a>
@@ -157,8 +157,10 @@
         <script src="js/what-input.js"></script>
         <script src="js/foundation.min.js"></script>
         <script src="js/pushy.min.js"></script>
-        <script src="js/app.js"></script>
+
         <script type="text/javascript">
+            $(document).foundation();
+
             jQuery(document).ready(function(){
                 $('#landing-content').mousemove(function(e){
                     var x = -(e.pageX + this.offsetLeft) / 20;
@@ -167,8 +169,8 @@
                 });
 
                 $('.promotion-picture img').hover(
-                    function() { $(this).addClass('ransition-promotion-products'); },
-                    function() { $(this).removeClass('ransition-promotion-products');  }
+                    function() { $(this).addClass('transition-promotion-products'); },
+                    function() { $(this).removeClass('transition-promotion-products');  }
                 );
             });
         </script>

@@ -153,8 +153,10 @@
         <script src="js/what-input.js"></script>
         <script src="js/foundation.min.js"></script>
         <script src="js/pushy.min.js"></script>
-        <script src="js/app.js"></script>
+
         <script type="text/javascript">
+            $(document).foundation();
+            
             jQuery(document).ready(function(){
                 $('#landing-content').mousemove(function(e){
                     var x = -(e.pageX + this.offsetLeft) / 20;
