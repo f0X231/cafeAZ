@@ -556,7 +556,63 @@ ul {
               margin: 50px auto;
           }
 
-
+/* FAQ */    
+          .integration-list {
+              font-family: 'Open Sans', sans-serif;
+              width: 80%;
+              margin: 0 auto;
+              display: table;
+          }
+          .integration-list ul {
+              padding: 0;
+              margin: 20px 0;
+              color: #555;
+          }
+          .integration-list ul > li {
+              list-style: none;
+              border-top: 1px solid #ddd;
+              display: block;
+              padding: 15px;
+              overflow: hidden;
+          }
+          .integration-list ul > li:hover {
+              background: #efefef;
+          }
+          .expand {
+              display: block;
+              text-decoration: none;
+              color: #555;
+              cursor: pointer;
+          }
+          .right-arrow {
+              margin-top: 12px;
+              margin-left: 20px;
+              width: 10px;
+              height: 100%;
+              float: right;
+              font-weight: bold;
+              font-size: 20px;
+          }
+          #left,#right{
+              display: table;
+          }
+          .detail a {
+              text-decoration: none;
+              color: #C0392B;
+              border: 1px solid #C0392B;
+              padding: 6px 10px 5px;
+              font-size: 13px;
+            margin-right: 7px;
+          }
+          .detail {
+              margin: 10px 0 10px 0px;
+              display: none;
+              line-height: 22px;
+              height: 150px;
+          }
+          .detail span{
+              margin: 0;
+          }
 
 
 
