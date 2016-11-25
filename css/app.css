@@ -10,7 +10,7 @@
 }
 .fonts_dbadmanx { font-family: "DBAdmanX"; }
 .fonts_cordiaupc { font-family: "CordiaUPC"; }
-.fonts_size_title { font-size: 3rem; }
+.fonts_size_title { font-size: 2.875rem; }
 .fonts_size_subtitle { font-size: 2.625rem; }
 .fonts_size_slide_title { font-size: 2.215rem; }
 .fonts_size_slide_txt { font-size: 1.25}
@@ -27,13 +27,13 @@
 
 .full-height {  height: 100%; }
 .margin-bottom50 { margin-bottom: 50px; }
-.margin-section { margin-top: 25px; margin-bottom: 25px; }
+.margin-section { margin-top: 25px; margin-bottom: 20px; }
 .margin-section2x { margin-top: 50px; margin-bottom: 50px; }
 
 button, .button {
     display: inline-block;
-    margin: 0.55rem;
-    padding: 0.55rem 1.5rem;
+    /*margin: 0.55rem;*/
+    padding: 0.55rem 3rem;
     border: none;
     border-radius: 0.1875rem;           /* CSS3 Property */
     -moz-border-radius: 0.1875rem;      /* Firefox */
@@ -43,7 +43,7 @@ button, .button {
     font-family: inherit;
     font-size: 1.125em;
     font-weight: 300;
-    line-height: 1.5rem;
+    line-height: 1.125rem;
     text-decoration: none;
     cursor: pointer;
     -webkit-transition: all 150ms ease-out;
@@ -127,8 +127,8 @@ ul {
           }
           footer li {
             display: inline-block;
-            padding-left: 25px;
-            padding-right: 25px;
+            padding-left: 20px;
+            padding-right: 20px;
           }
           footer li a:hover { color: #888888; }
           .footer-copyright {
@@ -172,7 +172,7 @@ ul {
               background-image: url('../images/bg-franchise.jpg');
               background-repeat: no-repeat;
               background-position: center;
-              background-size: cover;
+              background-size: contain;
               height: 350px;
           }
           .franchise-row {
@@ -190,6 +190,9 @@ ul {
 
               color: #000;
               background-color: #fbb813; /* #284a2b;*/
+          }
+          .franchise-txt-detail {
+              margin-bottom: 25px;
           }
 
           /* Section About Us */
@@ -225,8 +228,16 @@ ul {
               -webkit-border-radius: 10px;    /* Chrome/Safari */
               -khtml-border-radius: 10px;     /* Linux browsers */
               margin: 0 auto;
-              padding: 2.5%;
+              padding: 5%;
               width: 90%;
+          }
+          .aica-content-title {
+              font-size: 2rem;
+              margin-bottom: 25px;
+          }
+          .aica-content-txt {
+              line-height: 20px;
+              margin-bottom: 25px;
           }
           .btn-aica{
               font-family: "DBAdmanX";
@@ -243,8 +254,9 @@ ul {
               background-image: url('../images/bg-csr.jpg');
               background-repeat: no-repeat;
               background-position: center;
-              background-size: cover;
-              height: 350px;
+              background-size: contain;
+              /*height: 350px;*/
+              height: 348px;
           }
           .csr-content {
               position: relative;
@@ -263,7 +275,6 @@ ul {
           }
           .csr-title, .csr-title label  {
               font-family: "DBAdmanX";
-              font-weight: bold;
               font-size: 2.625rem;
               vertical-align: bottom;
               line-height: 35px;
@@ -288,18 +299,18 @@ ul {
           .news-description {
               font-family: "DBAdmanX";
               font-size: 1.25rem;
-              font-weight: bold;
-              line-height: 25px;
-
-              height: 50px;
-              min-height: 50px;
-              max-height: 50px;
+              line-height: 22px;
+              margin-bottom: 0px;
+              height: 44px;
+              min-height: 44px;
+              max-height: 44px;
               overflow: hidden;
           }
           .news-datetime {
               font-family: "CordiaUPC";
-              font-size: 0.875rem;
+              font-size: 1.125rem;
               font-style: italic;
+              color: #888888;
           }
 
 
@@ -556,7 +567,7 @@ ul {
               margin: 50px auto;
           }
 
-/* FAQ */    
+/* FAQ */
           .integration-list {
               font-family: 'Open Sans', sans-serif;
               width: 80%;
@@ -643,12 +654,12 @@ ul {
         padding-bottom: 25px;
         line-height: 160%;
     }
+    .csr, .franchise { background-size: cover; }
     .news-picture { margin-bottom: 8px; }
     .news-description {
-        height: 80px;
-        min-height: 80px;
-        max-height: 80px;
-        margin-bottom: 8px;
+        height: 66px;
+        min-height: 66px;
+        max-height: 66px;
     }
     .news-datetime { margin-bottom: 25px; }
     .products-header-title { font-size: 1.375rem; }
@@ -667,7 +678,12 @@ ul {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    footer li { padding: 5px; }
+    footer li {
+        padding-left: 25px;
+        display: block;
+        text-align: left;
+
+    }
 }
 
 /* Medium screens :
@@ -678,10 +694,11 @@ ul {
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .aica-middle { line-height: 160%; }
+    .csr, .franchise { background-size: cover; }
     .news-description {
-        height: 80px;
-        min-height: 80px;
-        max-height: 80px;
+        height: 66px;
+        min-height: 66px;
+        max-height: 66px;
     }
 }
 
