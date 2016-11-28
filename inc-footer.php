@@ -9,7 +9,7 @@
             <ul class="fonts_dbadmanx weight_bold">
                 <li>&#8226; <a href="#">เกี่ยวกับ คาเฟ่ อเมซอน</a></li>
                 <li>&#8226; <a href="#">คำถามที่พบบ่อย</a></li>
-                <li>&#8226; <a href="#">กิจกรรมเพื่อสังคม</a></li>
+                <li>&#8226; <a href="#">ความรับผิดชอบต่อสังคม ชุมชน สิ่งแวดล้อม</a></li>
                 <li>&#8226; <a href="#">ติดตามเรา <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
             </ul>
         </div>
@@ -23,3 +23,4 @@
         </div>
     </div>
 </footer>
+<!--/div-->

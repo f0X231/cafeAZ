@@ -24,51 +24,7 @@
 
 
         <!-- MENU -->
-        <nav class="pushy pushy-left">
-            <ul>
-                <li class="pushy-submenu"><a href="#">Home</a></li>
-                <li class="pushy-submenu">
-                    <a href="#">Products</a>
-                    <ul>
-                        <li class="pushy-submenu">
-                            <a href="#">Drink</a>
-                            <ul>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 1</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 2</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 3</a></li>
-                            </ul>
-                        </li>
-                        <li class="pushy-submenu">
-                            <a href="#">Other</a>
-                            <ul>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 1</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 2</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 3</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="pushy-submenu"><a href="#">Promotions</a></li>
-                <li class="pushy-link"><a href="#">News</a></li>
-                <li class="pushy-link"><a href="#">Our Brand</a></li>
-                <li class="pushy-submenu">
-                    <a href="#">Franchise</a>
-                    <ul>
-                        <li class="pushy-link"><a href="#">AICA</a></li>
-                        <li class="pushy-link"><a href="#">Cafe Amazon Roasting Factory</a></li>
-                        <li class="pushy-link"><a href="#">Coffee tips</a></li>
-                    </ul>
-                </li>
-                <li class="pushy-link"><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
-
-        <!-- Site Overlay -->
-        <div class="site-overlay"></div>
-
-        <!--div id="container"-->
-        <!-- Menu Button -->
-        <div class="menu-btn"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
+        <?php include('inc-menu.php'); ?>
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/banner/products-banner-layer1.png');">
@@ -214,70 +170,16 @@
         </div>
 
         <!-- Footer -->
-        <div class="row leaf-footer">
-            <div class="columns small-6 medium-8 large-10"></div>
-            <div class="columns small-6 medium-4 large-2"><img src="images/footer-leaf.png" /></div>
-        </div>
-        <footer>
-            <div class="row footer-relate">
-                <div class="columns small-12 medium-12 large-12 text-center">
-                    <ul class="fonts_dbadmanx weight_bold">
-                        <li>&#8226; <a href="#">เกี่ยวกับ คาเฟ่ อเมซอน</a></li>
-                        <li>&#8226; <a href="#">คำถามที่พบบ่อย</a></li>
-                        <li>&#8226; <a href="#">กิจกรรมเพื่อสังคม</a></li>
-                        <li>&#8226; <a href="#">ติดตามเรา <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+        <?php include('inc-footer.php'); ?>
 
-            <div class="footer-copyright">
-                <div class="row">
-                    <div class="columns small-12 medium-12 large-12 text-center fonts_dbadmanx weight_light">
-                        <i class="fa fa-copyright fa-lg" aria-hidden="true"></i> Copyright 2017. PTT Public Limited. All Rights reserved
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--/div-->
 
         <script src="js/jquery.js"></script>
         <script src="js/what-input.js"></script>
         <script src="js/foundation.min.js"></script>
         <script src="js/pushy.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
-
-        <script type="text/javascript">
-            $(document).foundation();
-
-            jQuery(document).ready(function(){
-                  $('#landing-content').mousemove(function(e){
-                      var x = -(e.pageX + this.offsetLeft) / 20;
-                      var y = -(e.pageY + this.offsetTop) / 20;
-                      $(this).css('background-position', x + 'px ' + y + 'px');
-                  });
-
-                  $(".factory-pic-slide").owlCarousel({
-                      autoPlay: 8000, //Set AutoPlay to 3 seconds
-                      items : 4,
-                      itemsDesktop : [1199,3],
-                      itemsDesktopSmall : [979,3]
-                  });
-
-                  $(".factory-pic-slide-one").owlCarousel({
-                      navigation : false, // Show next and prev buttons
-                      slideSpeed : 300,
-                      paginationSpeed : 400,
-                      singleItem: true,
-                      autoPlay: 8000
-                      // "singleItem:true" is a shortcut for:
-                      // items : 1,
-                      // itemsDesktop : false,
-                      // itemsDesktopSmall : false,
-                      // itemsTablet: false,
-                      // itemsMobile : false
-                  });
-            });
-        </script>
+        <script src="js/app.js"></script>
+        <script src="js/script.factory.js"></script>
     </body>
 
 </html>

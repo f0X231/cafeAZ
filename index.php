@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <title>Amazon</title>
 
-	    <meta name="description" content="Amazon" />
-	    <meta name="keywords" content="Amazon" />
-	    <meta name="author" content="Amazon" />
+  	    <meta name="description" content="Amazon" />
+  	    <meta name="keywords" content="Amazon" />
+  	    <meta name="author" content="Amazon" />
 
-	    <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -21,131 +21,20 @@
 
     <body>
         <!-- Cover -->
-        <!--div class="overlay">
+        <div class="overlay">
             <div class="cover leaf01"></div>
             <div class="cover leaf02"></div>
             <div class="cover leaf03"></div>
             <div class="cover leaf04"></div>
             <div class="cover leaf05"></div>
             <div class="cover leaf06"></div>
-        </div-->
+        </div>
 
         <!-- MENU -->
-
-        <!-- MENU -->
-        <nav class="pushy pushy-left">
-            <ul>
-                <li class="pushy-submenu"><a href="#">Home</a></li>
-                <li class="pushy-submenu">
-                    <a href="#">Products</a>
-                    <ul>
-                        <li class="pushy-submenu">
-                            <a href="#">Drink</a>
-                            <ul>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 1</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 2</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 3</a></li>
-                            </ul>
-                        </li>
-                        <li class="pushy-submenu">
-                            <a href="#">Other</a>
-                            <ul>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 1</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 2</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 3</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="pushy-submenu"><a href="#">Promotions</a></li>
-                <li class="pushy-link"><a href="#">News</a></li>
-                <li class="pushy-link"><a href="#">Our Brand</a></li>
-                <li class="pushy-submenu">
-                    <a href="#">Franchise</a>
-                    <ul>
-                        <li class="pushy-link"><a href="#">AICA</a></li>
-                        <li class="pushy-link"><a href="#">Cafe Amazon Roasting Factory</a></li>
-                        <li class="pushy-link"><a href="#">Coffee tips</a></li>
-                    </ul>
-                </li>
-                <li class="pushy-link"><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
-
-        <!-- Site Overlay -->
-        <div class="site-overlay"></div>
-
-        <!--div id="container"-->
-        <!-- Menu Button -->
-        <div class="menu-btn"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
-
+        <?php include('inc-menu.php'); ?>
 
         <!-- Slide -->
-        <!-- On Mobile -->
-        <div class="slide-animation show-for-small-only fonts_dbadmanx">
-            <div data-lazy-background="images/banner/banner1-layer1-mobile.png">
-                <div data-pos="['0%', '0%']" data-duration="500" data-effect="fadein">
-                    <img data-lazy-src="images/banner/banner1-layer2-mobile.png" width="100%" class="slide-layer2" />
-                </div>
-                <div data-pos="['0%', '0%']" data-duration="1000" data-effect="fadein">
-                    <img data-lazy-src="images/banner/banner1-layer3-mobile.png" width="100%" class="slide-layer3" />
-                </div>
-                <div data-pos="['80%', '0%']" data-duration="1000" data-effect="fadein">
-                    <div class="text-center fonts_size_slide_title">ไวท์ ช็อก มัคคิอาโต เย็น</div>
-                    <div class="text-center fonts_size_slide_txt">ผสานความลงตัวได้อย่าง กลมกลืน ระหว่างไวท์ช็อกโกแล็ตนุ่มละมุนและกาแฟสุดเข้มข้น เป็นความหวานขม อร่อยลงตัวฉบับคาเฟ่อเมซอน</div>
-                </div>
-                <div data-pos="['0%', '0%']" data-duration="2000" data-effect="fadein">
-                    <img data-lazy-src="images/banner/banner1-layer4-mobile.png" width="100%" class="slide-layer4" />
-                </div>
-            </div>
-            <div data-lazy-background="images/banner/banner1-layer1-mobile.png">
-                <div data-pos="['0%', '0%']" data-duration="500" data-effect="fadein">
-                    <img data-lazy-src="images/banner/banner1-layer2-mobile.png" width="100%" class="slide-layer2" />
-                </div>
-                <div data-pos="['0%', '0%']" data-duration="1000" data-effect="fadein">
-                    <img data-lazy-src="images/banner/banner1-layer2-mobile.png" width="100%" class="slide-layer3" />
-                </div>
-                <div data-pos="['80%', '0%']" data-duration="1000" data-effect="fadein">
-                    <div class="text-center fonts_size_slide_title">ไวท์ ช็อก มัคคิอาโต เย็น</div>
-                    <div class="text-center fonts_size_slide_txt">ผสานความลงตัวได้อย่าง กลมกลืน ระหว่างไวท์ช็อกโกแล็ตนุ่มละมุนและกาแฟสุดเข้มข้น เป็นความหวานขม อร่อยลงตัวฉบับคาเฟ่อเมซอน</div>
-                </div>
-                <div data-pos="['0%', '0%']" data-duration="2000" data-effect="fadein">
-                    <img data-lazy-src="images/banner/banner1-layer3-mobile.png" width="100%" class="slide-layer4" />
-                </div>
-            </div>
-        </div>
-        <!-- On Ipad & Desktop -->
-        <div class="slide-animation hide-for-small-only fonts_dbadmanx">
-            <div data-lazy-background="images/banner/banner1-layer1.png">
-                <div data-pos="['0%', '0%']" data-duration="1000" data-effect="fadein">
-                    <img data-lazy-src="images/banner/banner1-layer2.png" width="100%" class="slide-layer3" />
-                </div>
-                <div data-pos="['80%', '0%']" data-duration="1000" data-effect="fadein" style="width:100%;">
-                    <div class="text-center" style="width:100%;">
-                    <div class="fonts_size_slide_title">ไวท์ ช็อก มัคคิอาโต เย็น</div>
-                    <div class="fonts_size_slide_txt">ผสานความลงตัวได้อย่าง กลมกลืน ระหว่างไวท์ช็อกโกแล็ตนุ่มละมุนและกาแฟสุดเข้มข้น<br />เป็นความหวานขม อร่อยลงตัวฉบับคาเฟ่อเมซอน</div>
-                    </div>
-                </div>
-                <div data-pos="['0%', '0%']" data-duration="2000" data-effect="fadein">
-                    <img data-lazy-src="images/banner/banner1-layer3.png" width="100%" class="slide-layer4" />
-                </div>
-            </div>
-            <div data-lazy-background="images/banner/banner1-layer1.png">
-                <div data-pos="['0%', '0%']" data-duration="1000" data-effect="fadein">
-                    <img data-lazy-src="images/banner/banner1-layer2.png" width="100%" class="slide-layer3" />
-                </div>
-                <div data-pos="['80%', '0%']" data-duration="1000" data-effect="fadein" style="width:100%;">
-                  <div class="text-center" style="width:100%;">
-                  <div class="fonts_size_slide_title">ไวท์ ช็อก มัคคิอาโต เย็น</div>
-                  <div class="fonts_size_slide_txt">ผสานความลงตัวได้อย่าง กลมกลืน ระหว่างไวท์ช็อกโกแล็ตนุ่มละมุนและกาแฟสุดเข้มข้น<br />เป็นความหวานขม อร่อยลงตัวฉบับคาเฟ่อเมซอน</div>
-                  </div>
-                </div>
-                <div data-pos="['0%', '0%']" data-duration="2000" data-effect="fadein">
-                    <img data-lazy-src="images/banner/banner1-layer3.png" width="100%" class="slide-layer4" />
-                </div>
-            </div>
-        </div>
-
+        <?php include('inc-slide.php'); ?>
 
         <!-- Products -->
         <div class="products margin-section">
@@ -236,21 +125,21 @@
             <div class="row small-up-1 medium-up-3 large-up-3">
                 <div class="columns">
                     <a href="#">
-                        <p class="news-picture"><img src="http://placehold.it/400x300&text=Picture A" class="thumbnail" alt=""></p>
+                        <p class="news-picture"><img src="images/news-pic-01.jpg" class="thumbnail" alt=""></p>
                         <p class="news-description">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
                         <p class="news-datetime">27 พฤษภาคม 2559</p>
                     </a>
                 </div>
                 <div class="columns">
                     <a href="#">
-                        <p class="news-picture"><img src="http://placehold.it/400x300&text=Picture B" class="thumbnail" alt=""></p>
+                        <p class="news-picture"><img src="images/news-pic-02.jpg" class="thumbnail" alt=""></p>
                         <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
                         <p class="news-datetime">27 พฤษภาคม 2559</p>
                     </a>
                 </div>
                 <div class="columns">
                     <a href="#">
-                        <p class="news-picture"><img src="http://placehold.it/400x300&text=Picture C" class="thumbnail" alt=""></p>
+                        <p class="news-picture"><img src="images/news-pic-03.jpg" class="thumbnail" alt=""></p>
                         <p class="news-description">Drive Awake application</p>
                         <p class="news-datetime">23 พฤษภาคม 2559</p>
                     </a>
@@ -260,31 +149,7 @@
 
 
         <!-- Footer -->
-        <div class="row leaf-footer">
-            <div class="columns small-6 medium-8 large-10"></div>
-            <div class="columns small-6 medium-4 large-2"><img src="images/footer-leaf.png" /></div>
-        </div>
-        <footer>
-            <div class="row footer-relate">
-                <div class="columns small-12 medium-12 large-12 text-center">
-                    <ul class="fonts_dbadmanx weight_bold">
-                        <li>&#8226; <a href="#">เกี่ยวกับ คาเฟ่ อเมซอน</a></li>
-                        <li>&#8226; <a href="#">คำถามที่พบบ่อย</a></li>
-                        <li>&#8226; <a href="#">ความรับผิดชอบต่อสังคม ชุมชน สิ่งแวดล้อม</a></li>
-                        <li>&#8226; <a href="#">ติดตามเรา <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-copyright">
-                <div class="row">
-                    <div class="columns small-12 medium-12 large-12 text-center fonts_dbadmanx weight_light">
-                        <i class="fa fa-copyright fa-lg" aria-hidden="true"></i> Copyright 2017. PTT Public Limited. All Rights reserved
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--/div-->
+        <?php include('inc-footer.php'); ?>
 
         <script src="js/jquery.js"></script>
         <script src="js/what-input.js"></script>
@@ -292,6 +157,8 @@
         <script src="js/pushy.min.js"></script>
         <script src="js/jquery.devrama.slider.js"></script>
         <script src="js/app.js"></script>
+        <script src="js/script.index.js"></script>
+
     </body>
 
 </html>

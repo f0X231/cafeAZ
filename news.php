@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <title>Amazon</title>
 
-	    <meta name="description" content="Amazon" />
-	    <meta name="keywords" content="Amazon" />
-	    <meta name="author" content="Amazon" />
+	      <meta name="description" content="Amazon" />
+	      <meta name="keywords" content="Amazon" />
+	      <meta name="author" content="Amazon" />
 
-	    <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -23,56 +23,17 @@
 
 
         <!-- MENU -->
-        <nav class="pushy pushy-left">
-            <ul>
-                <li class="pushy-submenu"><a href="#">Home</a></li>
-                <li class="pushy-submenu">
-                    <a href="#">Products</a>
-                    <ul>
-                        <li class="pushy-submenu">
-                            <a href="#">Drink</a>
-                            <ul>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 1</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 2</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 3</a></li>
-                            </ul>
-                        </li>
-                        <li class="pushy-submenu">
-                            <a href="#">Other</a>
-                            <ul>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 1</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 2</a></li>
-                                <li class="pushy-link"><a href="#" class="bg_white">Item 3</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="pushy-submenu"><a href="#">Promotions</a></li>
-                <li class="pushy-link"><a href="#">News</a></li>
-                <li class="pushy-link"><a href="#">Our Brand</a></li>
-                <li class="pushy-submenu">
-                    <a href="#">Franchise</a>
-                    <ul>
-                        <li class="pushy-link"><a href="#">AICA</a></li>
-                        <li class="pushy-link"><a href="#">Cafe Amazon Roasting Factory</a></li>
-                        <li class="pushy-link"><a href="#">Coffee tips</a></li>
-                    </ul>
-                </li>
-                <li class="pushy-link"><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
+        <?php include('inc-menu.php'); ?>
 
-        <!-- Site Overlay -->
-        <div class="site-overlay"></div>
-
-        <!--div id="container"-->
-        <!-- Menu Button -->
-        <div class="menu-btn"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
+        <!-- Banner -->
+        <div id="landing-content" style="background-image: url('images/banner/products-banner-layer1.png');">
+            <img src="images/banner/products-banner-layer2.png" class="slide-layer-1"></img>
+        </div>
 
         <!-- Slider -->
         <div class="products-slider">
             <div class="row">
-                <div class="columns small-10 medium-8 large-6 small-offset-1 medium-offset-2 large-offset-3">
+                <div class="columns small-12 medium-10 large-8 medium-offset-1 large-offset-2">
                     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                         <ul class="orbit-container">
 
@@ -94,46 +55,46 @@
         </div>
 
 
-        <!-- Promotion -->
-        <div class="promotion margin-section">
+        <!-- News -->
+        <div class="news margin-section">
           <div class="row small-up-1 medium-up-3 large-up-3">
               <div class="columns">
-                  <a href="#">
+                  <a href="news-detail.php">
                       <p class="news-picture"><img src="http://placehold.it/400x300&text=Picture A" class="thumbnail" alt=""></p>
                       <p class="news-description">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
                       <p class="news-datetime">27 พฤษภาคม 2559</p>
                   </a>
               </div>
               <div class="columns">
-                  <a href="#">
+                  <a href="news-detail.php">
                       <p class="news-picture"><img src="http://placehold.it/400x300&text=Picture B" class="thumbnail" alt=""></p>
                       <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
                       <p class="news-datetime">27 พฤษภาคม 2559</p>
                   </a>
               </div>
               <div class="columns">
-                  <a href="#">
+                  <a href="news-detail.php">
                       <p class="news-picture"><img src="http://placehold.it/400x300&text=Picture C" class="thumbnail" alt=""></p>
                       <p class="news-description">Drive Awake application</p>
                       <p class="news-datetime">23 พฤษภาคม 2559</p>
                   </a>
               </div>
               <div class="columns">
-                  <a href="#">
+                  <a href="news-detail.php">
                       <p class="news-picture"><img src="http://placehold.it/400x300&text=Picture A" class="thumbnail" alt=""></p>
                       <p class="news-description">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
                       <p class="news-datetime">27 พฤษภาคม 2559</p>
                   </a>
               </div>
               <div class="columns">
-                  <a href="#">
+                  <a href="news-detail.php">
                       <p class="news-picture"><img src="http://placehold.it/400x300&text=Picture B" class="thumbnail" alt=""></p>
                       <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
                       <p class="news-datetime">27 พฤษภาคม 2559</p>
                   </a>
               </div>
               <div class="columns">
-                  <a href="#">
+                  <a href="news-detail.php">
                       <p class="news-picture"><img src="http://placehold.it/400x300&text=Picture C" class="thumbnail" alt=""></p>
                       <p class="news-description">Drive Awake application</p>
                       <p class="news-datetime">23 พฤษภาคม 2559</p>
@@ -144,31 +105,7 @@
 
 
         <!-- Footer -->
-        <div class="row leaf-footer">
-            <div class="columns small-6 medium-8 large-10"></div>
-            <div class="columns small-6 medium-4 large-2"><img src="images/footer-leaf.png" /></div>
-        </div>
-        <footer>
-            <div class="row footer-relate">
-                <div class="columns small-12 medium-12 large-12 text-center">
-                    <ul class="fonts_dbadmanx weight_bold">
-                        <li>&#8226; <a href="#">เกี่ยวกับ คาเฟ่ อเมซอน</a></li>
-                        <li>&#8226; <a href="#">คำถามที่พบบ่อย</a></li>
-                        <li>&#8226; <a href="#">กิจกรรมเพื่อสังคม</a></li>
-                        <li>&#8226; <a href="#">ติดตามเรา <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-copyright">
-                <div class="row">
-                    <div class="columns small-12 medium-12 large-12 text-center fonts_dbadmanx weight_light">
-                        <i class="fa fa-copyright fa-lg" aria-hidden="true"></i> Copyright 2017. PTT Public Limited. All Rights reserved
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--/div-->
+        <?php include('inc-footer.php'); ?>
 
         <script src="js/jquery.js"></script>
         <script src="js/what-input.js"></script>

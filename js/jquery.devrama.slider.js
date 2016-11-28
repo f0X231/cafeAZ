@@ -410,6 +410,7 @@
 			//This is the case when the window size is resized by the user.
 			else {
 				if(this.on_transition == true){
+
 					this.$very_current_slide.css({
 						'display': 'block',
 						'top': '0',
@@ -526,7 +527,10 @@
 					navigation_num = $(this).index();
 				}
 
-				if(navigation_num == that.current_slide) return;
+				if(navigation_num == that.current_slide) {
+						console.log(that.current_slide);
+						return;
+				}
 
 				if(that.play_timer == false || that.on_transition == true) return;
 				that._stopTimer(function(){
@@ -675,6 +679,8 @@
 					case 'in-center-bottom':
 					case 'in-left-bottom':
 					case 'in-right-bottom':
+						nav_css_additional['bottom'] = '5px';
+						break;
 					case 'out-right-bottom':
 						nav_css_additional['bottom'] = '20px';
 						break;
@@ -964,15 +970,13 @@
 
 		_playSlide: function(){
 			var that = this;
-			if(this.num_slides > 1){
 
+			if(this.num_slides > 1) {
 				this._startTimer(function(){ that._next(); });
 			}
 			else {
 				this._next();
 			}
-
-
 
 		},
 
@@ -1086,6 +1090,8 @@
 			this.on_transition = true;
 			this.is_pause = true;
 
+			$('.hiddenbeforeslide').hide().fadeOut('slow');
+
 			var $element;
 			if(typeof this.current_slide == 'undefined') {
 				this.current_slide = 0;
@@ -1097,6 +1103,7 @@
 				$element = this.$sliders.eq(this.current_slide);
 			}
 
+			that.options.onChageSlide(this.current_slide);
 			that._prev_next_process($element, callback);
 
 
@@ -1210,7 +1217,7 @@
 						$(this).css({
 							'display': 'none',
 							'position': 'absolute',
-							'top': pos[0],
+							'bottom': pos[0],
 							'left': pos[1]
 						});
 					}

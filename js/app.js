@@ -1,30 +1,27 @@
+function menuGroups() {
+		var deviceHeight = $(window).height();
 
-$(document).foundation();
+		$('.btn-close-menu').click(function() {
+				$('body').removeClass('pushy-open-left');
+		});
+
+		if(deviceHeight >= 600) {
+				$('#menu-footer-groups').addClass('menu-footer-groups');
+		}
+}
+
+function goBack() {
+		window.history.back();
+}
+
 
 $(document).ready(function() {
 
-	$('.overlay').on('click mousemove', function () {
-    	$('.leaf01').addClass('animated fadeOutUp');
-    	$('.leaf02').addClass('animated fadeOutLeft');
-    	$('.leaf03').addClass('animated fadeOutDown');
-    	$('.leaf04').addClass('animated fadeOutDown');
-    	$('.leaf05').addClass('animated fadeOutRight');
-    	$('.leaf06').addClass('animated fadeOutUp');
-    	$('.overlay').addClass('animated fadeOut');
-	});
+	$(document).foundation();
 
-	$('.slide-animation').DrSlider({
-			transitionSpeed: 1500,
-			duration: 8000,
-			showProgress: false,
-			showControl: false,
-			showNavigation: true,
-			navigationType: 'circle',
-			navigationColor: '#ffffff',
-			navigationHighlightColor: '#284a2b',
-			navigationHoverColor: '#284a2b',
-			positionNavigation: 'in-right-bottom',
-			onReady: function() {}
+	menuGroups();
+	$(window).on('orientationchange resize', function(e){
+			window.location.reload();
 	});
 
 });
