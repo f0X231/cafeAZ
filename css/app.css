@@ -12,8 +12,8 @@
 .fonts_cordiaupc { font-family: "CordiaUPC"; }
 .fonts_size_title { font-size: 2.875rem; }
 .fonts_size_subtitle { font-size: 2.625rem; }
-.fonts_size_slide_title { font-size: 2.215rem; }
-.fonts_size_slide_txt { font-size: 1.325rem; }
+.fonts_size_slide_title { font-size: 2.25em; }
+.fonts_size_slide_txt { font-size: 1.375em; }
 
 .weight_light { font-weight: lighter; }
 .weight_bold { font-weight: bold; }
@@ -102,16 +102,10 @@ ul {
               background-size: cover;
               background-repeat: no-repeat;
           }
-          /*.hiddenbeforeslide {
+          .hiddenbeforeslide {
               width: 100%;
-              height: 100%;
-
-              position: relative;;
-              height: 100%;
-              line-height: 100%;
               text-align: center;
-              vertical-align: bottom;
-          }*/
+          }
 
           /* Banner */
           #landing-content {
@@ -122,19 +116,24 @@ ul {
               background-position: center;
               text-align: center;
           }
-          /*.slider3d {
-              width: 100%;
-              height: 100%;
-              text-align: center;
-          }
-          .slider3d img {
-              margin: 0 auto;
-              height: auto;
-          }*/
           .slide-content {
               width: 100%;
               font-family: "DBAdmanX";
               display: none;
+          }
+          .blink {
+              animation: blink-animation 1s steps(5, start) infinite;
+              -webkit-keyframes: blink-animation 1s steps(5, start) infinite;
+          }
+          @keyframes blink-animation {
+              to {
+                  visibility: hidden;
+              }
+          }
+          @-webkit-keyframes blink-animation {
+              to {
+                  visibility: hidden;
+              }
           }
 
           /* inner Banner */
@@ -189,13 +188,35 @@ ul {
 
               -vendor-animation-delay: 5s;
           }
+          .leaf-icon-click {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+
+              margin-top: -25px;
+              margin-left: -25px;
+
+              z-index: 231;
+              cursor: pointer;
+          }
           .leaf01 { left: 0; top: 0; z-index: 12; background: red; }
           .leaf02 { left: 0; bottom: 0; z-index: 11; background: yellow; }
           .leaf03 { left: 20%; bottom: 0; z-index: 13; background: gray; }
           .leaf04 { right: 0; bottom: 0; z-index: 14; background: green; }
           .leaf05 { right: 0; top: 0; z-index: 15; background: blue; }
           .leaf06 { right: 20%; top: 0; z-index: 16; background: orange; }
-
+          .overlay {
+              -webkit-animation-duration: 5s;
+              -moz-animation-duration: 5s;
+              -o-animation-duration: 5s;
+              -ms-aanimation-duration: 5s;
+          }
+          .leaf01, .leaf02, .leaf03, .leaf04, .leaf05, .leaf06 {
+              -webkit-animation-duration: 4s;
+              -moz-animation-duration: 4s;
+              -o-animation-duration: 4s;
+              -ms-aanimation-duration: 4s;
+           }
 
 
           /* Section Franchise */

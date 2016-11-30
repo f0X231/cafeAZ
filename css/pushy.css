@@ -12,6 +12,7 @@
   background: #191918;
   overflow: auto;
   visibility: hidden;
+
   -webkit-overflow-scrolling: touch;
   /* enables momentum scrolling in iOS overflow elements */
 

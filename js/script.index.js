@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-	$('.overlay').on('click mousemove', function () {
+	$('.overlay').on('click', function () {
     	$('.leaf01').addClass('animated fadeOutUp');
     	$('.leaf02').addClass('animated fadeOutLeft');
     	$('.leaf03').addClass('animated fadeOutDown');
@@ -9,6 +9,11 @@ $(document).ready(function() {
     	$('.leaf05').addClass('animated fadeOutRight');
     	$('.leaf06').addClass('animated fadeOutUp');
     	$('.overlay').addClass('animated fadeOut');
+
+			setTimeout(function() {
+				$('.overlay').hide();
+  		}, 5000);
+
 	});
 
 	$('.slide-animation').DrSlider({
