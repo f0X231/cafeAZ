@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <title>Amazon</title>
 
-	    <meta name="description" content="Amazon" />
-	    <meta name="keywords" content="Amazon" />
-	    <meta name="author" content="Amazon" />
+	      <meta name="description" content="Amazon" />
+	      <meta name="keywords" content="Amazon" />
+	      <meta name="author" content="Amazon" />
 
-	    <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -21,27 +21,25 @@
 
     <body>
 
-
         <!-- MENU -->
         <?php include('inc-menu.php'); ?>
 
         <!-- Banner -->
-        <div id="landing-content" style="background-image: url('images/banner/products-banner-layer1.png');">
-            <img src="images/banner/products-banner-layer2.png" class="slide-layer-1"></img>
+        <div id="landing-content" style="background-image: url('images/banner/banner-tips.png');">
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">เกร็ดความรู้เรื่องกาแฟ</h1>
         </div>
 
         <!-- Slider -->
-        <div class="products-slider">
-            <div class="row">
-                <div class="columns small-10 medium-8 large-6 small-offset-1 medium-offset-2 large-offset-3">
+        <div class="tips-slider">
+            <div class="row text-center">
+                <div class="columns small-12 medium-12 large-12">
                     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                         <ul class="orbit-container">
-
                             <li class="is-active orbit-slide">
-                                <img class="orbit-image" src="images/tips-slide.jpg" alt="Space">
+                                <img class="orbit-image" src="images/banner/slide-tips0j.jpg" alt="Space">
                             </li>
                             <li class="orbit-slide">
-                                <img class="orbit-image" src="images/tips-slide.jpg" alt="Space">
+                                <img class="orbit-image" src="images/banner/slide-tips02.jpg" alt="Space">
                             </li>
                         </ul>
 
@@ -112,7 +110,7 @@
         <script src="js/foundation.min.js"></script>
         <script src="js/pushy.min.js"></script>
         <script src="js/app.js"></script>
-        
+
     </body>
 
 </html>

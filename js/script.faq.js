@@ -4,11 +4,11 @@ jQuery(document).ready(function(){
         $(this).next().slideToggle(200);
         $expand = $(this).find(">:first-child");
 
-        if($expand.text() == "+") {
-            $expand.text("-");
+        if($expand[0].innerHTML == '<img src="images/icon_down.png">') {
+            $expand[0].innerHTML = '<img src="images/icon_up_hover.png">';
         }
         else {
-            $expand.text("+");
+            $expand[0].innerHTML = '<img src="images/icon_down.png">';
         }
     });
 });

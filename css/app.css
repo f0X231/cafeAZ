@@ -1,35 +1,43 @@
 /* All */
-.clearfix { display: inline-block; }
-.clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-}
-.fonts_dbadmanx { font-family: "DBAdmanX"; }
-.fonts_cordiaupc { font-family: "CordiaUPC"; }
-.fonts_size_title { font-size: 2.875rem; }
-.fonts_size_subtitle { font-size: 2.625rem; }
-.fonts_size_slide_title { font-size: 2.25em; }
-.fonts_size_slide_txt { font-size: 1.375em; }
+    /* Clear */
+        .clearfix { display: inline-block; }
+        .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+    /* Font Type */
+        .fonts_dbadmanx { font-family: "DBAdmanX"; }
+        .fonts_cordiaupc { font-family: "CordiaUPC"; }
+    /* Font Size */
+        .fonts_size_in_banner_h1 { font-size: 2em; }
+        .fonts_size_txt_title { font-size: 1.5em; }
+        .fonts_size_txt_text { font-size: 1.125em; }
 
-.weight_light { font-weight: lighter; }
-.weight_bold { font-weight: bold; }
 
-.color_primary { color: #274b2b; }
-.color_white { color: #fff; }
-.color_gray { color: #808080; }
-.color_black { color: #000; }
+        .fonts_size_title { font-size: 2.875rem; }
+        .fonts_size_subtitle { font-size: 2.625rem; }
+        .fonts_size_slide_title { font-size: 2.25em; }
+        .fonts_size_slide_txt { font-size: 1.375em; }
+    /* Font Weight */
+        .weight_light { font-weight: lighter; }
+        .weight_bold { font-weight: bold; }
+    /* Font Color */
+        .color_primary { color: #274b2b; }
+        .color_white { color: #fff; }
+        .color_gray { color: #808080; }
+        .color_black { color: #000; }
+
 .bg_white { background-color: #fff; }
 .bg_black { background-color: #000; }
 
-.full-height {  height: 100%; }
-.margin-bottom50 { margin-bottom: 50px; }
+    /* Space */
+        .margin-top50 { margin-top: 50px; }
+        .margin-bottom50 { margin-bottom: 50px; }
+        .no-margin-bottom { margin-bottom: 0px; }
+
+
 .margin-section { margin-top: 25px; margin-bottom: 20px; }
 .margin-section2x { margin-top: 50px; margin-bottom: 50px; }
 
+
+.full-height {  height: 100%; }
 .fullwidth {
    width: 100%;
    height: 100%;
@@ -109,12 +117,19 @@ ul {
 
           /* Banner */
           #landing-content {
-              width: 100%;
-              /*background-size: 150% 150%;*/
-              background-size: auto;
+              background-size: cover;
               background-repeat: no-repeat;
               background-position: center;
+
+              display: table;
               text-align: center;
+              width: 100%;
+              min-height: 400px;
+              height: 400px;
+          }
+          #landing-content h1 {
+              display: table-cell;
+              vertical-align: middle;
           }
           .slide-content {
               width: 100%;
@@ -610,30 +625,23 @@ ul {
               height: auto;
           }
 
+
+/* Tips */
+          
+
+
 /* Contact */
           #googlemap {
               width: 100%;
               height: 400px;
           }
 
+
 /* About */
-          .cafe-about-header,  .cafe-about-header-l2 {
-              font-size: 2rem;
-              overflow: hidden;
-          }
-          .cafe-about-header { font-weight: bold; }
-          .cafe-about-txt {
-              font-size: 1.125rem;
-              margin: 50px auto;
-          }
+          .cafe-about-txt { margin-bottom: 25px; }
+
 
 /* FAQ */
-          .integration-list {
-              font-family: 'Open Sans', sans-serif;
-              width: 80%;
-              margin: 0 auto;
-              display: table;
-          }
           .integration-list ul {
               padding: 0;
               margin: 20px 0;
@@ -641,32 +649,27 @@ ul {
           }
           .integration-list ul > li {
               list-style: none;
-              border-top: 1px solid #ddd;
               display: block;
               padding: 15px;
               overflow: hidden;
           }
-          .integration-list ul > li:hover {
-              background: #efefef;
-          }
           .expand {
               display: block;
               text-decoration: none;
-              color: #555;
+              border-bottom: 1px solid #808080;
               cursor: pointer;
           }
           .right-arrow {
-              margin-top: 12px;
-              margin-left: 20px;
-              width: 10px;
-              height: 100%;
               float: right;
-              font-weight: bold;
-              font-size: 20px;
+              margin-left: 20px;
           }
-          #left,#right{
+          #faq-ans-left, #faq-ans-right{
               display: table;
+              float: left;
+              height: 100%;
           }
+          #faq-ans-left { width: 25px; }
+          #faq-ans-right { width: calc(100% - 25px); }
           .detail a {
               text-decoration: none;
               color: #C0392B;
@@ -679,11 +682,20 @@ ul {
               margin: 10px 0 10px 0px;
               display: none;
               line-height: 22px;
-              height: 150px;
+              min-height: 150px;
           }
-          .detail span{
-              margin: 0;
+
+
+
+/* CSR */
+          .amazon-csr-img-space {
+              margin-top: 25px;
+              margin-bottom: 30px;
           }
+          .amazon-csr-indent { margin-left: 50px; }
+          .amazon-csr-indent li { margin-bottom: 15px;  }
+
+
 
 
 
