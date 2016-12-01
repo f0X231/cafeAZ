@@ -65,18 +65,30 @@
                         Cafe Amazon Roasting Factory
                     </div>
                     <div class="news-detail-txt text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <p>ศูนย์ธุรกิจคาเฟ่ อเมซอน - Amazon Inspiring Campus หรือ AICA คือ แหล่งถ่ายทอดแรงบันดาลใจในการสร้างสรรค์กาแฟ แหล่งรวบรวมความภูมิใจของ "คาเฟ่อเมซอน" ที่จะถ่ายทอดแรงบันดาลใจของเรา ให้แก่ผู้หลงใหลในกลิ่นและรสชาติของกาแฟ AICA แบ่งออกเป็น 3 ส่วนได้แก่ ศูนย์นิทรรศการการเรียนรู้ (Interactive Exhibition) ศูนย์ฝึกบรม (Training Center) โรงคั่วกาแฟ (Roasting Plant)</p>
+                        <p>ศูนย์นิทรรศการการเรียนรู้ (Interactive Exhibion) ประกอบด้วย 7 โซนหลัก ได้แก่</p>
+                        <ul>
+                          <li>Amazon treasure เป็นโซนที่แสดงถึงขุมทรัพย์แห่งความรู้ ให้ข้อมูลต่าง ๆ เกี่ยวกับกาแฟ ทั้งด้านแหล่งเพาะปลูก วัฒนธรรม กาแฟของชนชาติต่างๆ และแสดงถึงเรื่องราวความเป็นมาของแบรนด์คาเฟ่ อเมซอน รวมไปถึงรางวัลแห่งความภูมิใจของเรา</li>
+                          <li>Discovery Land คือโซนที่เปรียบเสมือน Green Oasis ที่สร้างความสุข ความสดชื่นให้แก่ผู้เข้าชม ท่ามกลางธรรมชาติเหล่านี้ ผู้เข้าชมยังสามารถสัมผัสประสบการณ์ความสนุก พร้อมทั้งค้นพบเกร็ดความรู้ที่น่าสนใจเกี่ยวกับกาแฟไปควบคู่กัน</li>
+                          <li>Coffee Woodhouse หรือศาลาเมล็ดกาแฟ เป็นโซนที่ใช้เป็นมุมสำหรับพักผ่อนหรือทำกิจกรรมต่างๆ ร่วมกัน โดยศลานี้ได้รับแรงบันดาลใจในการออกแบบจากเมล็ดกาแฟอีกด้วย</li>
+                          <li>Coffee Trail คือเส้นทางเดินที่แสดงให้เห็นถึงการคัดสรรเมล็ดกาแฟจากแหล่งที่ปลูกผ่านกรรมวิธีต่างๆ จนได้เมล็ดกาแฟ คุณภาพดีส่งถึงโรงคั่วของเรา</li>
+                          <li>Amazon Creation  คือโซนที่เราจะให้เห็นขั้นตอนการผลิตกาแฟคั่วที่พิถีพิถันตามแบบฉบับของคาเฟ่ อเมซอน</li>
+                          <li>Coffeeology  คือโซนของศาสตร์แห่งการคั่วบดและการชงกาแฟ เพื่อให้ได้กลิ่นและรสชาติของกาแฟได้ครบถ้วนอย่างสมบูรณ์
+                             นอกจากนั้นในโซนนี้ยังมีต้นกาแฟให้ผู้เข้าชมได้เห็นและเรียนรู้ด้วยเช่นกัน</li>
+                          <li>Amazon Journey Theater  คือ โซนสุดท้ายของนิทรรศการการเรียนรู้ โซนนี้คือห้องภาพยนตร์ 3 มิติที่จะพาทุกคนไปสัมผัส
+                             กับ Taste of Amazon โดยที่เราจะให้ผู้เข้าชมเห็นเบื้องหลังกาแฟแต่ละแก้วของCafé Amazon ไปพร้อมกับพระเอกที่แสนน่ารัก
+                             อย่างนกแก้วซน ซน ที่ทุกคนยิ่งดูจะยิ่งหลงรักพระเอกตัวนี้ของเรามากขึ้นอย่างแน่นอน</li>
+                        </ul>
+                        <p></p>
+                        <p>ใน AICA แห่งนี้ เรายังมีศูนย์ฝึกอบรมบาริสต้า หรือ Training Center ให้แก่เจ้าของหรือผู้บริหารร้านกาแฟ Cafe Amazon เพื่ออบรมทั้ง
+                        ภาคทฤษฎีและภาคปฏิบัติ รวมทั้งการอบรมการบริหารร้านอย่างมีประสิทธิภาพ นอกจากนี้เรายังมีหลักสูตรฝึกอบรม Re-Training
+                        สําหรับร้านที่เปิดดําเนินการขายไปแล้ว ทั้งนี้เพื่อให้ Cafe Amazon ทุกสาขาสามารถให้บริการอย่างมีมาตรฐานในระดับสากล
+                        ส่งต่อกาแฟคุณภาพดีถึงมือผู้บริโภค</p>
+                        <p>ส่วนสุดท้ายภายใน AICA คือ โรงคั่วกาแฟคาเฟ่ อเมซอน ถูกจัดตั้งเพื่อให้คนไทยได้รับบริการและดื่มกาแฟที่มีรสชาติตามมาตรฐาน
+คาเฟ่ อเมซอน ในราคาที่เข้าถึงได้ และมีการใส่ใจในทุกขั้นตอนการผลิตตั้งแต่การคัดเลือกและรับซื้อเมล็ดกาแฟที่ได้คุณภาพ
+เพื่อนำมาคั่วให้ได้ตามมาตรฐานที่ดีเยี่ยม และนำไปผลิตเป็นเครื่องดื่มจนถึงมือลูกค้า โรงคั่วกาแฟคาเฟ่ อเมซอน เป็นโรงคั่วกาแฟที่ผ่านการ
+รับรองระบบมาตรฐาน วิธีการปฏิบัติที่ดีในการผลิตอาหารตามมาตรฐานสากล (Good Manufacturing Practice: GMP Codex)
+มีกำลังการผลิต 2,700 ตันต่อปี </p>
                     </div>
                 </div>
             </div>

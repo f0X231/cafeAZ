@@ -60,24 +60,23 @@
                     <div class="news-detail-header text-center">กว่าจะมาเป็น กาแฟ อเมซอล</div>
                     <div class="news-detail-datetime">27 พฤษภาคม 2559</div>
                     <div class="news-detail-txt">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        ต้นทางแก่งกาแฟคุณภาพ
+
+
+                        กาแกอราบิก้า
+                        ปลูกได้ดีในสภาพอากาศเย็นบนดอยสูง อุณหภูมิเฉลี่ย 15-23 C ระดับความสูงตั้งแต่ 1,000 เมตร
+
+                        กาแฟโรบัสต้า
+                        ปลูกได้ดีในสภาพอากาศร้อนชื้น อุณหภูมิเฉลี่ย 15-23 C ระดับความสูงตั้งแต่ระดับน้ำทะเล ไปจนถึง 1,000 เมตร
+
+                        เมล็ดกาแฟอราบิก้า
+                        เมล็ดกาแฟอราบิก้ามีรูปร่างรี มีร่องกลางเมล็ดยาวจรดปลายทั้งสองด้านคล้ายตัว s จุดเด่นคือ กลิ่นและรสที่มีความหอมนุ่มนวลและมี่ความเป็นกรดเปรี้ยวแบบผลไม้มากกว่ากาแฟโรบัสต้า นิยมนำมาชงเป็นกาแฟสด
+
+                        เมล็ดกาแฟโรบัสต้า
+                        เมล็ดกาแฟโรบัสต้ามีรูปร่างอวบ มีร่องกลางเมล็ดยาวไม่ถึงปลายเมล็ด จุดเด่นคือ รสขมและความเข้มข้น เนื่องจากมีเนื้อกาแฟและปริมาณคาเฟอีน (caffeine) มากกว่ากาแฟอราบิก้า นิยมนำมาแปรรูปเป็นกาแฟกึ่งสำเร็จรูป (instant coffee)
+
+                        การลดมวลของกาแฟ
+                        กว่าจะได้เมล็ดกาแฟคั่วเพื่อนำมาสกัดดื่มนั้น ต้องผ่านขั้นตอนพิถีพิถันมากมาย ซึ่งผลกาแฟสด 1 กิโลกรัม จะได้เมล็ดกาแฟดิบ 160 กรับ และเมื่อนำเมล็ดกาแฟดิบไปคั่วจะเหลือน้ำหนักเพียง 130 กรัม
                     </div>
                 </div>
 

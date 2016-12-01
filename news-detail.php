@@ -67,38 +67,27 @@
                     </div>
                     <div class="news-detail-datetime">27 พฤษภาคม 2559</div>
                     <div class="news-detail-txt">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br />
+                        เมื่อเร็วๆนี้ นายสุชาติ ระมาศ ผู้ช่วยกรรมการผู้จัดการใหญ่การตลาดขายปลีก บริษัท ปตท. จำกัด (มหาชน)  และนายประทุม จิณเสน
+กรรมการผู้จัดการ บริษัท ประชารัฐรักสามัคคีน่าน (วิสาหกิจเพื่อสังคม) จำกัด ได้ร่วมลงนามในบันทึกข้อตกลงการสนับสนุนจัดซื้อเมล็ด
+กาแฟดิบจังหวัดน่าน จำนวน 70 ตันต่อปี เพื่อสนับสนุนและส่งเสริมอาชีพเกษตรกรผู้ปลูกกาแฟในจังหวัดน่าน ให้สามารถผลิตเมล็ดกาแฟดิบ
+ที่มีคุณภาพออกสู่ท้องตลาด สร้างรายได้ให้กับชุมชน โดยมี นายสุวัฒน์ พรมสุวรรณ ผู้ว่าราชการจังหวัดน่าน และนายมีชัย วีระไวทยะ
+ประธานกรรมการ บริษัท ประชารัฐรักสามัคคี ประเทศไทย (วิสาหกิจเพื่อสังคม) จำกัด เป็นประธานในพิธีลงนามครั้งนี้<br /><br />
                         <img src="images/news01.jpg" /><br /><br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br />
+                        ก่อนหน้านี้ ธุรกิจของคาเฟ่อเมซอน  ของปตท.ก็ได้มีพิธีเปิด ศูนย์ธุรกิจคาเฟ่ อเมซอน หรือ Amazon Inspiring Campus (AICA) ไปเมื่อวันที่
+27 มิ.ย. 2559 ที่ผ่านมา โดยมีพลเอก อนันตพร กาญจนรัตน์ รัฐมนตรีว่าการกระทรวงพลังงาน เป็นประธานในพิธี <br /><br />
                         <img src="images/news02.jpg" /><br /><br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+AICA ถูกจัดตั้งขึ้นเพื่อให้คนไทยได้รับบริการและดื่มกาแฟที่มีรสชาติตามมาตรฐานคาเฟ่อเมซอนในราคาที่เข้าถึงได้ และมีการใส่ใจในทุก
+ขั้นตอนการผลิต ตั้งแต่การคัดเลือกและรับซื้อเมล็ดกาแฟที่ได้คุณภาพเพื่อนำมาคั่วให้ได้ตามมาตรฐานที่ดีเยี่ยม และนำไปผลิตเป็นเครื่องดื่ม
+จนถึงมือลูกค้า AICA ประกอบด้วย โรงคั่วกาแฟที่ผ่านการรับรองระบบมาตรฐาน วิธีการปฏิบัติที่ดีในการผลิตอาหารตามมาตรฐานสากล
+(Good Manufacturing Practice: GMP Codex) มีกำลังการผลิต 2,700 ตันต่อปี, ศูนย์ฝึกอบรมบาริสต้า และแหล่งถ่ายทอดแรงบันดาลใจ
+ในการสร้างสรรค์กาแฟ
+<br />
+ส่วนหนึ่งของเมล็ดกาแฟที่ใช้เป็นวัตถุดิบได้มาจากความร่วมมือกับโครงการหลวงปีละประมาณ 100 ตัน และได้สนับสนุนในการปลูกกาแฟ
+และรักษาผืนป่าเพื่อไร่กาแฟใน “โครงการวิจัยและพัฒนาการปลูกกาแฟและผลิตกาแฟระบบอนุรักษ์ทรัพยากรธรรมชาติเพื่อการพัฒนาที่
+ยั่งยืน” ซึ่งการปลูกกาแฟมีความก้าวหน้าไปกว่า 70% และคาดว่าจะเริ่มเก็บเกี่ยวได้ภายในปี 2561 เพื่อให้ชุมชนมีรายได้ที่มั่นคงและพึ่งพา
+ตัวเองได้อย่างยั่งยืนในที่สุด ทั้งยังจะเข้าไปสนับสนุนให้ชุมชนจัดตั้งสหกรณ์หรือวิสาหกิจชุมชนธุรกิจเมล็ดกาแฟในโครงการ Social
+Enterprise (วิสาหกิจเพื่อสังคมม) โดยจะเริ่มจากการรับซื้อเมล็ดกาแฟดิบ ซึ่งตั้งเป้าหมายจะรับซื้อที่ 10% ของปริมาณเมล็ดกาแฟที่
+ปตท. ต้องการทั้งหมดภายใน 2 ปีนี้
                     </div>
                 </div>
 
@@ -139,7 +128,7 @@
         <script src="js/foundation.min.js"></script>
         <script src="js/pushy.min.js"></script>
         <script src="js/app.js"></script>
-        
+
     </body>
 
 </html>

@@ -67,18 +67,8 @@
                         Cafe Amazon Roasting Factory
                     </div>
                     <div class="news-detail-txt text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      โรงคั่วกาแฟคาเฟ่ อเมซอน จัดตั้งเพื่อให้คนไทยได้รับบริการและดื่มกาแฟที่มีรสชาติตามมาตรฐานคาเฟ่อเมซอนในราคาที่เข้าถึงได้ และมีการใส่ใจในทุกขั้นตอนการผลิตตั้งแต่การคัดเลือกและรับซื้อเมล็ดกาแฟที่ได้คุณภาพเพื่อนำมาคั่วให้ได้ตามมาตรฐานที่ดีเยียม และนำไปผลิตเป็นเครื่องดื่มจนถึงมือลูกค้า โรงคั่วกาแฟคาเฟ่ อเมซอนเป็นโรงคั่วกาแฟที่ผ่านการรับรองระบบมาตรฐานวิธีการปฎิบัติที่ดี
+                      ในการผลิตอาหารตามมาตรฐานสากล (Good Manufacturing Practice: GMP Codex) มีกำลังการผลิต 2,700 ตันต่อปี
                     </div>
                 </div>
             </div>
@@ -97,20 +87,10 @@
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
                     <div class="news-detail-txt">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        เราเริ่มดูแลคุณภาพตั้งแต่การคัดสรรเมล็ดพันธุ์ที่อาราบิกาและโรบัสต้าถูกส่งมาจากแหล่งเพาะปลูกต่างๆ ในประเทศไทย ทั้งจากโครงการหลวงวิสาหกิจและสหกรณ์การเกษตรโดยมี เจ้าหน้าที่ตรวจสอบความสมบูรณ์ของถุงกระสอบ วัดค่าความชื่นตรวจนับตำหนิและวัดขนาดของเมล็ดกาแฟตามมาตรฐานที่โรงคั่วกาแฟได้กำหนดไว้
+                        <p>จากนั้นเมล็ดกาแฟจะถูกลำเลียงเข้าสู่กระบวนการคัดแยกสิ่งปลอมปนและทำความสะอาด โดยเริ่มจากทำความสะอาดเมล็ดกาแฟเหล่านั้นก่อนจะคัดแยกเมล็ดกาแฟที่ดีให้ได้ขนาด สี น้ำหนักตามที่โรงคั่วกาแฟได้กำหนดไว้ก่อนจะนำเมล็ดกาแฟดิบที่คัดไว้เตรียมเข้าสู่กระบวนการคั่วเมล็ดกาแฟต่อไป</p>
+                        <p>ในขั้นตอนการคั่วเมล็ดกาแฟในแต่ละสูตรนั้น พนักงานในห้องควบคุมจะสั่งการผ่านระบบคอมพิวเตอร์ โดยเมล็ดกาแฟดิบจะถูกส่งมายังห้องคั่วโดยใช้ลม แต่จะถุกพักไว้ในถังเหนือเครื่องคั่วก่อน รอจนเครื่องคั่วทำอุณหภูมิที่เหมาะสมจึงจะปล่อยลงไปคั่ว และคั่วจนกว่าจะครบเวลาที่กำหนด หลังจากนั้นฝาหม้อจะเปิดออกเพื่อระบายความร้อน เมล็ดกาแฟจะถูกลำเลียงออกมาและพักจนกว่าจะเย็นสนิท</p>
+                        <p>หลังจากที่ผ่านการคั่วเรียบร้อยแล้วเมล็ดกาแฟ Lot ดังกล่าวจะถูกตรวจสอบคุณภาพให้ได้มาตรฐาน โดยมีการวัดค่าสีเพื่อดูระดับความเข้มของการคั่ว วัดค่าความชื้น ความหนาแน่นและและนำไปทดสอบรสชาติผ่านกระบวนการ Cupping Test โดยเริ่มจากดมกลิ่นกาแฟหากพบกลิ่นหรือรสชาติผิดปกติ จะถือว่ากาแฟ Lot นั้นไม่ได้คุณภาพตามมาตรฐาน กาแฟ Lot นั้นจะถูกคัดออก แต่ถ้ามีกลิ่นหอมกรุ่นและรสชาติกลมกล่อมตามคุณภาพที่ต้องการ จะถือว่าผ่านการทดสอบและนำส่งสู่ขั้นตอนการบรรจุลงถุงต่อไป</p>
                     </div>
                 </div>
             </div>
@@ -124,20 +104,9 @@
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
                     <div class="news-detail-txt">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <p>เมล็ดกาแฟคั่วที่ผ่านการทดสอบจะถูกนำมาบรรจุด้วยระบบปิดเพื่อให้มั่นใจได้ว่ากระบวนการบรรจุเป็นไปด้วยความสะอาดและได้มาตรฐาน GMP โดยบนถุงบรรจะจะต้องพิมพ์วันผลิตและวันหมดอายุ รวมไปถึงเวลาที่บรรจุและ Lot ของบรรจุำัฒฑ์ เพื่อสามารถตรวจสอบย้อนหลังได้ในกรณีที่มีปัญหา
+                        นอกจากนี้ในแต่ละถุงจะต้องเติมก๊าซไนโตรเจนเพื่อป้องกันไม่ให้กาแฟมีกลิ่นหืนและเพื่อเป็นการยืดอายุการจัดเก็บ และยังมี Aroma Protection Valve เพื่อระบายก๊าซคาร์บอนไดออกไซต์ที่เมล็ดกาแฟจะคายออกมาหลังจากคั่วและเป็นการป้องกันอากาศจากภายนอกย้อนกลับเข้าถุงกาแฟ เพื่อคงคุณภาพของกาแฟภายในถุง</p>
+                        <p>กาแฟที่บรรจุลงถุงเรียบร้อยแล้วจะถูกส่งมาชั่นน้ำหนักเพื่อตรวจสอบให้ได้มาตรฐานขั้นสุดท้ายก่อนจะถูกบรรจุลงกล่อง โดยบนกล่องจะต้องลงวันผลิต วันหมดอายุอีกครั้ง กล่องที่บรรจุถุงกาแฟจะถูกจัดเก็บด้วยระบบ FIFO First in First out ซึ่งเป็นระบบที่ใช้บริหารสต็อกสินค้า โดยสินค้าที่เข้าคลังก่อนจะถูกหมุนเวีนส่งออกก่อนเพื่อไปยังร้านกาแฟ Cafe Amazon สาขาต่างๆ ทั่วประเทศ</p>
                     </div>
                 </div>
             </div>
