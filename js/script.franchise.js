@@ -1,15 +1,19 @@
 
-function inputDefaultValue(input_id_name, defaultValue)
-{
-		$('#' + input_id_name).attr('value', defaultValue).focus(function() {
-				if ($(this).val() == defaultValue) {
-						$(this).attr('value', '');
-				}
-		}).blur(function() {
-				if ($(this).val() == '') {
-						$(this).attr('value', defaultValue)
-				}
+function popupAlert(title, text) {
+	swal({
+				title: title,
+				text: text,
+				html: true
+	});
+}
+
+function validateInputForm() {
+
+		$('.btn_franchise_step_one').click(function() {
+				popupAlert( "HTML <small>Title</small>!", "A custom <span style="color:#F8BB86">html<span> message.");
+				return false;
 		});
+
 }
 
 jQuery(document).ready(function(){

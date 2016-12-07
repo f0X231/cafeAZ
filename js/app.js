@@ -36,6 +36,19 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
+function inputDefaultValue(input_id_name, defaultValue)
+{
+		$('#' + input_id_name).attr('value', defaultValue).focus(function() {
+				if ($(this).val() == defaultValue) {
+						$(this).attr('value', '');
+				}
+		}).blur(function() {
+				if ($(this).val() == '') {
+						$(this).attr('value', defaultValue)
+				}
+		});
+}
+
 
 
 
@@ -45,22 +58,8 @@ $(document).ready(function() {
   	$(document).foundation();
 
   	menuGroups();
-  	$(window).on('orientationchange resize', function(e){
+  	$(window).on('orientationchange', function(e){
   			window.location.reload();
   	});
-
-    var button = $(".to-top");
-
-		$(window).scroll(function(){
-			if ($(window).scrollTop() > 200 ){
-				 button.show()
-            }else{
-				 button.hide()
-			};
-		});
-
-		button.click(function(){
-				$('html , body').animate({scrollTop:0},1000)
-		});
 
 });

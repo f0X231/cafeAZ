@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/pushy.css">
         <link rel="stylesheet" href="css/jquery.datetimepicker.css">
+        <link rel="stylesheet" href="css/sweetalert.css">
         <link rel="stylesheet" href="css/app.css">
     </head>
 
@@ -151,7 +152,7 @@
                                       </div>
 
                                       <div class="columns small-12 medium-12 large-12 text-center margin-top50">
-                                          <button class="btn-aboutus">ถัดไป</button>
+                                          <button class="btn-aboutus btn_franchise_step_one">ถัดไป</button>
                                       </div>
                                   </div>
                             </div>
@@ -327,7 +328,7 @@
                                       <label class="fonts_dbadmanx fonts_size_txt_head weight_bold displayInlineBlock">Location Type
                                           <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label> :
                                       </label>
-                                      
+
                                       <div class="row">
                                           <div class="columns small-12 medium-6 large-6">
                                               <select name="select_location" id="select_location" class="minimal">
@@ -364,7 +365,70 @@
                             </div>
 
                             <div class="tabs-panel" id="panel3">
+                                <div class="row">
+                                    <div class="columns small-12 medium-12 large-12">
+                                          <div class="row">
+                                                <div class="columns small-12 medium-6 large-6">รายละเอียดผู้ยื่นคำร้อง</div>
+                                                <div class="columns small-12 medium-6 large-6">&nbsp;</div>
 
+                                                <div class="columns small-12 medium-6 large-6">วันที่ยื่นคำร้อง : </div>
+                                                <div class="columns small-12 medium-6 large-6">25 ต.ค. 59</div>
+
+                                                <div class="columns small-12 medium-6 large-6">ประเภทผู้ปรกอบการ : </div>
+                                                <div class="columns small-12 medium-6 large-6">บุคคลธรรมดา<br />นายสรวิชย์ จันทร์เพียร</div>
+
+                                                <div class="columns small-12 medium-6 large-6">ช่องทางการติดต่อ : </div>
+                                                <div class="columns small-12 medium-6 large-6">0827812433</div>
+
+                                                <div class="columns small-12 medium-6 large-6">ประสบการณ์ในการดำเนินธุรกิจร้านกาแฟ : </div>
+                                                <div class="columns small-12 medium-6 large-6">ไม่มี</div>
+                                          </div>
+
+                                          <div class="row">
+                                                <div class="columns small-12 medium-6 large-6">รายละเอียดพื้นที่</div>
+                                                <div class="columns small-12 medium-6 large-6">&nbsp;</div>
+
+                                                <div class="columns small-12 medium-6 large-6">ประเภทสถานีบริการ : </div>
+                                                <div class="columns small-12 medium-6 large-6">นอกสถานีบริการ</div>
+
+                                                <div class="columns small-12 medium-6 large-6">ประเภทการเป็นเจ้าของ : </div>
+                                                <div class="columns small-12 medium-6 large-6">-</div>
+
+                                                <div class="columns small-12 medium-6 large-6">เลขที่อ้างอิงหนังสืออนุมัติ : </div>
+                                                <div class="columns small-12 medium-6 large-6">32948560210</div>
+
+                                                <div class="columns small-12 medium-6 large-6">Operation ผู้รับผิดชอบ : </div>
+                                                <div class="columns small-12 medium-6 large-6">-</div>
+
+                                                <div class="columns small-12 medium-6 large-6">สถานที่ตั้งร้าน : </div>
+                                                <div class="columns small-12 medium-6 large-6">ในประเทศไทย<br />15 อาคาร Neumerlin ชั้น 8 ถนนประดิพัทธ์<br />แขวงสามเสนใน เขตพญาไท กรุงเทพมหานคร<br />10400</div>
+
+                                                <div class="columns small-12 medium-6 large-6">ความเป็นเจ้าของพื้นที่ : </div>
+                                                <div class="columns small-12 medium-6 large-6">เป็นเจ้าของพื้นที่</div>
+
+                                                <div class="columns small-12 medium-6 large-6">พื้ันที่ตารางเมตร : </div>
+                                                <div class="columns small-12 medium-6 large-6">30</div>
+
+                                                <div class="columns small-12 medium-6 large-6">Location Type : </div>
+                                                <div class="columns small-12 medium-6 large-6">-</div>
+
+                                                <div class="columns small-12 medium-6 large-6">ละติจูด : </div>
+                                                <div class="columns small-12 medium-6 large-6">-</div>
+
+                                                <div class="columns small-12 medium-6 large-6">ลองติจูด : </div>
+                                                <div class="columns small-12 medium-6 large-6">-</div>
+                                          </div>
+                                    </div>
+
+                                    <div class="columns small-12 medium-12 large-12 text-center">
+                                        รายละเอียดเพิ่มเติมสามารถติดต่อเจ้าหน้าที่ได้ที่<br />โทร. 025372391 อีเมล์ <a href="mailto:">franchiseamazon@pttplc.com</a>
+                                    </div>
+
+                                    <div class="columns small-12 medium-12 large-12 text-center">
+                                      <button class="btn-aboutus">กลับ</button>
+                                      <button class="btn-aboutus">ส่งข้อมูล</button>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
@@ -385,6 +449,7 @@
         <script src="js/foundation.min.js"></script>
         <script src="js/pushy.min.js"></script>
         <script src="js/jquery.datetimepicker.full.min.js"></script>
+        <script src="js/sweetalert.min.js"></script>
         <script src="js/app.js"></script>
         <script src="js/script.franchise.js"></script>
 

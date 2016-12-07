@@ -2,12 +2,11 @@
 <!-- Footer -->
 <div class="row leaf-footer">
     <div class="columns small-6 medium-8 large-10"></div>
-    <div class="columns small-6 medium-4 large-2">
-        <img src="images/footer-leaf.png" />
-        <div class="to-top"><span class="glyphicon glyphicon-chevron-up icon-large"></span>
-    </div>
+    <div class="columns small-6 medium-4 large-2"><img src="images/footer-leaf.png" /></div>
 </div>
 <footer>
+    <div class="to-top show-for-small-only" onclick='$("html, body").animate({ scrollTop: 0 }, "slow")'><img src="images/icon_to_top.png" /></div>
+
     <div class="row footer-relate">
         <div class="columns small-12 medium-12 large-12 text-center">
             <ul class="fonts_dbadmanx weight_bold">
@@ -27,4 +26,4 @@
         </div>
     </div>
 </footer>
-<!--/div-->	
+<!--/div-->

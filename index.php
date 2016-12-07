@@ -93,10 +93,44 @@
             <div class="row">
                 <div class="columns small-12 medium-10 large-10 medium-offset-1 large-offset-1 text-center margin-top25 margin-bottom25">
                     <h2 class="fonts_dbadmanx fonts_size_title">วีดีโอ</h2>
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/vRgLgrhsdjU" frameborder="0" allowfullscreen></iframe>
+                    <!--div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/vRgLgrhsdjU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <div class="fonts_dbadmanx fonts_size_txt_title text-center margin-bottom25">TVC : Cafe Amazon "Wake up"</div>
+                    <div class="fonts_dbadmanx fonts_size_txt_title text-center margin-bottom25">TVC : Cafe Amazon "Wake up"</div-->
+
+
+                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                        <ul class="orbit-container">
+
+                            <li class="is-active orbit-slide">
+                              <div class="video-container">
+                                  <iframe src="https://www.youtube.com/embed/fbUvjB7VZH8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                              </div>
+                            </li>
+                            <!--li class="orbit-slide">
+                              <div class="video-container">
+                                  <iframe src="https://www.youtube.com/embed/ztIYJVvH19I?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                              </div>
+                            </li>
+                            <li class="orbit-slide">
+                              <div class="video-container">
+                                  <iframe src="https://www.youtube.com/embed/YtElhYHlc2M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                              </div>
+                            </li-->
+                        </ul>
+
+                        <!--nav class="orbit-bullets">
+                            <button class="is-active" data-slide="0"></button>
+                            <button data-slide="1"></button>
+                            <button data-slide="2"></button>
+                        </nav-->
+                    </div>
+                    <div class="fonts_dbadmanx fonts_size_txt_title text-center margin-bottom25 vdo-carousel-content">
+                        <p class="vdo-content-0">TVC : Cafe Amazon "Wake up"</p>
+                        <!--p class="vdo-content-txt vdo-content-1">TVC : Cafe Amazon "Amazing Amazon"</p>
+                        <p class="vdo-content-txt vdo-content-2">TVC : Cafe Amazon "888"</p-->
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -113,7 +147,7 @@
                         <div class="aica-content">
                             <div class="fonts_dbadmanx aica-content-title">Amazon Inspiring Campus</div>
                             <div class="fonts_cordiaupc aica-content-txt">ศูนย์ธุรกิจคาเฟ่ อเมซอน หรือ Amazon Inspiring Campus (AICA) แหล่งการเรียนรู้แห่งใหม่ท่ามกลางบรรยากาศธรรมชาติตามแบบ Cafe Amazon จะพาให้ทุกเรื่องราวเกี่ยวกับกาแฟ แล้วมาดูกันว่าเบื้อหลังกาแฟแต่ละแก้ของ Cafe Amazon นั้น ผ่านกระบวนการกรรมวิธีอย่างไรบ้าง สัมผัสกับประสบการณ์การเล่าเรื่องผ่าน Interactive Media และ 4D ได้ที่ศูนย์ธุรกิจคาเฟ่ อเมซอน ศูนย์การเรียนรุ้ธุรกิจกาแฟ Cafe Amazon และโรงคั่วกาแฟ จ.พระนครศรีอยุธยา</div>
-                            <div><button class="btn-aica">อ่านต่อ</button></div>
+                            <div><a href="aica.php"><button class="btn-aica">อ่านต่อ</button></a></div>
                         </div>
                     </div>
                 </div>

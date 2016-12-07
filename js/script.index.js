@@ -35,8 +35,21 @@ $(document).ready(function() {
 
 					$('.slide-content-num-' + index).show();
 					$('.slide-content-num-' + index).animate({opacity: 1}, {queue: false, duration: 'slow'});
-
 			}
+	});
+
+
+	$('.vdo-content-0').removeClass('vdo-content-txt');
+	$('.orbit').on('slidechange.zf.orbit', function() {
+
+				$('.vdo-carousel-content p').each(function(index) {
+							if(!$('.vdo-content-' + index).hasClass('vdo-content-txt')) {
+									$('.vdo-content-' + index).addClass('vdo-content-txt')
+							}
+				});
+
+				var currentItem = $('li.orbit-slide.is-active').index();
+				$('.vdo-content-' + currentItem).removeClass('vdo-content-txt');
 	});
 
 });
