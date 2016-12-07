@@ -25,8 +25,8 @@
         <?php include('inc-menu.php'); ?>
 
         <!-- Banner -->
-        <div id="landing-content" style="background-image: url('images/banner/products-banner-layer1.png');">
-            <img src="images/banner/products-banner-layer2.png" class="slide-layer-1"></img>
+        <div id="landing-content" style="background-image: url('images/products/products-banner-layer1.png');">
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">เครื่องดื่ม</h1>
         </div>
 
         <!-- Slider -->
@@ -36,17 +36,18 @@
                     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                         <ul class="orbit-container">
                             <li class="is-active orbit-slide">
-                                <img class="orbit-image" src="images/banner/products-coffee.png" alt="Space">
+                                <img class="orbit-image" src="images/products/products-coffee.png" alt="Products">
                             </li>
-                            <li class="orbit-slide">
-                                <img class="orbit-image" src="images/banner/products-coffee.png" alt="Space">
-                            </li>
+                            <!-- for slide -->
+                            <!--li class="orbit-slide">
+                                <img class="orbit-image" src="images/products/products-coffee.png" alt="Products">
+                            </li-->
                         </ul>
-
-                        <nav class="orbit-bullets">
+                        <!-- navigator -->
+                        <!--nav class="orbit-bullets">
                             <button class="is-active" data-slide="0"></button>
                             <button data-slide="1"></button>
-                        </nav>
+                        </nav-->
                     </div>
                 </div>
             </div>
@@ -54,9 +55,9 @@
 
 
         <!-- Products List -->
-        <div class="products-list-coffee margin-section fonts_dbadmanx weight_bold">
+        <div class="products-list-coffee margin-section fonts_dbadmanx">
             <div class="row">
-                <div class="columns small-12 medium-12 large-8 large-offset-2">
+                <div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-3">
                     <div class="row products-header-row">
                         <div class="products-list-selectd columns small-6 medium-9 large-9 products-header-title">กาแฟ</div>
                         <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">
@@ -74,70 +75,70 @@
                     </div>
                     <div class="row">
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">เอสเปรสโซ</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">เอสเปรสโซ</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">อเมซอน</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">อเมซอน</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">อเมซอน เอ็กซ์ตร้า</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">อเมซอน เอ็กซ์ตร้า</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">แบล็คคอฟฟี่</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">แบล็คคอฟฟี่</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">แบล็คคอฟฟี่น้ำผึ้ง</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">แบล็คคอฟฟี่น้ำผึ้ง</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">คาปูชิโน่</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">คาปูชิโน่</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">ลาเต้ อเมซอน</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">ลาเต้ อเมซอน</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">เฟรชลาเต้</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">เฟรชลาเต้</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">มอคค่า</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">มอคค่า</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">ไวท์ ช็อก มัคคิอาโต</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">ไวท์ ช็อก มัคคิอาโต</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
@@ -148,9 +149,9 @@
         </div>
 
         <!-- Products -->
-        <div class="products-list-milk margin-section fonts_dbadmanx weight_bold">
+        <div class="products-list-milk margin-section fonts_dbadmanx">
             <div class="row">
-                <div class="columns small-12 medium-12 large-8 large-offset-2">
+                <div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-3">
                     <div class="row products-header-row">
                         <div class="products-list-selectd columns small-6 medium-9 large-9 products-header-title">นมสด / ช็อกโกแลต</div>
                         <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">
@@ -168,14 +169,14 @@
                     </div>
                     <div class="row">
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">นมสด</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">นมสด</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">ช็อกโกแลต</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">ช็อกโกแลต</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
@@ -186,9 +187,9 @@
         </div>
 
         <!-- Tea -->
-        <div class="products-list-tea margin-section fonts_dbadmanx weight_bold">
+        <div class="products-list-tea margin-section fonts_dbadmanx">
             <div class="row">
-                <div class="columns small-12 medium-12 large-8 large-offset-2">
+                <div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-3">
                     <div class="row products-header-row">
                         <div class="products-list-selectd columns small-6 medium-9 large-9 products-header-title">ชา</div>
                         <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">
@@ -206,42 +207,42 @@
                     </div>
                     <div class="row">
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">ชา</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">ชา</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">ชาเขียนนม</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">ชาเขียนนม</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">ชานม</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">ชานม</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">ชามะนาว</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">ชามะนาว</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">ชาดำ</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">ชาดำ</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">ชาเขียวน้ำผึ้งมะนาวเจลลี่</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">ชาเขียวน้ำผึ้งมะนาวเจลลี่</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
@@ -252,14 +253,14 @@
         </div>
 
         <!-- fruit -->
-        <div class="products-list-fruit margin-section fonts_dbadmanx weight_bold">
+        <div class="products-list-fruit margin-section fonts_dbadmanx">
             <div class="row">
-                <div class="columns small-12 medium-12 large-8 large-offset-2">
+                <div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-3">
                     <div class="row products-header-row">
                         <div class="products-list-selectd columns small-6 medium-9 large-9 products-header-title">น้ำผลไม้ / สมูทตี้</div>
                         <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">
-                            <div class="products-header-icon"><img src="images/icon_hot.png" /></div>
-                            <div class="products-header-icon-txt">ร้อน</div>
+                            <div class="products-header-icon">&nbsp;</div>
+                            <div class="products-header-icon-txt">&nbsp;</div>
                         </div>
                         <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">
                             <div class="products-header-icon"><img src="images/icon_cool.png" /></div>
@@ -272,21 +273,21 @@
                     </div>
                     <div class="row">
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">น้ำลิ้นจี่</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">น้ำลิ้นจี่</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">สตรอเบอร์รี่สมูทตี้</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">สตรอเบอร์รี่สมูทตี้</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>
                         </a>
 
                         <a href="products-detail.php">
-                            <div class="products-list-selectd columns small-6 medium-9 large-9">บลูเบอร์รี่สมูทตี้</div>
+                            <div class="products-list-selectd products-coffee-list columns small-6 medium-9 large-9">บลูเบอร์รี่สมูทตี้</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center">&nbsp;</div>
                             <div class="products-list-selectd columns small-2 medium-1 large-1 text-center"><div class="seed_icon"></div></div>

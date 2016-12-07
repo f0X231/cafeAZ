@@ -1,6 +1,7 @@
 jQuery(document).ready(function(){
-    $('.promotion-picture img').hover(
-        function() { $(this).addClass('transition-promotion-products'); },
-        function() { $(this).removeClass('transition-promotion-products');  }
-    );
+    var getHeight = $(window).height();
+
+    if(getHeight > 1279)
+      $('.cafe-about').css('min-height', '605px');
+
 });

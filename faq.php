@@ -26,7 +26,7 @@
         <?php include('inc-menu.php'); ?>
 
         <!-- Banner -->
-        <div id="landing-content" style="background-image: url('images/banner/banner-csr.png');">
+        <div id="landing-content" style="background-image: url('images/faq/banner-faq.png');">
             <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">คำถามที่พบบ่อย</h1>
         </div>
 

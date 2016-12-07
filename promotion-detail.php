@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <title>Amazon</title>
 
-	    <meta name="description" content="Amazon" />
-	    <meta name="keywords" content="Amazon" />
-	    <meta name="author" content="Amazon" />
+	      <meta name="description" content="Amazon" />
+	      <meta name="keywords" content="Amazon" />
+	      <meta name="author" content="Amazon" />
 
-	    <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -26,71 +26,82 @@
         <?php include('inc-menu.php'); ?>
 
         <!-- Banner -->
-        <div id="landing-content" style="background-image: url('images/banner/products-banner-layer1.png');">
-            <img src="images/banner/products-banner-layer2.png" class="slide-layer-1"></img>
+        <div id="landing-content" style="background-image: url('images/promotion/banner-promotion.png');">
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">โปรโมชั่น</h1>
         </div>
 
 
-        <!-- Products Detail -->
-        <div class="products-detail margin-section">
+        <!-- promotion Detail -->
+        <div class="promotion-detail">
             <div class="row">
-                <div class="columns small-12 medium-6 large-6 text-center">
+                <div class="columns small-12 medium-6 large-5 text-center">
+
                     <div class="promotions-detail-slide-show">
                         <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                             <ul class="orbit-container">
                                 <li class="is-active orbit-slide">
-                                    <img class="orbit-image" src="images/promotion01.jpg" width="100%" alt="Space">
+                                    <img class="orbit-image" src="images/promotion/promotion01.jpg" alt="Promotion">
                                 </li>
                                 <li class="orbit-slide">
-                                    <img class="orbit-image" src="images/promotion02.jpg" width="100%" alt="Space">
+                                    <img class="orbit-image" src="images/promotion/promotion02.jpg" alt="Promotion">
+                                </li>
+                                <li class="orbit-slide">
+                                    <img class="orbit-image" src="images/promotion/promotion03.jpg" alt="Promotion">
+                                </li>
+                                <li class="orbit-slide">
+                                    <img class="orbit-image" src="images/promotion/promotion04.jpg" alt="Promotion">
                                 </li>
                             </ul>
 
                             <nav class="orbit-bullets">
                                 <button class="is-active" data-slide="0"></button>
                                 <button data-slide="1"></button>
+                                <button data-slide="2"></button>
+                                <button data-slide="3"></button>
                             </nav>
                         </div>
                     </div>
-                    <div>
-                        <button class="btn-branch">ค้นหาสาขา <img src="images/icon_pin_location.png" class="branch-pin" /></button>
+
+                    <div class="margin-top50">
+                        <a href="ourbranch.php">
+                            <button class="btn-branch">ค้นหาสาขา <img src="images/icon_pin_location.png" class="branch-pin" /></button>
+                        </a>
                     </div>
                 </div>
-                <div class="columns small-12 medium-6 large-6 fonts_dbadmanx product-detail-content">
+
+                <div class="columns small-12 medium-6 large-7 fonts_cordiaupc product-detail-content">
                     <div class="promotions-detail-header">4 เมนูสุขภาพ</div>
                     <div class="promotions-detail-header-l2">ดื่มได้ตลอดเทศกาลเจ</div>
-                    <div class="promotions-detail-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br />
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br />
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    <div class="promotions-detail-txt">
+                        <p>ต้อนรับเทศกาลกินเจด้วยเมนูสุขภาพ ที่มีมาให้เพื่อนๆได้เลือกฟินตลอดเดือนกันถึง 4 เมนูทั้ง Iced Black Coffee, Iced Chocolate Soya, Iced Mocha Soya และ Iced Tea Soya ค่ะ อย่าลืมแวะไปเติม ความสดชื่นกันได้ที่ร้านคาเฟ่ อเมซอนทุกสาขานะค้า</p><br />
+                        <p>
+                          เงื่อนไข<br />
+                          -เฉพาะเครื่องดื่มเย็นที่ร่วมรายการ ยกเว้น น้ำดื่มผลไม้และสมูทตี้<br />
+                          -ไม่สามารถร่วมกับรายการส่งเสริมการขายอื่นๆได้<br /><br />
+                        </p><br />
+                        <p>ติดตามข่าวสารเพิ่มเติมที่ <a href="">www.facebook.com/cafeamazonby</a></p>
                     </div>
                     <div class="row margin-bottom50">
                         <div class="columns small-4 medium-4 large-6 text-left sectiop-goback">
                             <div class="goback-to-products">
-                                <!--a href=""-->
-                                    <div class="icon-goback"></div>
-                                    <div class="txt-goback weight_bold">กลับ</div>
-                                <!--/a-->
+                                  <div class="icon-goback" onclick="goBack()"></div>
+                                  <div class="txt-goback weight_bold">กลับ</div>
                             </div>
                         </div>
                         <div class="columns small-8 medium-8 large-6 text-right section-social">
                             <div class="share-to-social weight_bold">แชร ์</div>
                             <div class="share-to-social">&nbsp;&nbsp;|&nbsp;&nbsp;</div>
                             <div class="share-to-social">
-                                <div class="social-share ss-twitter"></div>
-                                <div class="social-share ss-facebook"></div>
-                                <div class="social-share ss-googleplus"></div>
-                                <div class="social-share ss-print"></div>
+                                <a target="_blank" href="https://twitter.com/share?url=http://luckywindmill.com/amazon/promotion-detail.php">
+                                    <div class="social-share ss-twitter"></div>
+                                </a>
+                                <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=luckywindmill.com/amazon/promotion-detail.php">
+                                    <div class="social-share ss-facebook"></div>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/share?url=luckywindmill.com/amazon/promotion-detail.php">
+                                    <div class="social-share ss-googleplus"></div>
+                                </a>
+                                <div class="social-share ss-print" onclick="window.print(); return false;"></div>
                             </div>
                         </div>
                     </div>

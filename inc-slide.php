@@ -53,12 +53,12 @@
     </div>
 
     <div class="slide-content text-center slide-content-num-0">
-          <div class="fonts_size_slide_title">ไวท์ ช็อก มัคคิอาโต ร้อน</div>
-          <div class="fonts_size_slide_txt fonts_cordiaupc">ผสานความลงตัวได้อย่าง กลมกลืน ระหว่างไวท์ช็อกโกแล็ตนุ่มละมุนและกาแฟสุดเข้มข้น<br class="hide-for-small-only" />เป็นความหวานขม อร่อยลงตัวฉบับคาเฟ่อเมซอน</div>
+          <h1 class="fonts_size_slide_title fonts_dbadmanx">ไวท์ ช็อก มัคคิอาโต ร้อน</h1>
+          <div class="fonts_size_slide_txt fonts_cordiaupc slide-txt-detail">ผสานความลงตัวได้อย่าง กลมกลืน ระหว่างไวท์ช็อกโกแล็ตนุ่มละมุนและกาแฟสุดเข้มข้น<br class="hide-for-small-only" />เป็นความหวานขม อร่อยลงตัวฉบับคาเฟ่อเมซอน</div>
     </div>
     <div class="slide-content text-center slide-content-num-1">
-          <div class="fonts_size_slide_title">ไวท์ ช็อก มัคคิอาโต เย็น</div>
-          <div class="fonts_size_slide_txt fonts_cordiaupc">ผสานความลงตัวได้อย่าง กลมกลืน ระหว่างไวท์ช็อกโกแล็ตนุ่มละมุนและกาแฟสุดเข้มข้น<br class="hide-for-small-only" />เป็นความหวานขม อร่อยลงตัวฉบับคาเฟ่อเมซอน</div>
+          <h1 class="fonts_size_slide_title fonts_dbadmanx">ไวท์ ช็อก มัคคิอาโต เย็น</h1>
+          <div class="fonts_size_slide_txt fonts_cordiaupc slide-txt-detail">ผสานความลงตัวได้อย่าง กลมกลืน ระหว่างไวท์ช็อกโกแล็ตนุ่มละมุนและกาแฟสุดเข้มข้น<br class="hide-for-small-only" />เป็นความหวานขม อร่อยลงตัวฉบับคาเฟ่อเมซอน</div>
     </div>
 
 </div>

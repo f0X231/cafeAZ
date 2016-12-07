@@ -21,59 +21,187 @@
 
     <body>
 
-
         <!-- MENU -->
         <?php include('inc-menu.php'); ?>
 
         <!-- Banner -->
-        <div id="landing-content" style="background-image: url('images/banner/banner-csr.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">ความรับผิดชอบต่อสังคม ชุมชน สิ่งแวดล้อม<br class="hide-for-small-only" />และความร่วมมือเกี่ยวกับโครงการหลวง</h1>
+        <div id="landing-content" style="background-image: url('images/csr/banner-csr-detail.png');">
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">ความรับผิดชอบต่อสังคม ชุมชน สิ่งแวดล้อม</h1>
+        </div>
+
+
+        <!-- New Slider -->
+        <div class="csr-slider">
+            <div class="row">
+                <div class="columns small-12 medium-12 large-12">
+                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                        <ul id="featured1" class="orbit-container">
+                            <li class="is-active orbit-slide">
+                                <img class="orbit-image" src="images/csr/slide-csr.jpg" alt="CSR">
+                            </li>
+                            <li class="orbit-slide">
+                                <img class="orbit-image" src="images/csr/slide-csr.jpg" alt="CSR">
+                            </li>
+                        </ul>
+
+                        <nav class="orbit-bullets">
+                            <button class="is-active" data-slide="0"></button>
+                            <button data-slide="1"></button>
+                        </nav>
+                    </div>
+
+                    <div class="news-carousel-content">
+                        <div class="news-carousel news-content-0">
+                            <h2 class="fonts_dbadmanx fonts_size_txt_title no-margin-bottom">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน<br />Cafe Amazon Awake Award</h2>
+                            <p class="news-datetime-slide">27 พฤษภาคม 2559</p>
+                        </div>
+                        <div class="news-carousel news-content-1">
+                            <h2 class="fonts_dbadmanx fonts_size_txt_title no-margin-bottom">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน<br />Cafe Amazon Awake Award</h2>
+                            <p class="news-datetime-slide">27 พฤษภาคม 2559</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row line-underline"></div>
         </div>
 
 
         <!-- CSR -->
-        <div class="amazon-csr fonts_cordiaupc fonts_size_txt_text">
-            <div class="row">
-                <div class="columns small-12 medium-12 large-12">
-                    <h2 class="text-center fonts_dbadmanx fonts_size_txt_title">ความรับผิดชอบต่อสังคม ชุมชน สิ่งแวดล้อม</h2>
-                    <div class="text-center amazon-csr-img-space"><img src="images/csr01.jpg" /></div>
-                    <div>
-                        <p class="no-margin-bottom">Amazon Bio Cup (แก้วกระดาษเคลือบพลาสติกชีวภาพชนิด PBS)</p>
-                        <ul class="amazon-csr-indent">
-                            <li>คาเฟ่อเมซอนได้เริ่มนำบรรจุภัณฑ์ Amazon Bio Cup ซึ่งเป็นแก้วกระดาษเคลือบด้วยพลาสติกชีวภาพชนิด PBS ย่อยสลายได้ 100% หนึ่งในนวัตกรรมรักษ์โลกจากกลุ่ม ปตท. นำร่องใช้กับเครื่องดื่มร้อนเฉพาะกลุ่มเมนูกาแฟพรีเมี่ยม ในร้านคาเฟ่อเมซอนที่ตั้งภายนอกสถานีบริการน้ำมันเมื่อเดือนเมษายน 2555 ที่ผ่านมา</li>
-                            <li>ตั้งแต่กลางเดือนมีนาคม 2556 ที่ผ่านมา คาเฟ่อเมซอนเริ่มขยายผลการใช้บรรจุภัณฑ์ Amazon Bio Cup ทดแทนแก้วพลาสติกในปัจจุบัน สำหรับเครื่องดื่มร้อนทุกเมนูในร้านคาเฟ่อเมซอนทุกสาขา</li>
-                            <li>การใช้ Amazon Bio Cup ทดแทนแก้วพลาสติก (แก้กาแฟร้อน) ในทุกสาขา เป็นเสมือนก้าวแรกที่คาเฟ่อเมซอนได้แสดงเจตจำนงชัดเจน ในการดำเนินธุรกิจอย่างใส่ใจต่อสิ่งแวดล้อม โดยการใช้ Amazon Bio Cup จะสามารถช่วยลดขยะพลาสติกได้กว่า 200 ตันต่อปี</li>
-                            <li>แผนการขยายสาขาของร้อน Cafe Amazon มีอย่างต่อเนื่องทั้งงในและนอกสถานีบริการ โดยสิ้นปี 2559 Cafe Amazon มีสาขามากถึง 1,700 สาขา และมียอดขายสูงถึง 140 ล้านแก้ว/ปี</li>
-                        </ul>
-                        <p class="no-margin-bottom">Amazon Bio Cup PLA</p>
-                        <ul class="amazon-csr-indent">
-                            <li>มีนาคม 2558 Cafe Amazon นำร่องใช้แก้ว Ingeo PLA (พลาสติกย่อยสลายได้ ผลิตจากพืช 100%) ทดแทนแก้พลาสติกสำหรับเครื่องดื่มเย็นขนาด12, 16, และ 22 ออนซ์ ใน 5 สาขา (บริเวณอาคาร ปตท. สำนักงานใหญ่ อาคาร EnCo)</li>
-                            <li>โดยคาดว่าจะมีปริมาณการใช้ประมาณ 450,000 ใบต่อปี</li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="amazon-csr margin-top50 fonts_cordiaupc">
+              <div class="columns small-12 medium-12 large-12">
 
-                <div class="columns small-12 medium-12 large-12 margin-top50">
-                    <h2 class="text-center fonts_dbadmanx fonts_size_txt_title">ความร่วมมือกับโครงการหลวง</h2>
-                    <div class="text-center amazon-csr-img-space"><img src="images/csr02.jpg" /></div>
-                    <div>
-                        <p>
-                          โครงการซื้อขายเมล็ดกาแฟดิบ เป็นการตกลงซื้อขายเมล็ดกาแฟดิบ (Green Coffee) โดยฝ่ายวิจัยและพัฒนากาแฟอาราบิก้า โครงการหลวงจะเป็นฝ่ายจัดหาเมล็ดกาแฟดิบขายให้กับ ปตท.
-                          โดยมีปริมาณการส่งขายอย่างน้อยปีละ 100,000 กิโลกรับ (100 ตัน ตามคุณสมบัติที่กำหนด ระยะเวลาโครงการ 4 ปี ระกว่าง พ.ศ. 2557 - 2560
-                        </p>
-                        <p class="no-margin-bottom">
-                          โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟอนุรักษ์ทรัพยากรธรรมชาติเพื่อการพัฒนาที่ยั่งยืน ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์
-                          ตำบลบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ได้แก่
-                        </p>
-                        <ul class="amazon-csr-indent">
-                            <li>พื้นที่ที่มีการปลูกกาแฟดั้งเดิมของชุมชนบ้านหนองหล่ม - ผาหมอน ตำบลบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ ประมาณ 50 ไร่</li>
-                            <li>พื้นที่ป่าเสื่อมโทรมซึ่งยังไม่มีการปลูกกาแฟมาก่อนของชุมชนบ้านเด่น บ้านห้วยเฮี๊ยะใหม่ บ้านป่ากลัวย ตำบลบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ ประมาณ 100 ไร่รับ</li>
-                        </ul>
-                        <p>ซื้อเมล็ดกาแฟดิบ จากบริษัท ประชารัฐรักษามัคคีน่าน (วิสาหกิจเพื่อชุมชน) จำกัด ภายในปี พ.ศ. 2559</p>
-                    </div>
-                </div>
+                  <div class="row small-up-1 medium-up-2 large-up-2 csr-page" id="csr-page-1">
+                      <div class="columns text-right">
+                          <div class="amazon-csr-divleft">
+                              <a href="news-detail.php">
+                                  <p class="news-picture"><img src="images/csr/csr-pic01.jpg" class="thumbnail" alt=""></p>
+                                  <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
+                                  <p class="news-datetime text-left">27 พฤษภาคม 2559</p>
+                              </a>
+                          </div>
+                      </div>
 
-            </div>
+                      <div class="columns text-left">
+                          <div class="amazon-csr-divright">
+                              <a href="news-detail.php">
+                                  <p class="news-picture"><img src="images/csr/csr-pic02.jpg" class="thumbnail" alt=""></p>
+                                  <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
+                                  <p class="news-datetime">27 พฤษภาคม 2559</p>
+                              </a>
+                          </div>
+                      </div>
+
+                      <div class="columns">&nbsp;</div>
+                      <div class="columns">&nbsp;</div>
+
+                      <div class="columns">
+                          <div class="amazon-csr-divleft">
+                              <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="columns">
+                          <div class="amazon-csr-divright margin-top50">
+                              <a href="news-detail.php">
+                                  <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
+                                  <p class="news-datetime">27 พฤษภาคม 2559</p>
+                                  <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="row small-up-1 medium-up-2 large-up-2 csr-page" id="csr-page-2">
+                      <div class="columns text-right">
+                          <div class="amazon-csr-divleft">
+                              <a href="news-detail.php">
+                                  <p class="news-picture"><img src="images/csr/csr-pic01.jpg" class="thumbnail" alt=""></p>
+                                  <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
+                                  <p class="news-datetime text-left">27 พฤษภาคม 2559</p>
+                              </a>
+                          </div>
+                      </div>
+
+                      <div class="columns text-left">
+                          <div class="amazon-csr-divright">
+                              <a href="news-detail.php">
+                                  <p class="news-picture"><img src="images/csr/csr-pic02.jpg" class="thumbnail" alt=""></p>
+                                  <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
+                                  <p class="news-datetime">27 พฤษภาคม 2559</p>
+                              </a>
+                          </div>
+                      </div>
+
+                      <div class="columns">&nbsp;</div>
+                      <div class="columns">&nbsp;</div>
+
+                      <div class="columns">
+                          <div class="amazon-csr-divleft">
+                              <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="columns">
+                          <div class="amazon-csr-divright margin-top50">
+                              <a href="news-detail.php">
+                                  <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
+                                  <p class="news-datetime">27 พฤษภาคม 2559</p>
+                                  <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="row small-up-1 medium-up-2 large-up-2 csr-page" id="csr-page-3">
+                      <div class="columns text-right">
+                          <div class="amazon-csr-divleft">
+                              <a href="news-detail.php">
+                                  <p class="news-picture"><img src="images/csr/csr-pic01.jpg" class="thumbnail" alt=""></p>
+                                  <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
+                                  <p class="news-datetime text-left">27 พฤษภาคม 2559</p>
+                              </a>
+                          </div>
+                      </div>
+
+                      <div class="columns text-left">
+                          <div class="amazon-csr-divright">
+                              <a href="news-detail.php">
+                                  <p class="news-picture"><img src="images/csr/csr-pic02.jpg" class="thumbnail" alt=""></p>
+                                  <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
+                                  <p class="news-datetime">27 พฤษภาคม 2559</p>
+                              </a>
+                          </div>
+                      </div>
+
+                      <div class="columns">&nbsp;</div>
+                      <div class="columns">&nbsp;</div>
+
+                      <div class="columns">
+                          <div class="amazon-csr-divleft">
+                              <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="columns">
+                          <div class="amazon-csr-divright margin-top50">
+                              <a href="news-detail.php">
+                                  <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
+                                  <p class="news-datetime">27 พฤษภาคม 2559</p>
+                                  <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+              <div class="columns small-12 medium-12 large-12 fonts_dbadmanx text-center margin-top50">
+                  <ul class="pagination" role="navigation" aria-label="Pagination">
+                      <li class="current"><a href="?pages=1" aria-label="Page 1">1</a></li>
+                      <li><a href="?pages=2" aria-label="Page 2">2</a></li>
+                      <li><a href="?pages=3" aria-label="Page 3">3</a></li>
+                  </ul>
+              </div>
         </div>
 
 
@@ -85,8 +213,9 @@
         <script src="js/what-input.js"></script>
         <script src="js/foundation.min.js"></script>
         <script src="js/pushy.min.js"></script>
+        <script src="js/jquery.devrama.slider.js"></script>
         <script src="js/app.js"></script>
-
+        <script src="js/script.csr.js"></script>
     </body>
 
 </html>

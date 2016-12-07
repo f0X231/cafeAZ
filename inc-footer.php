@@ -1,16 +1,20 @@
+
 <!-- Footer -->
 <div class="row leaf-footer">
     <div class="columns small-6 medium-8 large-10"></div>
-    <div class="columns small-6 medium-4 large-2"><img src="images/footer-leaf.png" /></div>
+    <div class="columns small-6 medium-4 large-2">
+        <img src="images/footer-leaf.png" />
+        <div class="to-top"><span class="glyphicon glyphicon-chevron-up icon-large"></span>
+    </div>
 </div>
 <footer>
     <div class="row footer-relate">
         <div class="columns small-12 medium-12 large-12 text-center">
             <ul class="fonts_dbadmanx weight_bold">
-                <li>&#8226; <a href="#">เกี่ยวกับ คาเฟ่ อเมซอน</a></li>
-                <li>&#8226; <a href="#">คำถามที่พบบ่อย</a></li>
-                <li>&#8226; <a href="#">ความรับผิดชอบต่อสังคม ชุมชน สิ่งแวดล้อม</a></li>
-                <li>&#8226; <a href="#">ติดตามเรา <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
+                <li>&#8226; <a href="about.php">เกี่ยวกับ คาเฟ่ อเมซอน</a></li>
+                <li>&#8226; <a href="faq.php">คำถามที่พบบ่อย</a></li>
+                <li>&#8226; <a href="csr.php">ความรับผิดชอบต่อสังคม ชุมชน สิ่งแวดล้อม</a></li>
+                <li>&#8226; <a href="#" target="_blank">ติดตามเรา <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
             </ul>
         </div>
     </div>
@@ -23,4 +27,4 @@
         </div>
     </div>
 </footer>
-<!--/div-->
+<!--/div-->	

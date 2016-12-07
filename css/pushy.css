@@ -191,6 +191,7 @@
 }
 .menu-main {
     margin-bottom: 25px;
+    z-index: 320;
 }
 .btn-close-menu-box {
     margin: 30px;
@@ -203,9 +204,11 @@
     padding: 4px 30px;
 }
 .menu-footer-groups {
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     width: 100%;
+    z-index: 231;
+    overflow: hidden;
 }
 
 /* Menu */
@@ -215,16 +218,13 @@
     color: #fff;
     z-index: 231;
 }
-.menu-btn:hover, .menu-switch-language:hover  {
-    color: #274b2b;
-}
+.menu-btn, .show-switch-language { color: #808080; }
+.menu-btn:hover, .show-switch-language:hover { color: #274b2b; }
 .menu-btn {
     cursor: pointer;
     left: 25px;
 }
-.menu-switch-language {
-    right: 25px;
-}
+.menu-switch-language { right: 25px; }
 .menu-switch-language div {
     display: inline-block;
     line-height: 30px;
@@ -236,8 +236,16 @@
     font-weight: bold;
     font-size: 1.25rem;
 }
-.menu-switch-language div:first-child {
-    border-right: 1px solid #fff;
+.menu-switch-language > div:first-child { border-right: 1px solid #808080; }
+/*.menu-switch-language > div:first-child:hover { border-right: 1px solid #274b2b; }*/
+.menu_share_facebook {
+    background-image: url('../images/icon_fb_white.png');
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 30px;
+}
+.menu_share_facebook:hover {
+    background-image: url('../images/icon_fb_white_hover.png');
 }
 .logo-of-website {
     position: absolute;

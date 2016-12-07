@@ -25,7 +25,7 @@
         <?php include('inc-menu.php'); ?>
 
         <!-- Banner -->
-        <div id="landing-content" style="background-image: url('images/banner/banner-tips.png');">
+        <div id="landing-content" style="background-image: url('images/tips/banner-tips.png');">
             <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">เกร็ดความรู้เรื่องกาแฟ</h1>
         </div>
 
@@ -36,10 +36,10 @@
                     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                         <ul class="orbit-container">
                             <li class="is-active orbit-slide">
-                                <img class="orbit-image" src="images/banner/slide-tips0j.jpg" alt="Space">
+                                <img class="orbit-image" src="images/tips/slide-tips01.jpg" alt="amazon tips" />
                             </li>
                             <li class="orbit-slide">
-                                <img class="orbit-image" src="images/banner/slide-tips02.jpg" alt="Space">
+                                <img class="orbit-image" src="images/tips/slide-tips01.jpg" alt="amazon tips" />
                             </li>
                         </ul>
 
@@ -53,51 +53,54 @@
         </div>
 
 
-        <!-- News Detail -->
-        <div class="news-detail margin-section fonts_dbadmanx">
+        <!-- Tips -->
+        <div class="amazon-tips fonts_cordiaupc fonts_size_txt_text margin-top50">
             <div class="row">
-                <div class="columns small-12 medium-12 large-12">
-                    <div class="news-detail-header text-center">กว่าจะมาเป็น กาแฟ อเมซอล</div>
-                    <div class="news-detail-datetime">27 พฤษภาคม 2559</div>
-                    <div class="news-detail-txt">
-                        ต้นทางแก่งกาแฟคุณภาพ
+                <div class="columns small-12 medium-12 large-10 large-offset-1">
+                    <h2 class="fonts_dbadmanx fonts_size_txt_title text-center">ต้นทางแก่งกาแฟคุณภาพ</h2>
 
 
-                        กาแกอราบิก้า
-                        ปลูกได้ดีในสภาพอากาศเย็นบนดอยสูง อุณหภูมิเฉลี่ย 15-23 C ระดับความสูงตั้งแต่ 1,000 เมตร
+                    <div class="tips-detail-txt">
+                        <p class="fonts_size_txt_head no-margin-bottom">กาแฟอราบิก้า</p>
+                        <p>ปลูกได้ดีในสภาพอากาศเย็นบนดอยสูง อุณหภูมิเฉลี่ย 15-23 C ระดับความสูงตั้งแต่ 1,000 เมตร</p>
+                    </div>
 
-                        กาแฟโรบัสต้า
-                        ปลูกได้ดีในสภาพอากาศร้อนชื้น อุณหภูมิเฉลี่ย 15-23 C ระดับความสูงตั้งแต่ระดับน้ำทะเล ไปจนถึง 1,000 เมตร
-
-                        เมล็ดกาแฟอราบิก้า
-                        เมล็ดกาแฟอราบิก้ามีรูปร่างรี มีร่องกลางเมล็ดยาวจรดปลายทั้งสองด้านคล้ายตัว s จุดเด่นคือ กลิ่นและรสที่มีความหอมนุ่มนวลและมี่ความเป็นกรดเปรี้ยวแบบผลไม้มากกว่ากาแฟโรบัสต้า นิยมนำมาชงเป็นกาแฟสด
-
-                        เมล็ดกาแฟโรบัสต้า
-                        เมล็ดกาแฟโรบัสต้ามีรูปร่างอวบ มีร่องกลางเมล็ดยาวไม่ถึงปลายเมล็ด จุดเด่นคือ รสขมและความเข้มข้น เนื่องจากมีเนื้อกาแฟและปริมาณคาเฟอีน (caffeine) มากกว่ากาแฟอราบิก้า นิยมนำมาแปรรูปเป็นกาแฟกึ่งสำเร็จรูป (instant coffee)
-
-                        การลดมวลของกาแฟ
-                        กว่าจะได้เมล็ดกาแฟคั่วเพื่อนำมาสกัดดื่มนั้น ต้องผ่านขั้นตอนพิถีพิถันมากมาย ซึ่งผลกาแฟสด 1 กิโลกรัม จะได้เมล็ดกาแฟดิบ 160 กรับ และเมื่อนำเมล็ดกาแฟดิบไปคั่วจะเหลือน้ำหนักเพียง 130 กรัม
+                    <div class="tips-detail-txt">
+                        <p class="fonts_size_txt_head no-margin-bottom">กาแฟโรบัสต้า</p>
+                        <p>ปลูกได้ดีในสภาพอากาศร้อนชื้น อุณหภูมิเฉลี่ย 15-23 C ระดับความสูงตั้งแต่ระดับน้ำทะเล ไปจนถึง 1,000 เมตร</p>
                     </div>
                 </div>
 
-                <div class="columns small-12 medium-12 large-12 fonts_dbadmanx">
-                    <div class="row margin-bottom50">
-                        <div class="columns small-4 medium-4 large-6 text-left sectiop-goback">&nbsp;</div>
-                        <div class="columns small-8 medium-8 large-6 text-right section-social">
-                            <div class="share-to-social weight_bold">แชร ์</div>
-                            <div class="share-to-social">&nbsp;&nbsp;|&nbsp;&nbsp;</div>
-                            <div class="share-to-social">
+                <div class="columns small-12 medium-12 large-12 text-center margin-top50">
+                    <img src="images/tips/tips-pic01.png" />
+                </div>
+            </div>
+
+
+            <div class="columns small-12 medium-12 large-12 fonts_dbadmanx margin-top50">
+                <div class="row margin-bottom50">
+                    <div class="columns small-4 medium-4 large-6 text-left sectiop-goback">&nbsp;</div>
+                    <div class="columns small-8 medium-8 large-6 text-right section-social">
+                        <div class="share-to-social weight_bold">แชร ์</div>
+                        <div class="share-to-social">&nbsp;&nbsp;|&nbsp;&nbsp;</div>
+                        <div class="share-to-social">
+                            <a target="_blank" href="https://twitter.com/share?url=http://luckywindmill.com/amazon/tips.php">
                                 <div class="social-share ss-twitter"></div>
+                            </a>
+                            <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=luckywindmill.com/amazon/tips.php">
                                 <div class="social-share ss-facebook"></div>
+                            </a>
+                            <a target="_blank" href="https://plus.google.com/share?url=luckywindmill.com/amazon/tips.php">
                                 <div class="social-share ss-googleplus"></div>
-                                <div class="social-share ss-print"></div>
-                            </div>
+                            </a>
+                            <div class="social-share ss-print" onclick="window.print(); return false;"></div>
                         </div>
                     </div>
                 </div>
-
             </div>
+
         </div>
+
 
 
         <!-- Footer -->
