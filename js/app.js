@@ -59,7 +59,6 @@ function inputDefaultValue(input_id_name, defaultValue)
 
 
 
-
 $(document).ready(function() {
 
   	$(document).foundation();

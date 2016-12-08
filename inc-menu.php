@@ -18,11 +18,12 @@
         <li class="pushy-submenu">
             <a href="javascript:void(0);">ศูนย์ธุรกิจ คาเฟ่ อเมซอน</a>
             <ul>
-                <li class="pushy-link pushy-link-submenu"><a href="aica.php" class="bg_white">ศูนย์ธุรกิจ คาเฟ่ อเมซอน</a></li>
-                <li class="pushy-link pushy-link-submenu"><a href="factory.php" class="bg_white">โรงคั่วกาแฟ คาเฟ่ อเมซอน</a></li>
-                <li class="pushy-link pushy-link-submenu"><a href="training.php" class="bg_white">ศูนย์ฝึกอบรม</a></li>
+                <li class="pushy-link pushy-link-submenu"><a href="aica.php" class="bg_white">&#8226;&nbsp;ศูนย์ธุรกิจ คาเฟ่ อเมซอน</a></li>
+                <li class="pushy-link pushy-link-submenu"><a href="factory.php" class="bg_white">&#8226;&nbsp;โรงคั่วกาแฟ คาเฟ่ อเมซอน</a></li>
+                <li class="pushy-link pushy-link-submenu"><a href="training.php" class="bg_white">&#8226;&nbsp;ศูนย์ฝึกอบรม</a></li>
             </ul>
         </li>
+        <li class="pushy-link"><a href="tips.php">เกร็ดความรู้เรื่องกาแฟ</a></li>
         <li class="pushy-link"><a href="contact.php">ติดต่อเรา</a></li>
     </ul>
     <div id="menu-footer-groups">

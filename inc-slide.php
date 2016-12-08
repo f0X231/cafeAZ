@@ -1,5 +1,4 @@
 <!-- Slide -->
-<div class="fullwidth">
 
     <!-- On Mobile & Ipad -->
     <div class="slide-animation hide-for-large fonts_dbadmanx">
@@ -30,7 +29,8 @@
 
     </div>
 
-
+<div class="fullwidth">
+  
     <!-- On Desktop -->
     <div class="slide-animation show-for-large fonts_dbadmanx">
         <div class="slide-main-background" style="background-image: url(images/banner/banner1-layer1.png);">

@@ -807,18 +807,31 @@
             color: transparent;
             text-shadow: 0 0 0 #000;
           }
-          .next_page {
-
-          }
           .news-detail-datetime {
               margin-bottom: 25px;
               font-size: 0.875rem;
               font-style: italic;
           }
-          .news-detail-txt {
-              margin: 25px 0 50px 0;
+          .news-detail-txt {  margin: 25px 0 50px 0; }
+          .as-same-sa-height { display: table; }
+          .as-same-sa-height a {
+              display: table-cell;
+              vertical-align: middle;
           }
 
+          .news-inline:hover {
+              background-color: #fff;
+
+              -webkit-transform: scale(1.05);
+              -moz-transform: scale(1.05);
+              -o-transform: scale(1.05);
+              transform: scale(1.05);
+
+              -moz-box-shadow:    1px 1px 2px 2px #ccc;
+              -webkit-box-shadow: 1px 1px 2px 2px #ccc;
+              box-shadow:         1px 1px 2px 2px #ccc;
+          }
+          .next_page { cursor: pointer; }
 
 /* AICA */
           .aica-exhibition {
@@ -943,7 +956,7 @@
               max-width: 365px;
               overflow: hidden;
           }
-          .amazon-csr-divleft:hover, .amazon-csr-divright:hover {
+          /*.amazon-csr-divleft:hover, .amazon-csr-divright:hover {
               background-color: #fff;
 
               -webkit-transform: scale(1.05);
@@ -954,7 +967,7 @@
               -moz-box-shadow:    1px 1px 2px 2px #ccc;
               -webkit-box-shadow: 1px 1px 2px 2px #ccc;
               box-shadow:         1px 1px 2px 2px #ccc;
-          }
+          }*/
           .csr-continue {
               display: inline-block;
               color: #fcc237;
@@ -1065,6 +1078,10 @@
     .m_margintopbottom15 {
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+    .slide-main-background {
+        background-size: cover;;
+        background-position: center center;
     }
     .orbit-bullets { margin-top: 0px; }
     .icon-badge button { margin: 0 5px; }

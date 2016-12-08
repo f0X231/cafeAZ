@@ -9,14 +9,52 @@ function popupAlert(title, text) {
 
 function validateInputForm() {
 
-		var  request_datetime
-		request_username
-		var typeOfCompany = $("input[name='type_of_company']:checked").val();
-
-
 		$('.btn_franchise_step_one').click(function() {
-				popupAlert( "HTML <small>Title</small>!", "A custom <span style='color:#F8BB86'>html<span> message.");
-				return false;
+						var inputDateTime  			= $('#request_datetime').val();
+						var inputTypeOfCompany 	= $("input[name='type_of_company']:checked").val();
+						var inputName 					= $('#request_username').val();
+						var inputSurname 				= $('#request_surname').val();
+						var inputCompanyName 		= $('#request_company_name').val();
+						var inputTel 						= $('#request_tel').val();
+						var inputPhone 					= $('#request_phone').val();
+						var inputFax 						= $('#request_fax').val();
+
+						var inputEXP 						= $("input[name='request_experience']:checked").val();
+						var inputEXPOther 			= $('#request_experience_other').val();
+
+						var errorStatus = 0;
+
+
+						if(inputDateTime.length != 10) {
+								errorStatus += 1;
+						}
+
+						if(inputTypeOfCompany == 'person') {
+									if(inputName.length < 2 ) {
+											errorStatus += 1;
+									}
+									if(inputSurname.length < 2) {
+											errorStatus += 1;
+									}
+						}
+						else {
+									if(inputCompanyName.length < 2) {
+											errorStatus += 1;
+									}
+						}
+
+						if(inputPhone.length != 10) {
+								errorStatus += 1;
+						}
+
+						if(errorStatus > 0) {
+								popupAlert( "", "กรุณากรอกข้อมูลให้ครบถ้วน");
+								return false;
+						}
+						else {
+								//$("#franchise-form-register").foundation("selectTab", $("#panel2"));
+								return false;
+						}
 		});
 
 		return false;

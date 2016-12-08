@@ -27,7 +27,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/news/banner-news.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">เครื่องดื่ม</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">ข่าว และ อัพเดต</h1>
         </div>
 
         <!-- Slider -->
