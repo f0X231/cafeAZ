@@ -91,8 +91,8 @@
                                       <div class="columns small-12 medium-12 large-12">
                                           <div class="row">
                                               <div class="columns small-12 medium-4 large-3 large-offset-1">
-                                                  <input type="radio" name="type_of_company" />&nbsp;&nbsp;
-                                                  <label class="fonts_cordiaupc fonts_size_txt_title">บุคคลธรรมดา</label>
+                                                  <input type="radio" name="type_of_company" id="type_of_company1" value="person" checked="checked" />&nbsp;&nbsp;
+                                                  <label for="type_of_company1" class="fonts_cordiaupc fonts_size_txt_title">บุคคลธรรมดา</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_username" id="request_username" class="request_username borderradius" maxlength="50" />
@@ -103,11 +103,11 @@
                                           </div>
                                           <div class="row">
                                               <div class="columns small-12 medium-4 large-3 large-offset-1">
-                                                  <input type="radio" name="type_of_company" />&nbsp;&nbsp;
-                                                  <label class="fonts_cordiaupc fonts_size_txt_title">นิติบุคคล</label>
+                                                  <input type="radio" name="type_of_company" id="type_of_company2" value="company" />&nbsp;&nbsp;
+                                                  <label for="type_of_company2" class="fonts_cordiaupc fonts_size_txt_title">นิติบุคคล</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <div><input type="text" name="request_company_name" id="request_company_name" class="request_company_name borderradius" maxlength="150" /></div>
+                                                  <div><input type="text" name="request_company_name" id="request_company_name" class="request_company_name borderradius" maxlength="150" disabled="disabled" /></div>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">&nbsp;</div>
                                           </div>
@@ -118,10 +118,10 @@
 
                                             <div class="row">
                                                 <div class="columns small-4 medium-4 large-4">
-                                                    <input type="text" name="request_phone" id="request_phone" class="request_phone borderradius" maxlength="9" />
+                                                    <input type="text" name="request_phone" id="request_phone" class="request_phone borderradius" maxlength="9" onkeypress="return isNumberKey(event)" />
                                                 </div>
                                                 <div class="columns small-4 medium-4 large-4">
-                                                    <input type="text" name="request_tel" id="request_tel" class="request_tel borderradius displayInlineBlock" maxlength="10" />
+                                                    <input type="text" name="request_tel" id="request_tel" class="request_tel borderradius displayInlineBlock" maxlength="10" onkeypress="return isNumberKey(event)" />
                                                     <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                 </div>
                                                 <div class="columns small-4 medium-4 large-4">
@@ -138,15 +138,15 @@
                                             <label class="fonts_dbadmanx fonts_size_txt_head weight_bold">เคยมีประสบการณ์ในการดำเนินธุรกิจร้านกาแฟหรือไม่ : </label>
                                             <div class="row">
                                                 <div class="columns small-12 medium-12 large-11 large-offset-1">
-                                                    <input type="radio" name="request_experience">&nbsp;&nbsp;
-                                                    <label class="fonts_cordiaupc fonts_size_txt_title">ไม่มีประสบการณ์</label>
+                                                    <input type="radio" name="request_experience" id="request_experience_no" value="noexp" checked="checked" />&nbsp;&nbsp;
+                                                    <label for="request_experience_no" class="fonts_cordiaupc fonts_size_txt_title">ไม่มีประสบการณ์</label>
                                                 </div>
                                                 <div class="columns small-4 medium-4 large-3 large-offset-1">
-                                                    <input type="radio" name="request_experience">&nbsp;&nbsp;
-                                                    <label class="fonts_cordiaupc fonts_size_txt_title">มีประสบการณ์</label>
+                                                    <input type="radio" name="request_experience" id="request_experience_yes" value="hasexp" />&nbsp;&nbsp;
+                                                    <label for="request_experience_yes" class="fonts_cordiaupc fonts_size_txt_title">มีประสบการณ์</label>
                                                 </div>
                                                 <div class="columns small-8 medium-8 large-8">
-                                                    <input type="text" name="request_experience_other" id="request_experience_other" class="request_experience_other borderradius" />
+                                                    <input type="text" name="request_experience_other" id="request_experience_other" class="request_experience_other borderradius" disabled="disabled" maxlength="180" />
                                                 </div>
                                             </div>
                                       </div>
