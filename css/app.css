@@ -681,6 +681,7 @@
               width: 285px;
               padding-left: 15px;
           }
+          .promotion-page { margin-top: -10%; }
           .promotion-page a:hover { font-weight: bold; }
 
 
@@ -1120,6 +1121,7 @@
         max-height: 400px;
         overflow: hidden;
     }
+    .promotion-page { margin-top: -35%; }
     .amazon-csr-detail { margin-top: 25px; }
     .amazon-csr-indent { padding-left: 35px; }
     footer ul {
@@ -1147,6 +1149,7 @@
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .aica-middle { line-height: 160%; }
     .csr, .franchise { background-size: cover; }
+    .promotion-page { margin-top: -20%; }
     .news-description {
         height: 66px;
         min-height: 66px;

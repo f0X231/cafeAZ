@@ -5,8 +5,6 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="images/favicon.ico">
-        <title>Amazon</title>
-
         <title>Cafe Amazon ร้านกาแฟ ท่ามกลางบรรยากาศธรรมชาติ</title>
         <meta name="title" content="Caf? Amazon ร้านกาแฟ ท่ามกลางบรรยากาศธรรมชาติ">
         <meta name="description" content="ดั่งป่า Amazon ที่ให้ความชุ่มชื้น และมีความร่มรื่นของธรรมชาติอันประกอบด้วยแมกไม้และเสียงน้ำไหลที่ให้ความร่มเย็นเปรียบเหมือน oasis ให้ทุกคนได้แวะพัก เพื่อผ่อนคลาย แวะดื่มกาแฟ ท่ามกลางบรรยากาศเย็นสบายด้วยร่มไม้ล้อมรอบหรือเป็นจุดนัดพบของกลุ่มผู้บริโภครุ่นใหม่ที่นิยมดื่มกาแฟสดที่มีรสชาติอร่อยเข้มข้น">

@@ -22,7 +22,7 @@ jQuery(document).ready(function(){
     })
     .marker({
         position: amazonCafeCompany,
-        icon: "../images/icon_cup_coffee_map.png"
+        icon: "./images/icon_cup_coffee_map.png"
     }).infowindow({
         content: "สน. ปตท.สำนักงานใหญ่<br />555 ถ.วิภาวดีรังสิต จตุจักร กทม.<br />โทร. 0625945331"
     }).then(function (infowindow) {
@@ -55,7 +55,7 @@ jQuery(document).ready(function(){
                 })
                 .marker({
                     position: [getLat, getLng],
-                    icon: "../images/icon_cup_coffee_map.png"
+                    icon: "./images/icon_cup_coffee_map.png"
                 }).infowindow({
                     content: getText
                 }).then(function (infowindow) {

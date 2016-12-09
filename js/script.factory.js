@@ -4,8 +4,8 @@ jQuery(document).ready(function(){
 			$(".factory-pic-slide").owlCarousel({
 				navigation : true, // Show next and prev buttons
 				navigationText: [
-													"<img src='../images/icon_arrow_prev.png' />",
-													"<img src='../images/icon_arrow_next.png' />"
+													"<img src='./images/icon_arrow_prev.png' />",
+													"<img src='./images/icon_arrow_next.png' />"
 												],
 					autoPlay: 8000, //Set AutoPlay to 3 seconds
 					items : 3,

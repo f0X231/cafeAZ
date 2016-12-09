@@ -23,7 +23,7 @@
                 <li class="pushy-link pushy-link-submenu"><a href="training.php" class="bg_white">&#8226;&nbsp;ศูนย์ฝึกอบรม</a></li>
             </ul>
         </li>
-        <li class="pushy-link"><a href="tips.php">เกร็ดความรู้เรื่องกาแฟ</a></li>
+        <li class="pushy-link"><a href="tips.php">เกร็ดความรู้ เรื่องกาแฟ</a></li>
         <li class="pushy-link"><a href="contact.php">ติดต่อเรา</a></li>
     </ul>
     <div id="menu-footer-groups">
@@ -54,7 +54,7 @@
 <!-- Switch Language -->
 <div class="menu-switch-language">
     <div class="switch-language-facebook hide-for-small-only">
-        <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=#url">
+        <a target="_blank" href="http://www.facebook.com/cafeamazonbyptt/">
             <div class="menu_share_facebook"></div>
         </a>
     </div>

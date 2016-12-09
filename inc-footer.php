@@ -13,7 +13,7 @@
                 <li>&#8226; <a href="about.php">เกี่ยวกับ คาเฟ่ อเมซอน</a></li>
                 <li>&#8226; <a href="faq.php">คำถามที่พบบ่อย</a></li>
                 <li>&#8226; <a href="csr.php">ความรับผิดชอบต่อสังคม ชุมชน สิ่งแวดล้อม</a></li>
-                <li>&#8226; <a href="#" target="_blank">ติดตามเรา <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
+                <li>&#8226; <a href="http://www.facebook.com/cafeamazonbyptt/" target="_blank">ติดตามเรา <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
             </ul>
         </div>
     </div>

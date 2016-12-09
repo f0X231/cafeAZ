@@ -5,11 +5,14 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="images/favicon.ico">
-        <title>Amazon</title>
-
-	      <meta name="description" content="Amazon" />
-	      <meta name="keywords" content="Amazon" />
-	      <meta name="author" content="Amazon" />
+        <title>Cafe Amazon ร้านกาแฟ ท่ามกลางบรรยากาศธรรมชาติ</title>
+        <meta name="title" content="Caf? Amazon ร้านกาแฟ ท่ามกลางบรรยากาศธรรมชาติ">
+        <meta name="description" content="ดั่งป่า Amazon ที่ให้ความชุ่มชื้น และมีความร่มรื่นของธรรมชาติอันประกอบด้วยแมกไม้และเสียงน้ำไหลที่ให้ความร่มเย็นเปรียบเหมือน oasis ให้ทุกคนได้แวะพัก เพื่อผ่อนคลาย แวะดื่มกาแฟ ท่ามกลางบรรยากาศเย็นสบายด้วยร่มไม้ล้อมรอบหรือเป็นจุดนัดพบของกลุ่มผู้บริโภครุ่นใหม่ที่นิยมดื่มกาแฟสดที่มีรสชาติอร่อยเข้มข้น">
+        <meta name="keywords" content="Cafe Amazon ร้านกาแฟ ท่ามกลางบรรยากาศธรรมชาติ, Cafe Amazon, ร้านกาแฟ, คาเฟ่ อเมซอน, ศูนย์ธุรกิจคาเฟ่ อเมซอน, AICA, แฟรนไชส์, ดื่มกาแฟ, กาแฟ, กาแฟสด, ดื่มกาแฟ, coffee, coffee amazon,  global franchise, taste the difference, coffee, frappes, waffles, coffee franchise, franchise, ปตท, ป่า Amazon, แฟรนไชส์ อเมซอน, แฟรนไชส์ คาเฟ่ อเมซอน, franchise Cafe Amazon">
+        <meta property="og:title" content="Cafe Amazon ร้านกาแฟ ท่ามกลางบรรยากาศธรรมชาติ">
+        <meta property="og:description" content="Cafe Amazon ร้านกาแฟ ท่ามกลางบรรยากาศธรรมชาติ ดั่งป่า Amazon ที่ให้ความชุ่มชื้น และมีความร่มรื่นของธรรมชาติอันประกอบด้วยแมกไม้และเสียงน้ำไหลที่ให้ความร่มเย็นเปรียบเหมือน oasis ให้ทุกคนได้แวะพัก เพื่อผ่อนคลาย แวะดื่มกาแฟ ท่ามกลางบรรยากาศเย็นสบายด้วยร่มไม้ล้อมรอบหรือเป็นจุดนัดพบของกลุ่มผู้บริโภครุ่นใหม่ที่นิยมดื่มกาแฟสดที่มีรสชาติอร่อยเข้มข้น">
+        <meta property="og:site_name" content="Cafe Amazon">
+        <meta property="og:image" content="http://www.cafe-amazon.com/images/200x200px.jpg">
 
         <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="css/font.css">
