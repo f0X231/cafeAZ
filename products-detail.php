@@ -73,23 +73,29 @@
                             <div class="share-to-social">&nbsp;&nbsp;|&nbsp;&nbsp;</div>
                             <div class="share-to-social">
                                 <a target="_blank" href="https://twitter.com/share?url=http://luckywindmill.com/amazon/products-detail.php">
-                                    <div class="social-share ss-twitter"></div>
+                                    <!--div class="social-share ss-twitter"></div-->
+                                    <img src="images/icon-tw.png" class="social-share2" />
                                 </a>
                                 <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=luckywindmill.com/amazon/products-detail.php">
-                                    <div class="social-share ss-facebook"></div>
+                                    <!--div class="social-share ss-facebook"></div-->
+                                    <img src="images/icon-fb.png" class="social-share2" />
                                 </a>
                                 <a target="_blank" href="https://plus.google.com/share?url=luckywindmill.com/amazon/products-detail.php">
-                                    <div class="social-share ss-googleplus"></div>
+                                    <!--div class="social-share ss-googleplus"></div-->
+                                    <img src="images/icon-line.png" class="social-share2" />
                                 </a>
-                                <div class="social-share ss-print" onclick="window.print(); return false;"></div>
+                                <!--div class="social-share ss-print" onclick="window.print(); return false;"></div-->
+                                <a href="javascript:void(0);" onclick="window.print(); return false;">
+                                    <img src="images/icon-print.png" class="social-share2" />
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="products-other text-center">
-                        <a href="#"><img src="images/products_banner_other.png" width="100%" /></a>
+                        <a href="products.php"><img src="images/products_banner_other.png" width="100%" /></a>
                     </div>
                     <div class="products-other text-center">
-                        <a href="#"><img src="images/products_banner_coffee.png" width="100%" /></a>
+                        <a href="products.php"><img src="images/products_banner_coffee.png" width="100%" /></a>
                     </div>
                 </div>
             </div>

@@ -41,9 +41,15 @@
 <div class="menu-btn"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
 
 <!-- logo -->
-<div class="logo-of-website hide-for-small-only hide-for-medium-only"><img src="images/logo.png" alt="logo amazon cafe" /></div>
-<div class="logo-of-website-for-ipad show-for-medium-only"><img src="images/logo-for-ipad.png" alt="logo amazon cafe" /></div>
-<div class="logo-of-website-for-mobile show-for-small-only"><img src="images/logo-for-mobile.png" alt="logo amazon cafe" /></div>
+<div class="logo-of-website hide-for-small-only hide-for-medium-only">
+    <a href="index.php"><img src="images/logo.png" alt="logo amazon cafe" /></a>
+</div>
+<div class="logo-of-website-for-ipad show-for-medium-only">
+    <a href="index.php"><img src="images/logo-for-ipad.png" alt="logo amazon cafe" /></a>
+</div>
+<div class="logo-of-website-for-mobile show-for-small-only">
+    <a href="index.php"><img src="images/logo-for-mobile.png" alt="logo amazon cafe" /></a>
+</div>
 
 <!-- Switch Language -->
 <div class="menu-switch-language">

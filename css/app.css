@@ -608,6 +608,10 @@
               vertical-align: top;
               cursor: pointer;
           }
+          .social-share2  {
+              display: inline-block;
+              margin-top: -10px;
+          }
           .social-share  {
               display: inline-block;
               background-image: url('../images/products_social.png');

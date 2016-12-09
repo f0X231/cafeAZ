@@ -108,31 +108,31 @@
 
                             <li class="is-active orbit-slide">
                               <div class="video-container">
-                                  <iframe src="https://www.youtube.com/embed/fbUvjB7VZH8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                              </div>
-                            </li>
-                            <!--li class="orbit-slide">
-                              <div class="video-container">
-                                  <iframe src="https://www.youtube.com/embed/ztIYJVvH19I?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                  <iframe src="https://www.youtube.com/embed/fbUvjB7VZH8?rel=0&amp;showinfo=0&version=3&enablejsapi=1" id="amazon-vdo-1" class="amazon-vdo" frameborder="0" allowfullscreen></iframe>
                               </div>
                             </li>
                             <li class="orbit-slide">
                               <div class="video-container">
-                                  <iframe src="https://www.youtube.com/embed/YtElhYHlc2M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                  <iframe src="https://www.youtube.com/embed/ztIYJVvH19I?rel=0&amp;showinfo=0&version=3&enablejsapi=1" id="amazon-vdo-2" class="amazon-vdo" frameborder="0" allowfullscreen></iframe>
                               </div>
-                            </li-->
+                            </li>
+                            <li class="orbit-slide">
+                              <div class="video-container">
+                                  <iframe src="https://www.youtube.com/embed/YtElhYHlc2M?rel=0&amp;showinfo=0&version=3&enablejsapi=1" id="amazon-vdo-3" class="amazon-vdo" frameborder="0" allowfullscreen></iframe>
+                              </div>
+                            </li>
                         </ul>
 
-                        <!--nav class="orbit-bullets">
+                        <nav class="orbit-bullets">
                             <button class="is-active" data-slide="0"></button>
                             <button data-slide="1"></button>
                             <button data-slide="2"></button>
-                        </nav-->
+                        </nav>
                     </div>
                     <div class="fonts_dbadmanx fonts_size_txt_title text-center margin-bottom25 vdo-carousel-content">
                         <p class="vdo-content-0">TVC : Cafe Amazon "Wake up"</p>
-                        <!--p class="vdo-content-txt vdo-content-1">TVC : Cafe Amazon "Amazing Amazon"</p>
-                        <p class="vdo-content-txt vdo-content-2">TVC : Cafe Amazon "888"</p-->
+                        <p class="vdo-content-txt vdo-content-1">TVC : Cafe Amazon "Amazing Amazon"</p>
+                        <p class="vdo-content-txt vdo-content-2">TVC : Cafe Amazon "888"</p>
                     </div>
 
                 </div>
@@ -164,7 +164,7 @@
             <div class="row csr-content">
                 <div class="csr-detail">
 
-                    <h2 class="csr-txt csr-title margin-top25 margin-bottom25">วิจัยและพัฒนาการปลูกกาแฟ กับ<label>โครงการหลวงฯ</label></h2>
+                    <h2 class="csr-txt csr-title margin-top25 margin-bottom25">วิจัยและพัฒนาการปลูกกาแฟ กับ<label><a href="csr.php">โครงการหลวงฯ</a></label></h2>
                     <div class="csr-txt csr-overview">การมีส่วนร่วมฟื้นฟูและอนุรักษ์ทรัพยากรธรรมชาติ และสิ่งแวดล้อมของท้องถิ่นโดยเฉพาะป่าต้นน้ำ ในขณะเดียวกันคาเฟ่อเมซอนก็ได้วัตถุดิบเป็นเมล็ดกาแฟคุณภาพเพื่อผู้บริโภคที่มาใช้บริการ ...<a href="csr.php"><label>อ่านต่อ</label></a></div>
                 </div>
             </div>
@@ -178,21 +178,21 @@
             </div>
             <div class="row small-up-1 medium-up-3 large-up-3">
                 <div class="columns">
-                    <a href="#">
+                    <a href="news-details.php">
                         <p class="news-picture"><img src="images/news/news-pic-01.jpg" class="thumbnail" alt=""></p>
                         <p class="news-description">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
                         <p class="news-datetime">27 พฤษภาคม 2559</p>
                     </a>
                 </div>
                 <div class="columns">
-                    <a href="#">
+                    <a href="news-details.php">
                         <p class="news-picture"><img src="images/news/news-pic-02.jpg" class="thumbnail" alt=""></p>
                         <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
                         <p class="news-datetime">27 พฤษภาคม 2559</p>
                     </a>
                 </div>
                 <div class="columns">
-                    <a href="#">
+                    <a href="news-details.php">
                         <p class="news-picture"><img src="images/news/news-pic-03.jpg" class="thumbnail" alt=""></p>
                         <p class="news-description">Drive Awake application</p>
                         <p class="news-datetime">23 พฤษภาคม 2559</p>

@@ -16,9 +16,20 @@ $(document).ready(function() {
 
 	});
 
+
+	var getWidth = $(window).width();
+	var getHeight = $(window).height();
+
+	var paramMulti = 0.8;
+	if(getWidth < 641) {
+			if(getWidth > getHeight) {
+				var paramMulti = 1.5;
+			}
+	}
+
 	$('.slide-animation').DrSlider({
 			width: $(window).width(),
-			height: ($(window).height() * 0.8),
+			height: ($(window).height() * paramMulti),
 			transitionSpeed: 1500,
 			duration: 8000,
 			showProgress: false,
@@ -41,6 +52,10 @@ $(document).ready(function() {
 
 	$('.vdo-content-0').removeClass('vdo-content-txt');
 	$('.orbit').on('slidechange.zf.orbit', function() {
+
+				$('.amazon-vdo').each(function(){
+						this.contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*')
+				});
 
 				$('.vdo-carousel-content p').each(function(index) {
 							if(!$('.vdo-content-' + index).hasClass('vdo-content-txt')) {
