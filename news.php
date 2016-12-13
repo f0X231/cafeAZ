@@ -64,7 +64,7 @@
                         <div class="news-carousel news-content-1">
                             <a href="news-detail.php">
                                 <h2 class="fonts_dbadmanx fonts_size_txt_title no-margin-bottom">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน<br />Cafe Amazon Awake Award</h2>
-                                <p class="news-datetime-slide">27 พฤษภาคม 2559</p>
+                                <p class="news-datetime-slide">28 พฤษภาคม 2559</p>
                             </a>
                         </div>
                     </div>
@@ -161,7 +161,7 @@
                             <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
                                 <div class="row news-inline">
                                     <div class="columns small-12 medium-6 large-6 padding-zero">
-                                          <div class="amazon-csr-divleft news-divleft as-same-sa-height">
+                                          <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                               <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail no-margin-bottom" alt=""></a>
                                           </div>
                                     </div>
@@ -204,7 +204,7 @@
                           <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
                               <div class="row news-inline">
                                   <div class="columns small-12 medium-6 large-6 padding-zero">
-                                        <div class="amazon-csr-divleft news-divleft as-same-sa-height">
+                                        <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                             <a href="news-detail.php"><img src="images/news/news-pic-07.jpg" class="thumbnail no-margin-bottom" alt=""></a>
                                         </div>
                                   </div>
@@ -250,7 +250,7 @@
                             <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
                                 <div class="row news-inline">
                                     <div class="columns small-12 medium-6 large-6 padding-zero">
-                                          <div class="amazon-csr-divleft news-divleft as-same-sa-height">
+                                          <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                               <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail no-margin-bottom" alt=""></a>
                                           </div>
                                     </div>
@@ -293,7 +293,7 @@
                           <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
                               <div class="row news-inline">
                                   <div class="columns small-12 medium-6 large-6 padding-zero">
-                                        <div class="amazon-csr-divleft news-divleft as-same-sa-height">
+                                        <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                             <a href="news-detail.php"><img src="images/news/news-pic-07.jpg" class="thumbnail no-margin-bottom" alt=""></a>
                                         </div>
                                   </div>
@@ -339,7 +339,7 @@
                             <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
                                 <div class="row news-inline">
                                     <div class="columns small-12 medium-6 large-6 padding-zero">
-                                          <div class="amazon-csr-divleft news-divleft as-same-sa-height">
+                                          <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                               <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail no-margin-bottom" alt=""></a>
                                           </div>
                                     </div>
@@ -382,7 +382,7 @@
                           <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
                               <div class="row news-inline">
                                   <div class="columns small-12 medium-6 large-6 padding-zero">
-                                        <div class="amazon-csr-divleft news-divleft as-same-sa-height">
+                                        <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                             <a href="news-detail.php"><img src="images/news/news-pic-07.jpg" class="thumbnail no-margin-bottom" alt=""></a>
                                         </div>
                                   </div>
@@ -426,7 +426,6 @@
         <script src="js/what-input.js"></script>
         <script src="js/foundation.min.js"></script>
         <script src="js/pushy.min.js"></script>
-        <script src="js/jquery.devrama.slider.js"></script>
         <script src="js/jquery.matchHeight.js"></script>
         <script src="js/app.js"></script>
         <script src="js/script.news.js"></script>

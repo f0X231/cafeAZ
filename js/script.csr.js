@@ -32,6 +32,6 @@ jQuery(document).ready(function(){
 
 		});
 
-
+		$('.as-same-sa-height').matchHeight();
 
 });

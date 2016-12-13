@@ -54,7 +54,6 @@
         <script src="js/foundation.min.js"></script>
         <script src="js/pushy.min.js"></script>
         <script src="js/app.js"></script>
-        <script src="js/script.about.js"></script>
     </body>
 
 </html>

@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="columns small-12 medium-12 large-10 large-offset-1">
                     <div class="row">
-                        <div class="columns small-12 medium-4 large-4">
+                        <div class="columns small-12 medium-3 large-4">
                             <input type="text" name="search" id="search" class="search m_margintopbottom8" />
                         </div>
                         <div class="columns small-12 medium-3 large-3">
@@ -60,7 +60,7 @@
                                 <option>จตุจักต</option>
                             </select>
                         </div>
-                        <div class="columns small-12 medium-2 large-2"><button class="btn-aboutus">ค้นหา</button></div>
+                        <div class="columns small-12 medium-3 large-2"><button class="btn-aboutus">ค้นหา</button></div>
                     </div>
                 </div>
 
