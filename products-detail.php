@@ -83,8 +83,8 @@
                                     <!--div class="social-share ss-facebook"></div-->
                                     <img src="images/icon-fb.png" class="social-share2" />
                                 </a>
-                                <a target="_blank" href="https://plus.google.com/share?url=luckywindmill.com/amazon/products-detail.php">
-                                    <!--div class="social-share ss-googleplus"></div-->
+                                <a target="_blank" href="http://line.me/R/msg/text/?LINE%20it%21%0d%0ahttp%3a%2f%2fline%2enaver%2ejp%2f">
+                                    <!--div class="social-share ss-LINE"></div-->
                                     <img src="images/icon-line.png" class="social-share2" />
                                 </a>
                                 <!--div class="social-share ss-print" onclick="window.print(); return false;"></div-->

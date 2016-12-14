@@ -178,21 +178,21 @@
             </div>
             <div class="row small-up-1 medium-up-3 large-up-3">
                 <div class="columns">
-                    <a href="news-details.php">
+                    <a href="news-detail.php">
                         <p class="news-picture"><img src="images/news/news-pic-01.jpg" class="thumbnail" alt=""></p>
                         <p class="news-description">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
                         <p class="news-datetime">27 พฤษภาคม 2559</p>
                     </a>
                 </div>
                 <div class="columns">
-                    <a href="news-details.php">
+                    <a href="news-detail.php">
                         <p class="news-picture"><img src="images/news/news-pic-02.jpg" class="thumbnail" alt=""></p>
                         <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
                         <p class="news-datetime">27 พฤษภาคม 2559</p>
                     </a>
                 </div>
                 <div class="columns">
-                    <a href="news-details.php">
+                    <a href="news-detail.php">
                         <p class="news-picture"><img src="images/news/news-pic-03.jpg" class="thumbnail" alt=""></p>
                         <p class="news-description">Drive Awake application</p>
                         <p class="news-datetime">23 พฤษภาคม 2559</p>

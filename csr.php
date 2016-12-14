@@ -40,10 +40,10 @@
                     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                         <ul id="featured1" class="orbit-container">
                             <li class="is-active orbit-slide">
-                                <img class="orbit-image" src="images/csr/slide-csr.jpg" alt="CSR">
+                                <a href="csr-detail.php"><img class="orbit-image" src="images/csr/slide-csr.jpg" alt="CSR"></a>
                             </li>
                             <li class="orbit-slide">
-                                <img class="orbit-image" src="images/csr/slide-csr.jpg" alt="CSR">
+                                <a href="csr-detail.php"><img class="orbit-image" src="images/csr/slide-csr.jpg" alt="CSR"></a>
                             </li>
                         </ul>
 
@@ -55,12 +55,16 @@
 
                     <div class="news-carousel-content">
                         <div class="news-carousel news-content-0">
-                            <h2 class="fonts_dbadmanx fonts_size_txt_title no-margin-bottom">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน<br />Cafe Amazon Awake Award</h2>
-                            <p class="news-datetime-slide">27 พฤษภาคม 2559</p>
+							<a href="csr-detail.php">
+								<h2 class="fonts_dbadmanx fonts_size_txt_title no-margin-bottom">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน<br />Cafe Amazon Awake Award</h2>
+								<p class="news-datetime-slide">27 พฤษภาคม 2559</p>
+							</a>
                         </div>
                         <div class="news-carousel news-content-1">
-                            <h2 class="fonts_dbadmanx fonts_size_txt_title no-margin-bottom">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน<br />Cafe Amazon Awake Award</h2>
-                            <p class="news-datetime-slide">28 พฤษภาคม 2559</p>
+							<a href="csr-detail.php">
+								<h2 class="fonts_dbadmanx fonts_size_txt_title no-margin-bottom">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน<br />Cafe Amazon Awake Award</h2>
+								<p class="news-datetime-slide">28 พฤษภาคม 2559</p>
+							</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +80,7 @@
                   <div class="row small-up-1 medium-up-2 large-up-2 csr-page" id="csr-page-1">
                       <div class="columns text-right">
                           <div class="amazon-csr-divleft csr-inline">
-                              <a href="news-detail.php">
+                              <a href="csr-detail.php">
                                   <p class="news-picture"><img src="images/csr/csr-pic01.jpg" class="thumbnail" alt=""></p>
                                   <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
                                   <p class="news-datetime text-left">27 พฤษภาคม 2559</p>
@@ -86,7 +90,7 @@
 
                       <div class="columns text-left">
                           <div class="amazon-csr-divright csr-inline">
-                              <a href="news-detail.php">
+                              <a href="csr-detail.php">
                                   <p class="news-picture"><img src="images/csr/csr-pic02.jpg" class="thumbnail" alt=""></p>
                                   <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
                                   <p class="news-datetime">27 พฤษภาคม 2559</p>
@@ -102,12 +106,12 @@
                               <div class="row news-inline">
                                   <div class="columns small-12 medium-6 large-6 padding-zero">
                                         <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
-                                            <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail no-margin-bottom" alt=""></a>
+                                            <a href="csr-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail no-margin-bottom" alt=""></a>
                                         </div>
                                   </div>
                                   <div class="columns small-12 medium-6 large-6 padding-zero">
                                         <div class="amazon-csr-divright news-divright as-same-sa-height">
-                                            <a href="news-detail.php">
+                                            <a href="csr-detail.php">
                                                 <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
                                                 <p class="news-datetime">27 พฤษภาคม 2559</p>
                                                 <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
@@ -124,7 +128,7 @@
                   <div class="row small-up-1 medium-up-2 large-up-2 csr-page" id="csr-page-2">
                       <div class="columns text-right">
                           <div class="amazon-csr-divleft csr-inline">
-                              <a href="news-detail.php">
+                              <a href="csr-detail.php">
                                   <p class="news-picture"><img src="images/csr/csr-pic01.jpg" class="thumbnail" alt=""></p>
                                   <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
                                   <p class="news-datetime text-left">27 พฤษภาคม 2559</p>
@@ -134,7 +138,7 @@
 
                       <div class="columns text-left">
                           <div class="amazon-csr-divright csr-inline">
-                              <a href="news-detail.php">
+                              <a href="csr-detail.php">
                                   <p class="news-picture"><img src="images/csr/csr-pic02.jpg" class="thumbnail" alt=""></p>
                                   <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
                                   <p class="news-datetime">27 พฤษภาคม 2559</p>
@@ -147,12 +151,12 @@
 
                       <div class="columns">
                           <div class="amazon-csr-divleft">
-                              <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail" alt=""></a>
+                              <a href="csr-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail" alt=""></a>
                         </div>
                       </div>
                       <div class="columns">
                           <div class="amazon-csr-divright margin-top50">
-                              <a href="news-detail.php">
+                              <a href="csr-detail.php">
                                   <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
                                   <p class="news-datetime">27 พฤษภาคม 2559</p>
                                   <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
@@ -165,7 +169,7 @@
                   <div class="row small-up-1 medium-up-2 large-up-2 csr-page" id="csr-page-3">
                       <div class="columns text-right">
                           <div class="amazon-csr-divleft csr-inline">
-                              <a href="news-detail.php">
+                              <a href="csr-detail.php">
                                   <p class="news-picture"><img src="images/csr/csr-pic01.jpg" class="thumbnail" alt=""></p>
                                   <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
                                   <p class="news-datetime text-left">27 พฤษภาคม 2559</p>
@@ -175,7 +179,7 @@
 
                       <div class="columns text-left">
                           <div class="amazon-csr-divright csr-inline">
-                              <a href="news-detail.php">
+                              <a href="csr-detail.php">
                                   <p class="news-picture"><img src="images/csr/csr-pic02.jpg" class="thumbnail" alt=""></p>
                                   <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
                                   <p class="news-datetime">27 พฤษภาคม 2559</p>
@@ -188,12 +192,12 @@
 
                       <div class="columns">
                           <div class="amazon-csr-divleft">
-                              <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail" alt=""></a>
+                              <a href="csr-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail" alt=""></a>
                         </div>
                       </div>
                       <div class="columns">
                           <div class="amazon-csr-divright margin-top50">
-                              <a href="news-detail.php">
+                              <a href="csr-detail.php">
                                   <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
                                   <p class="news-datetime">27 พฤษภาคม 2559</p>
                                   <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>

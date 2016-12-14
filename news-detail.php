@@ -103,15 +103,21 @@
                             <div class="share-to-social">&nbsp;&nbsp;|&nbsp;&nbsp;</div>
                             <div class="share-to-social">
                                 <a target="_blank" href="https://twitter.com/share?url=http://luckywindmill.com/amazon/news-detail.php">
-                                    <div class="social-share ss-twitter"></div>
+                                    <!--div class="social-share ss-twitter"></div-->
+                                    <img src="images/icon-tw.png" class="social-share2" />
                                 </a>
                                 <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=luckywindmill.com/amazon/news-detail.php">
-                                    <div class="social-share ss-facebook"></div>
+                                    <!--div class="social-share ss-facebook"></div-->
+                                    <img src="images/icon-fb.png" class="social-share2" />
                                 </a>
-                                <a target="_blank" href="https://plus.google.com/share?url=luckywindmill.com/amazon/news-detail.php">
-                                    <div class="social-share ss-googleplus"></div>
+                                <a target="_blank" href="http://line.me/R/msg/text/?LINE%20it%21%0d%0ahttp%3a%2f%2fline%2enaver%2ejp%2f">
+                                    <!--div class="social-share ss-LINE"></div-->
+                                    <img src="images/icon-line.png" class="social-share2" />
                                 </a>
-                                <div class="social-share ss-print" onclick="window.print(); return false;"></div>
+                                <!--div class="social-share ss-print" onclick="window.print(); return false;"></div-->
+                                <a href="javascript:void(0);" onclick="window.print(); return false;">
+                                    <img src="images/icon-print.png" class="social-share2" />
+                                </a>
                             </div>
                         </div>
                     </div>

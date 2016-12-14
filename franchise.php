@@ -122,14 +122,14 @@
                                             <label class="fonts_dbadmanx fonts_size_txt_head weight_bold">ช่องทางการติดต่อ</label>
 
                                             <div class="row">
-                                                <div class="columns small-4 medium-4 large-4">
+                                                <div class="columns small-12 medium-4 large-4">
                                                     <input type="text" name="request_tel" id="request_tel" class="request_tel borderradius" maxlength="9" onkeypress="return isNumberKey(event)" />
                                                 </div>
-                                                <div class="columns small-4 medium-4 large-4">
+                                                <div class="columns small-12 medium-4 large-4">
                                                     <input type="text" name="request_phone" id="request_phone" class="request_tel borderradius displayInlineBlock" maxlength="10" onkeypress="return isNumberKey(event)" />
                                                     <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                 </div>
-                                                <div class="columns small-4 medium-4 large-4">
+                                                <div class="columns small-12 medium-4 large-4">
                                                     <input type="text" name="request_fax" id="request_fax" class="request_fax borderradius" maxlength="16" />
                                                 </div>
                                             </div>
@@ -146,11 +146,11 @@
                                                     <input type="radio" name="request_experience" id="request_experience_no" value="noexp" checked="checked" />&nbsp;&nbsp;
                                                     <label for="request_experience_no" class="fonts_cordiaupc fonts_size_txt_title">ไม่มีประสบการณ์</label>
                                                 </div>
-                                                <div class="columns small-4 medium-4 large-3 large-offset-1">
+                                                <div class="columns small-12 medium-4 large-3 large-offset-1">
                                                     <input type="radio" name="request_experience" id="request_experience_yes" value="hasexp" />&nbsp;&nbsp;
                                                     <label for="request_experience_yes" class="fonts_cordiaupc fonts_size_txt_title">มีประสบการณ์</label>
                                                 </div>
-                                                <div class="columns small-8 medium-8 large-8">
+                                                <div class="columns small-11 small-offset-1 medium-7 large-7">
                                                     <input type="text" name="request_experience_other" id="request_experience_other" class="request_experience_other borderradius" disabled="disabled" maxlength="180" />
                                                 </div>
                                             </div>
@@ -198,49 +198,49 @@
                                                   <label for="request_local_branch_th" class="fonts_cordiaupc fonts_size_txt_title">สาขาในประเทศไทย</label>
                                               </div>
 
-                                              <div class="columns small-4 medium-4 large-4">
+                                              <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_addr_no" id="request_addr_no" class="request_addr_no borderradius full-width" />
                                               </div>
-                                              <div class="columns small-4 medium-4 large-4">
+                                              <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_moo" id="request_moo" class="request_moo borderradius full-width" />
                                               </div>
-                                              <div class="columns small-4 medium-4 large-4">
+                                              <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_build" id="request_build" class="request_build borderradius full-width" />
                                               </div>
-                                              <div class="columns small-4 medium-4 large-4">
+                                              <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_floor" id="request_floor" class="request_floor borderradius full-width" />
                                               </div>
-                                              <div class="columns small-4 medium-4 large-4">
+                                              <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_room" id="request_room" class="request_room borderradius full-width" />
                                               </div>
-                                              <div class="columns small-4 medium-4 large-4">
+                                              <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_road" id="request_road" class="request_road borderradius full-width" />
                                               </div>
-                                              <div class="columns small-4 medium-4 large-4">
-                                                  <select name="select_province" id="select_province" class="minimal">
+                                              <div class="columns small-12 medium-4 large-4">
+                                                  <select name="select_province" id="select_province" class="minimal margin-top4m">
                                                       <option>จังหวัด</option>
                                                       <option>กรุงเทพ</option>
                                                       <option>นครปฐม</option>
                                                       <option>สมุทรปราการ</option>
                                                   </select>
                                               </div>
-                                              <div class="columns small-4 medium-4 large-4">
-                                                  <select name="select_district" id="select_district" class="minimal">
+                                              <div class="columns small-12 medium-4 large-4">
+                                                  <select name="select_district" id="select_district" class="minimal margin-top4m">
                                                       <option>อำเภอ</option>
                                                       <option>อำเภอ</option>
                                                       <option>อำเภอ</option>
                                                       <option>อำเภอ</option>
                                                   </select>
                                               </div>
-                                              <div class="columns small-4 medium-4 large-4">
-                                                  <select name="select_tumbon" id="select_tumbon" class="minimal">
+                                              <div class="columns small-12 medium-4 large-4">
+                                                  <select name="select_tumbon" id="select_tumbon" class="minimal margin-top4m">
                                                       <option>ตำบล</option>
                                                       <option>ตำบล</option>
                                                       <option>ตำบล</option>
                                                       <option>ตำบล</option>
                                                   </select>
                                               </div>
-                                              <div class="columns small-4 medium-4 large-4">
+                                              <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_postnumber" id="request_postnumber" class="request_postnumber borderradius full-width margin-top8" />
                                               </div>
                                               <div class="columns small-8 medium-8 large-8">&nbsp;</div>
@@ -253,7 +253,7 @@
                                                   <label for="request_local_branch_other" class="fonts_cordiaupc fonts_size_txt_title">สาขาต่างประเทศ</label>
                                               </div>
 
-                                              <div class="columns small-6 medium-6 large-6">
+                                              <div class="columns small-12 medium-6 large-6">
                                                   <select name="select_country" id="select_country" class="minimal" disabled="disabled">
                                                       <option>ประเทศ</option>
                                                       <option>ไทย</option>
@@ -261,8 +261,8 @@
                                                       <option>เมียนม่า</option>
                                                   </select>
                                               </div>
-                                              <div class="columns small-6 medium-6 large-6">
-                                                  <input type="text" name="request_city" id="request_city" class="request_city borderradius" disabled="disabled" />
+                                              <div class="columns small-12 medium-6 large-6">
+                                                  <input type="text" name="request_city" id="request_city" class="request_city borderradius margin-top4m full-width" disabled="disabled" />
                                               </div>
                                           </div>
                                       </div>
@@ -290,13 +290,13 @@
                                           </div>
                                       </div>
 
-                                      <div class="columns small-6 medium-6 large-6">
+                                      <div class="columns small-12 medium-6 large-6">
                                           <label class="fonts_dbadmanx fonts_size_txt_head weight_bold displayInlineBlock">พื้นที่ตารางเมตร
                                               <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label> :
                                           </label>
                                           <div><input type="text" name="request_area" id="request_area" class="request_area borderradius" /></div>
                                       </div>
-                                      <div class="columns small-6 medium-6 large-6">
+                                      <div class="columns small-12 medium-6 large-6">
                                           <label class="fonts_dbadmanx fonts_size_txt_head weight_bold displayInlineBlock">ค่าเช่าต่อเดือน (โดยประมาณ)
                                             <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">&nbsp;</label> :</label>
                                           <div>
@@ -320,13 +320,13 @@
                                                   </select>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <input type="text" name="request_name_place" id="request_name_place" class="request_name_place borderradius" />
+                                                  <input type="text" name="request_name_place" id="request_name_place" class="request_name_place borderradius full-width margin-top4m" />
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="text" name="request_lat" id="request_lat" class="request_lat borderradius full-width" />
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <input type="text" name="request_lng" id="request_lng" class="request_lng borderradius" />
+                                                  <input type="text" name="request_lng" id="request_lng" class="request_lng borderradius full-width" />
                                               </div>
 
                                             </div>

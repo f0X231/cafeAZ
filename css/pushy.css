@@ -218,7 +218,7 @@
     color: #fff;
     z-index: 231;
 }
-.menu-btn, .show-switch-language { color: #808080; }
+.menu-btn, .show-switch-language { color: #fefefe; }
 .menu-btn:hover, .show-switch-language:hover { color: #274b2b; }
 .menu-btn {
     cursor: pointer;

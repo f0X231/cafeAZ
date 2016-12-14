@@ -366,7 +366,9 @@ function checkFormStep02() {
 function validateInputFormStep03() {
 		$('.btn-confirm').click(function() {
 					popupAlert( "", "ขอบคุณสำหรับการสมัครแฟรนไชส์ คาเฟ่ อเมซอน<br />โดยท่านจะได้รับการตอบกลับทาง E-Mail ที่ท่านได้ระบุไว้ค่ะ");
+					return false;
 		});
+		return false;
 }
 
 function dateSelected() {
@@ -448,10 +450,13 @@ function checkClickCheckTab01() {
 }
 
 function checkClickCheckTab02() {
-			$("input[name='request_local_branch']").click(function() {
+			$("input[name='request_environment']").click(function() {
 					var env = this.value;
 
 					if(env == "other") {
+							$("#request_environment_other").prop('disabled', false);
+					}
+					else {
 							$("#request_environment_other").prop('disabled', true);
 					}
 			});
