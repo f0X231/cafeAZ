@@ -46,6 +46,8 @@ function selectTab02() {
 							$('#panel2').removeClass('is-active');
 							$('#panel3').removeClass('is-active');
 							$('#panel2').addClass('is-active');
+
+							return false;
 					});
 		});
 }
@@ -85,6 +87,7 @@ function selectTab03() {
 
 						return false;
 				});
+
 		});
 }
 
@@ -300,6 +303,8 @@ function validateInputFormStep02() {
 
 								return false;
 						});
+
+						return false;
 				}
 
 		});

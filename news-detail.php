@@ -36,7 +36,7 @@
         <!-- Slider -->
         <div class="news-slider">
             <div class="row">
-                <div class="columns small-10 medium-12 large-12">
+                <div class="columns small-12 medium-12 large-12">
                     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                         <ul class="orbit-container">
 

@@ -28,7 +28,7 @@ function nextpages() {
 		var currentPage = getParameterByName('pages');
 
 		if(!currentPage) 	location.href="?pages=1";
-		else 							location.href="?pages=" + (currentPage+1);
+		else 							location.href="?pages=" + (parseInt(currentPage)+1);
 }
 
 jQuery(document).ready(function(){

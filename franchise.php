@@ -53,7 +53,7 @@
             </div>
 
             <div class="row margin-top25">
-                <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2 ">
+                <div class="columns small-12 medium-10 medium-offset-1 large-10 large-offset-1">
                     <div class="row small-up-1 medium-up-3 large-up-3">
                         <div class="columns tabs-title tabs-title-01 is-active">
                             <a href="javascript:void(0);" id="panel-1">
@@ -414,20 +414,20 @@
                                               </div>
                                           </div>
                                           <div class="row">
-                                              <div class="columns small-12 medium-6 large-6">
+                                              <div class="columns small-12 medium-12 large-6">
                                                   <input type="checkbox" name="has_condo" id="has_condo" value="คอนโด อพาร์ทเม้นท์ หรือที่พักอาศัยอื่นๆ">&nbsp;&nbsp;
                                                   <label for="has_condo" class="fonts_cordiaupc fonts_size_txt_title displayInline">คอนโด อพาร์ทเม้นท์ หรือที่พักอาศัยอื่นๆ โปรดระบุชื่อ</label>
                                               </div>
-                                              <div class="columns small-12 medium-6 large-6">
+                                              <div class="columns small-12 medium-12 large-6">
                                                   <input type="text" name="has_condo_name" id="has_condo_name" class="has_condo_name borderradius" disabled="disabled" />
                                               </div>
                                           </div>
                                           <div class="row">
-                                              <div class="columns small-12 medium-6 large-6">
+                                              <div class="columns small-12 medium-12 large-6">
                                                   <input type="checkbox" name="has_university" id="has_university" value="สถานศึกษา">&nbsp;&nbsp;
                                                   <label for="has_university" class="fonts_cordiaupc fonts_size_txt_title displayInline">สถานศึกษา เช่น โรงเรียน มหาวิทยาลัย โปรดระบุชื่อ</label>
                                               </div>
-                                              <div class="columns small-12 medium-6 large-6">
+                                              <div class="columns small-12 medium-12 large-6">
                                                   <input type="text" name="has_university_name" id="has_university_name" class="has_university_name borderradius" disabled="disabled" />
                                               </div>
                                           </div>
@@ -450,11 +450,11 @@
                                               </div>
                                           </div>
                                           <div class="row">
-                                              <div class="columns small-12 medium-6 large-6">
+                                              <div class="columns small-12 medium-12 large-6">
                                                   <input type="checkbox" name="has_shortcut" id="has_shortcut" value="เส้นทางลัด">&nbsp;&nbsp;
                                                   <label for="has_shortcut" class="fonts_cordiaupc fonts_size_txt_title displayInline">เส้นทางลัด หรือ จุดแวะพัก โปรดระบุชื่อ</label>
                                               </div>
-                                              <div class="columns small-12 medium-6 large-6">
+                                              <div class="columns small-12 medium-12 large-6">
                                                   <input type="text" name="has_shortcut_name" id="has_shortcut_name" class="has_shortcut_name borderradius" disabled="disabled" />
                                               </div>
                                           </div>
@@ -497,18 +497,47 @@
                                       <div class="columns small-12 medium-12 large-12">
                                           <label class="fonts_dbadmanx fonts_size_txt_head displayInlineBlock">แนบไฟล์แผนที่แสดงที่ตั้งร้านและสถานที่สำคัญโดยรอบรัศมี 1 กิโลเมตร : </label>
                                           <label>แผนที่แสดงที่ตั้ง (ไฟล์ภาพนามสกุล .jpg , .png , .pdf ขนาดไม่เกิน 5 MB)</label>
-                                          <div id="upload_map" class="fs-upload-target"></div>
+                                          <!--div id="upload_map" class="fs-upload-target"></div-->
+                                          <div class="row">
+                                              <div class="columns small-12 medium-12 large-12">
+                                                  <div class="image-upload">
+                                                      <label for="file-input"><img src="images/icon_select_file.png" class="image-icon-input-file" /></label>
+                                                      <input id="file-input" type="file" />
+                                                  </div>
+                                              </div>
+                                          </div>
+
                                       </div>
 
                                       <div class="columns small-12 medium-12 large-12">
                                           <br />
                                           <label>ภาพถ่ายสถานที่สำคัญโดยรอบ (ไฟล์ภาพนามสุกล .jpg , .png , .pdf ขนาดไม่เกิน 5 MB)</label>
-                                          <div id="upload_file" class="fs-upload-target"></div>
+                                          <!--div id="upload_file" class="fs-upload-target"></div-->
+                                          <div class="image-upload">
+                                              <label for="file-input"><img src="images/icon_select_file.png" class="image-icon-input-file" /></label>
+                                              <input id="file-input" type="file" />
+                                          </div>
+                                          <div class="image-upload">
+                                              <label for="file-input"><img src="images/icon_select_file.png" class="image-icon-input-file" /></label>
+                                              <input id="file-input" type="file" />
+                                          </div>
+                                          <div class="image-upload">
+                                              <label for="file-input"><img src="images/icon_select_file.png" class="image-icon-input-file" /></label>
+                                              <input id="file-input" type="file" />
+                                          </div>
+                                          <div class="image-upload">
+                                              <label for="file-input"><img src="images/icon_select_file.png" class="image-icon-input-file" /></label>
+                                              <input id="file-input" type="file" />
+                                          </div>
+                                          <div class="image-upload">
+                                              <label for="file-input"><img src="images/icon_select_file.png" class="image-icon-input-file" /></label>
+                                              <input id="file-input" type="file" />
+                                          </div>
                                       </div>
 
                                       <div class="columns small-12 medium-12 large-12"><br /></div>
                                       <div class="columns small-12 medium-12 large-12 text-center">
-                                          <button class="btn-franchise-back btn-prev-panel1">กลับ</button>
+                                          <button class="btn-franchise-back btn-prev-panel1">กลับ</button><br class="show-for-small-only" />
                                           <button class="btn-aboutus btn-next-panel3">ถัดไป</button>
                                       </div>
                                   </div>
@@ -518,74 +547,74 @@
                                 <div class="row">
                                     <div class="columns small-12 medium-12 large-12">
                                           <div class="row padding-top50">
-                                                <div class="columns small-12 medium-6 large-6 text-right fonts_dbadmanx weight_bold">รายละเอียดผู้ยื่นคำร้อง</div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right fonts_size_txt_text fonts_dbadmanx weight_bold">รายละเอียดผู้ยื่นคำร้อง</div>
                                                 <div class="columns small-12 medium-6 large-6">&nbsp;</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">วันที่ยื่นคำร้อง : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">วันที่ยื่นคำร้อง : </div>
                                                 <div class="columns small-12 medium-6 large-6">25 ต.ค. 59</div>
 
                                                 <div class="columns small-12 medium-6 large-6 text-right">ประเภทผู้ปรกอบการ<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
                                                 <div class="columns small-12 medium-6 large-6">บุคคลธรรมดา<br />นายสรวิชย์ จันทร์เพียร</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ช่องทางการติดต่อ<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ช่องทางการติดต่อ<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
                                                 <div class="columns small-12 medium-6 large-6">0827812433</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ประสบการณ์ในการดำเนินธุรกิจร้านกาแฟ : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ประสบการณ์ในการดำเนินธุรกิจร้านกาแฟ : </div>
                                                 <div class="columns small-12 medium-6 large-6">ไม่มี</div>
                                           </div>
 
                                           <div class="row padding-top50">
-                                                <div class="columns small-12 medium-6 large-6 text-right text-right fonts_dbadmanx weight_bold">รายละเอียดพื้นที่</div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right fonts_size_txt_text fonts_dbadmanx weight_bold">รายละเอียดพื้นที่</div>
                                                 <div class="columns small-12 medium-6 large-6">&nbsp;</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ประเภทสถานีบริการ<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ประเภทสถานีบริการ<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
                                                 <div class="columns small-12 medium-6 large-6">นอกสถานีบริการ</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">สถานที่ตั้งร้าน : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">สถานที่ตั้งร้าน : </div>
                                                 <div class="columns small-12 medium-6 large-6">ในประเทศไทย<br />15 อาคาร Neumerlin ชั้น 8 ถนนประดิพัทธ์<br />แขวงสามเสนใน เขตพญาไท กรุงเทพมหานคร<br />10400</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ความเป็นเจ้าของพื้นที่<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ความเป็นเจ้าของพื้นที่<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
                                                 <div class="columns small-12 medium-6 large-6">เป็นเจ้าของพื้นที่</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">พื้ันที่ตารางเมตร<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">พื้ันที่ตารางเมตร<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
                                                 <div class="columns small-12 medium-6 large-6">30</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ค่าเช่าต่อเดือน (โดยประมาณ) : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ค่าเช่าต่อเดือน (โดยประมาณ) : </div>
                                                 <div class="columns small-12 medium-6 large-6">30,000 บาท</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">Location Type<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">Location Type<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
                                                 <div class="columns small-12 medium-6 large-6">-</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ละติจูด : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ละติจูด : </div>
                                                 <div class="columns small-12 medium-6 large-6">-</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ลองติจูด : </div>
-                                                <div class="columns small-12 medium-6 large-6 text-right">-</div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ลองติจูด : </div>
+                                                <div class="columns small-12 medium-6 large-6">-</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">สภาพแวดล้อมโดยรอบของสถานีที่ที่จะนำเสนอ : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">สภาพแวดล้อมโดยรอบของสถานีที่ที่จะนำเสนอ : </div>
                                                 <div class="columns small-12 medium-6 large-6">เป็นถนนสายหลัก</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ที่จอดรถ : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ที่จอดรถ : </div>
                                                 <div class="columns small-12 medium-6 large-6">มี</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">สถานที่โดยรอบรัศมี 1 กิโลเมตร : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">สถานที่โดยรอบรัศมี 1 กิโลเมตร : </div>
                                                 <div class="columns small-12 medium-6 large-6">ห้างสรรพสินค้า - บิ๊กซีสะพานควาย<br />ห้างสรรพสินค้า - เซนทรัลลาดพร้าว<br />คอนโด - ลุมพินี</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ปริมาณคนโดยเฉลี่ยต่อวัน : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ปริมาณคนโดยเฉลี่ยต่อวัน : </div>
                                                 <div class="columns small-12 medium-6 large-6">1,000 คน</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">หมายเหตุ : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">หมายเหตุ : </div>
                                                 <div class="columns small-12 medium-6 large-6">-</div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ภาพแผนที่แสดงตั้ง : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ภาพแผนที่แสดงตั้ง : </div>
                                                 <div class="columns small-12 medium-6 large-6"><a href="#" target="_blank">map01.gif</a></div>
 
-                                                <div class="columns small-12 medium-6 large-6 text-right">ภาพถ่ายสถานที่สำคัญโดยรอบ : </div>
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right">ภาพถ่ายสถานที่สำคัญโดยรอบ : </div>
                                                 <div class="columns small-12 medium-6 large-6"><a href="#" target="_blank">pic01.jpg</a><br /><a href="#" target="_blank">pic02.jpg</a></div>
                                           </div>
 
                                           <div class="row padding-top50">
-                                              <div class="columns small-12 medium-12 large-12 text-center">
+                                              <div class="columns small-12 medium-12 large-12 text-center fonts_size_txt_text">
                                                 รายละเอียดเพิ่มเติมสามารถติดต่อเจ้าหน้าที่ได้ที่<br />
                                                 โทร. <b>025372391</b> อีเมล์ <a href="mailto:"><b>franchiseamazon@pttplc.com</b></a>
                                               </div>
@@ -593,7 +622,7 @@
                                     </div>
 
                                     <div class="columns small-12 medium-12 large-12 text-center padding-top50">
-                                        <button class="btn-franchise-back btn-prev-panel2">กลับ</button>
+                                        <button class="btn-franchise-back btn-prev-panel2">กลับ</button><br class="show-for-small-only" />
                                         <button class="btn-aboutus btn-confirm">ส่งข้อมูล</button>
                                     </div>
 

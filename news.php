@@ -137,7 +137,7 @@
                   <div id="news-page-1" class="news-page">
                         <div class="row small-up-1 medium-up-2 large-up-2">
                             <div class="columns text-right">
-                                <div class="amazon-csr-divleft news-inline">
+                                <div class="amazon-csr-divleft news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-02.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
@@ -147,7 +147,7 @@
                             </div>
 
                             <div class="columns text-left">
-                                <div class="amazon-csr-divright news-inline">
+                                <div class="amazon-csr-divright news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-03.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
@@ -159,7 +159,7 @@
 
                         <div class="row margin-top50">
                             <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
-                                <div class="row news-inline">
+                                <div class="row news-inline-groups2">
                                     <div class="columns small-12 medium-6 large-6 padding-zero">
                                           <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                               <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail no-margin-bottom" alt=""></a>
@@ -170,7 +170,7 @@
                                               <a href="news-detail.php">
                                                   <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
                                                   <p class="news-datetime">27 พฤษภาคม 2559</p>
-                                                  <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
+                                                  <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue"><img src="images/icon_plus_readmore.png" /></lable></p>
                                               </a>
                                           </div>
                                     </div>
@@ -180,7 +180,7 @@
 
                         <div class="row small-up-1 medium-up-2 large-up-2 margin-top50">
                             <div class="columns text-right">
-                                <div class="amazon-csr-divleft news-inline">
+                                <div class="amazon-csr-divleft news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-04.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
@@ -190,7 +190,7 @@
                             </div>
 
                             <div class="columns text-left">
-                                <div class="amazon-csr-divright  news-inline">
+                                <div class="amazon-csr-divright  news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-05.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
@@ -202,7 +202,7 @@
 
                       <div class="row margin-top50">
                           <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
-                              <div class="row news-inline">
+                              <div class="row news-inline-groups2">
                                   <div class="columns small-12 medium-6 large-6 padding-zero">
                                         <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                             <a href="news-detail.php"><img src="images/news/news-pic-07.jpg" class="thumbnail no-margin-bottom" alt=""></a>
@@ -213,7 +213,7 @@
                                             <a href="news-detail.php">
                                                 <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
                                                 <p class="news-datetime">27 พฤษภาคม 2559</p>
-                                                <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
+                                                <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue"><img src="images/icon_plus_readmore.png" /></lable></p>
                                             </a>
                                         </div>
                                   </div>
@@ -226,7 +226,7 @@
                   <div id="news-page-2" class="news-page">
                         <div class="row small-up-1 medium-up-2 large-up-2">
                             <div class="columns text-right">
-                                <div class="amazon-csr-divleft news-inline">
+                                <div class="amazon-csr-divleft news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-02.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
@@ -236,7 +236,7 @@
                             </div>
 
                             <div class="columns text-left">
-                                <div class="amazon-csr-divright news-inline">
+                                <div class="amazon-csr-divright news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-03.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
@@ -248,7 +248,7 @@
 
                         <div class="row margin-top50">
                             <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
-                                <div class="row news-inline">
+                                <div class="row news-inline-groups2">
                                     <div class="columns small-12 medium-6 large-6 padding-zero">
                                           <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                               <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail no-margin-bottom" alt=""></a>
@@ -259,7 +259,7 @@
                                               <a href="news-detail.php">
                                                   <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
                                                   <p class="news-datetime">27 พฤษภาคม 2559</p>
-                                                  <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
+                                                  <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue"><img src="images/icon_plus_readmore.png" /></lable></p>
                                               </a>
                                           </div>
                                     </div>
@@ -269,7 +269,7 @@
 
                         <div class="row small-up-1 medium-up-2 large-up-2 margin-top50">
                             <div class="columns text-right">
-                                <div class="amazon-csr-divleft news-inline">
+                                <div class="amazon-csr-divleft news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-04.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
@@ -279,7 +279,7 @@
                             </div>
 
                             <div class="columns text-left">
-                                <div class="amazon-csr-divright  news-inline">
+                                <div class="amazon-csr-divright  news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-05.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
@@ -291,7 +291,7 @@
 
                       <div class="row margin-top50">
                           <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
-                              <div class="row news-inline">
+                              <div class="row news-inline-groups2">
                                   <div class="columns small-12 medium-6 large-6 padding-zero">
                                         <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                             <a href="news-detail.php"><img src="images/news/news-pic-07.jpg" class="thumbnail no-margin-bottom" alt=""></a>
@@ -302,7 +302,7 @@
                                             <a href="news-detail.php">
                                                 <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
                                                 <p class="news-datetime">27 พฤษภาคม 2559</p>
-                                                <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
+                                                <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue"><img src="images/icon_plus_readmore.png" /></lable></p>
                                             </a>
                                         </div>
                                   </div>
@@ -315,7 +315,7 @@
                   <div id="news-page-3" class="news-page">
                         <div class="row small-up-1 medium-up-2 large-up-2">
                             <div class="columns text-right">
-                                <div class="amazon-csr-divleft news-inline">
+                                <div class="amazon-csr-divleft news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-02.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
@@ -325,7 +325,7 @@
                             </div>
 
                             <div class="columns text-left">
-                                <div class="amazon-csr-divright news-inline">
+                                <div class="amazon-csr-divright news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-03.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
@@ -337,7 +337,7 @@
 
                         <div class="row margin-top50">
                             <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
-                                <div class="row news-inline">
+                                <div class="row news-inline-groups2">
                                     <div class="columns small-12 medium-6 large-6 padding-zero">
                                           <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                               <a href="news-detail.php"><img src="images/csr/csr-pic03.jpg" class="thumbnail no-margin-bottom" alt=""></a>
@@ -348,7 +348,7 @@
                                               <a href="news-detail.php">
                                                   <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
                                                   <p class="news-datetime">27 พฤษภาคม 2559</p>
-                                                  <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
+                                                  <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue"><img src="images/icon_plus_readmore.png" /></lable></p>
                                               </a>
                                           </div>
                                     </div>
@@ -358,7 +358,7 @@
 
                         <div class="row small-up-1 medium-up-2 large-up-2 margin-top50">
                             <div class="columns text-right">
-                                <div class="amazon-csr-divleft news-inline">
+                                <div class="amazon-csr-divleft news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-04.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description text-left">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน Cafe Amazon Awake Award</p>
@@ -368,7 +368,7 @@
                             </div>
 
                             <div class="columns text-left">
-                                <div class="amazon-csr-divright  news-inline">
+                                <div class="amazon-csr-divright  news-inline-groups">
                                     <a href="news-detail.php">
                                         <p class="news-picture"><img src="images/news/news-pic-05.jpg" class="thumbnail" alt=""></p>
                                         <p class="news-description">คาเฟ่ อเมซอนขอแสดงความยินดีกับทีม ThaiEverest 2016 ที่สามารถพิชิตยอดเขาเอเว...</p>
@@ -380,7 +380,7 @@
 
                       <div class="row margin-top50">
                           <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
-                              <div class="row news-inline">
+                              <div class="row news-inline-groups2">
                                   <div class="columns small-12 medium-6 large-6 padding-zero">
                                         <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
                                             <a href="news-detail.php"><img src="images/news/news-pic-07.jpg" class="thumbnail no-margin-bottom" alt=""></a>
@@ -391,7 +391,7 @@
                                             <a href="news-detail.php">
                                                 <p class="news-description">โครงการวิจัยและพัฒนาการปลูกและการผลิตกาแฟ<br />ระบบอนุรักษ์ทรัพยากรธรรมชาติ<br />เพื่อการพัฒนาที่ยั่งยืน</p>
                                                 <p class="news-datetime">27 พฤษภาคม 2559</p>
-                                                <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue">อ่านต่อ</lable></p>
+                                                <p class="news-content fonts_size_txt_text">ใช้พื้นที่ดำเนินงาน (โครงการนำร่อง) ในเขตรับผิดชอบของสถานีเกษตรหลวงอินทนนท์ ตำบนบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่ โดยแบ่งออกเป็น 2 พื้นที่ ...<label class="fonts_size_txt_text csr-continue"><img src="images/icon_plus_readmore.png" /></lable></p>
                                             </a>
                                         </div>
                                   </div>
@@ -404,14 +404,14 @@
 
 
 
-            <div class="columns small-10 medium-10 large-10 fonts_dbadmanx text-center margin-top50">
+            <div class="columns small-8 medium-10 large-10 fonts_dbadmanx text-center margin-top50">
                 <ul class="pagination" role="navigation" aria-label="Pagination">
                     <li class="current"><a href="?pages=1" aria-label="Page 1">1</a></li>
                     <li><a href="?pages=2" aria-label="Page 2">2</a></li>
                     <li><a href="?pages=3" aria-label="Page 3">3</a></li>
                 </ul>
             </div>
-            <div class="columns small-2 medium-2 large-2 fonts_dbadmanx text-center margin-top50">
+            <div class="columns small-4 medium-2 large-2 fonts_dbadmanx text-center margin-top50">
                 <div class="next_page" onclick="nextpages()">ถัดไป <img src="images/icon_next_cir.png" /></div>
             </div>
 

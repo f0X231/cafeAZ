@@ -5,7 +5,8 @@
     <div class="columns small-6 medium-4 large-2"><img src="images/footer-leaf.png" /></div>
 </div>
 <footer>
-    <div class="to-top show-for-small-only" onclick='$("html, body").animate({ scrollTop: 0 }, "slow")'><img src="images/icon_to_top.png" /></div>
+    <a href="javascript:void(0)" class="cd-top">Top</a>
+    <!--div class="to-top show-for-small-only" onclick='$("html, body").animate({ scrollTop: 0 }, "slow")'><img src="images/icon_to_top.png" /></div-->
 
     <div class="row footer-relate">
         <div class="columns small-12 medium-12 large-12 text-center">
