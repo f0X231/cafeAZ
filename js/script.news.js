@@ -31,6 +31,18 @@ function nextpages() {
 		else 							location.href="?pages=" + (parseInt(currentPage)+1);
 }
 
+function addNextPages() {
+		$('.add_news_pages').click(function() {
+				$.ajax({
+						url: "news-next-pages.php",
+						success: function(result) {
+								$(".news-container").append(result);
+								divSameHeight();
+						}
+				});
+		});
+}
+
 jQuery(document).ready(function(){
 
 		$('.news-content-0').removeClass('news-carousel');
@@ -49,5 +61,6 @@ jQuery(document).ready(function(){
 
 		openPages();
 		divSameHeight();
+		addNextPages();
 
 });

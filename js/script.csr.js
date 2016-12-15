@@ -1,3 +1,16 @@
+function addNextPages() {
+		$('.add_news_pages').click(function() {
+				$.ajax({
+						url: "csr-next-pages.php",
+						success: function(result) {
+								$(".csr-container").append(result);
+								$('.as-same-sa-height').matchHeight();
+						}
+				});
+		});
+}
+
+
 
 jQuery(document).ready(function(){
 
@@ -33,5 +46,6 @@ jQuery(document).ready(function(){
 		});
 
 		$('.as-same-sa-height').matchHeight();
+		addNextPages();
 
 });

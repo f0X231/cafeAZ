@@ -44,55 +44,88 @@
                             <li>
                                 <a class="expand">
                                     <div class="right-arrow"><img src="images/icon_down.png" /></div>
-                                    <div class="weight_bold">Q : Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                                    <div class="weight_bold">Q : สนใจจะทำธุรกิจแฟรนไชส์ร่วมกับ Café Amazon จะสามารถติดต่อขอข้อมูลและรายละเอียดเพิ่มเติมได้ที่ไหน?</div>
                                 </a>
                                 <div class="detail">
                                     <div id="faq-ans-left">A : </div>
-                                    <div id="faq-ans-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                    <div id="faq-ans-right">สามารถตรวจสอบรายละเอียดและขั้นตอนได้ <a href="franchise.php">ที่นี่</a> หรือส่งข้อมูลสอบถามมาที่ E-mail <a href="mailto:franchiseamazon@pttplc.com">franchiseamazon@pttplc.com</a>  และสอบถามเพิ่มเติมกับเจ้าหน้าที่ได้ที่เบอร์โทรศัพท์ 02-537-2391</div>
                                 </div>
                             </li>
 
                             <li>
                                 <a class="expand">
                                     <div class="right-arrow"><img src="images/icon_down.png" /></div>
-                                    <div class="weight_bold">Q : Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                                    <div class="weight_bold">Q : สนใจลงทุนธุรกิจแฟรนไชส์ของ Café Amazon ในต่างประเทศ จะสามารถติดต่อขอข้อมูลและรายละเอียดเพิ่มเติมได้ที่ไหน?  </div>
                                 </a>
                                 <div class="detail">
                                     <div id="faq-ans-left">A : </div>
-                                    <div id="faq-ans-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                    <div id="faq-ans-right">สามารถส่งข้อมูลสอบถามมาได้ที่ E-mail <a href="mailto:franchiseamazon@pttplc.com">franchiseamazon@pttplc.com</a> หรือสอบถามเพิ่มเติมกับเจ้าหน้าที่ได้ที่เบอร์โทรศัพท์ 02-537-2391</div>
                                 </div>
                             </li>
 
                             <li>
                                 <a class="expand">
                                     <div class="right-arrow"><img src="images/icon_down.png" /></div>
-                                    <div class="weight_bold">Q : Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                                    <div class="weight_bold">Q : สนใจจะสมัครงานเป็นพนักงานที่ร้าน Café Amazon จะสามารถติดต่อได้ที่ไหน?</div>
                                 </a>
                                 <div class="detail">
                                     <div id="faq-ans-left">A : </div>
-                                    <div id="faq-ans-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                    <div id="faq-ans-right">เนื่องจากธุรกิจ Café Amazon เป็นธุรกิจระบบแฟรนไชส์ หากท่านสนใจจะสมัครงานเป็นพนักงาน Café Amazon สามารถที่จะติดต่อสมัครโดยตรงกับทางสาขาที่ท่านสนใจได้เลย</div>
                                 </div>
                             </li>
 
                             <li>
                                 <a class="expand">
                                     <div class="right-arrow"><img src="images/icon_down.png" /></div>
-                                    <div class="weight_bold">Q : Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                                    <div class="weight_bold">Q : สนใจนำสินค้าหรือผลิตภัณฑ์มานำเสนอทาง Café Amazon จะต้องติดต่ออย่างไร?</div>
                                 </a>
                                 <div class="detail">
                                     <div id="faq-ans-left">A : </div>
-                                    <div id="faq-ans-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                    <div id="faq-ans-right">สามารถติดต่อได้ที่ส่วนบริหารการจัดหาและจัดส่ง Café Amazon เบอร์โทรศัพท์ 02-537-1325</div>
                                 </div>
                             </li>
 
                             <li>
                                 <a class="expand">
                                     <div class="right-arrow"><img src="images/icon_down.png" /></div>
-                                    <div class="weight_bold">Q : Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                                    <div class="weight_bold">Q : หากมีข้อเสนอแนะเกี่ยวกับสินค้า/บริการและคุณภาพของร้าน Café Amazon สามารถที่จะแนะนำหรือแสดงความคิดเห็นได้อย่างไร?</div>
                                 </a>
                                 <div class="detail">
                                     <div id="faq-ans-left">A : </div>
-                                    <div id="faq-ans-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                    <div id="faq-ans-right">ทาง Café Amazon ยินดีรับฟังข้อเสนอแนะจากลูกค้าทุกท่าน โดยสามารถแสดงความคิดเห็นผ่านทาง PTT Contact Center โทร. 1365</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a class="expand">
+                                    <div class="right-arrow"><img src="images/icon_down.png" /></div>
+                                    <div class="weight_bold">Q : ร้านกาแฟ Café Amazon มีสาขาอยู่ที่ไหนบ้าง?</div>
+                                </a>
+                                <div class="detail">
+                                    <div id="faq-ans-left">A : </div>
+                                    <div id="faq-ans-right">สามารถตรวจสอบสถานที่ตั้งของแต่ละสาขา คลิ๊ก <a href="search.php">ที่นี่</a> หรือ <a href="http://www.pttmap.com" target="_blank">www.pttmap.com</a></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a class="expand">
+                                    <div class="right-arrow"><img src="images/icon_down.png" /></div>
+                                    <div class="weight_bold">Q : เมื่อซื้อเครื่องดื่มของ Café Amazon สามารถใช้บัตร Blue Card เพื่อสะสมคะแนนได้หรือไม่?</div>
+                                </a>
+                                <div class="detail">
+                                    <div id="faq-ans-left">A : </div>
+                                    <div id="faq-ans-right">สามารถใช้บัตร Blue Card สะสมคะแนนได้ เมื่อซื้อสินค้าครบทุก 20 บาท รับคะแนนสะสม 1 คะแนน</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a class="expand">
+                                    <div class="right-arrow"><img src="images/icon_down.png" /></div>
+                                    <div class="weight_bold">Q : หากต้องการใช้คะแนนในบัตร Blue Card แลกซื้อเครื่องดื่มของร้าน Café Amazon สามารถทำได้หรือไม่?</div>
+                                </a>
+                                <div class="detail">
+                                    <div id="faq-ans-left">A : </div>
+                                    <div id="faq-ans-right">สามารถใช้คะแนนในบัตร Blue Card ใช้แทนเงินสดในการซื้อเครื่องดื่มของ Café Amazon ได้ โดยคะแนนสะสมทุก 100 คะแนน มีมูลค่าแทนเงินสด 20 บาท เช่น เครื่องดื่มราคา 60 บาท ลูกค้าต้องใช้คะแนน 300 คะแนน ในการแลก</div>
                                 </div>
                             </li>
 

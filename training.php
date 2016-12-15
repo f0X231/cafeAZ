@@ -31,7 +31,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/training/banner-training.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">ศูนย์ฝึกอบรม คาเฟ่ อเมซอน</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">ศูนย์ฝึกอบรมบาริสต้า</h1>
         </div>
 
         <!-- Slider -->
@@ -63,12 +63,9 @@
         <div class="training fonts_cordiaupc fonts_size_txt_text margin-top50 ">
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
-                    <h2 class="text-center fonts_dbadmanx fonts_size_txt_title">ศูนย์ฝึกอบรม คาเฟ่ อเมซอน<br />Cafe Amazon Coaching Academy</h2>
+                    <h2 class="text-center fonts_dbadmanx fonts_size_txt_title">ศูนย์ฝึกอบรมบาริสต้า<br />Training Center </h2>
 
-                    <div class="text-center">
-                      โรงคั่วกาแฟคาเฟ่ อเมซอน จัดตั้งเพื่อให้คนไทยได้รับบริการและดื่มกาแฟที่มีรสชาติตามมาตรฐานคาเฟ่อเมซอนในราคาที่เข้าถึงได้ และมีการใส่ใจในทุกขั้นตอนการผลิตตั้งแต่การคัดเลือกและรับซื้อเมล็ดกาแฟที่ได้คุณภาพเพื่อนำมาคั่วให้ได้ตามมาตรฐานที่ดีเยียม และนำไปผลิตเป็นเครื่องดื่มจนถึงมือลูกค้า โรงคั่วกาแฟคาเฟ่ อเมซอนเป็นโรงคั่วกาแฟที่ผ่านการรับรองระบบมาตรฐานวิธีการปฎิบัติที่ดี
-                      ในการผลิตอาหารตามมาตรฐานสากล (Good Manufacturing Practice: GMP Codex) มีกำลังการผลิต 2,700 ตันต่อปี
-                    </div>
+                    <div class="text-center">ศูนย์ฝึกอบรมบาริสต้า หรือ Training Center  ตั้งขึ้นเพื่ออบรมให้แก่เจ้าของหรือผู้บริหารร้านกาแฟ Café Amazon เพื่ออบรมทั้งภาคทฤษฎีและภาคปฏิบัติ รวมทั้งการอบรมการบริหารร้านอย่างมีประสิทธิภาพ นอกจากนี้เรายังมีหลักสูตรฝึกอบรม Re-Training สําหรับร้านที่เปิดดําเนินการขายไปแล้ว ทั้งนี้เพื่อให้ Café Amazon ทุกสาขาสามารถให้บริการอย่างมีมาตรฐานในระดับสากล ส่งต่อกาแฟคุณภาพดีถึงมือผู้บริโภค</div>
                 </div>
             </div>
 
@@ -81,7 +78,7 @@
                 <div class="item"><img src="images/training/carousel-training-03.jpg" alt="Cafe Amazon Coaching Academy"></div>
             </div>
 
-            <div class="row">
+            <!--div class="row">
                 <div class="columns small-12 medium-12 large-12">
                     <div class="news-detail-txt">
                         <p>เราเริ่มดูแลคุณภาพตั้งแต่การคัดสรรเมล็ดพันธุ์ที่อาราบิกาและโรบัสต้าถูกส่งมาจากแหล่งเพาะปลูกต่างๆ ในประเทศไทย ทั้งจากโครงการหลวงวิสาหกิจและสหกรณ์การเกษตรโดยมี เจ้าหน้าที่ตรวจสอบความสมบูรณ์ของถุงกระสอบ วัดค่าความชื่นตรวจนับตำหนิและวัดขนาดของเมล็ดกาแฟตามมาตรฐานที่โรงคั่วกาแฟได้กำหนดไว้</p>
@@ -104,7 +101,7 @@
                         <p>กาแฟที่บรรจุลงถุงเรียบร้อยแล้วจะถูกส่งมาชั่นน้ำหนักเพื่อตรวจสอบให้ได้มาตรฐานขั้นสุดท้ายก่อนจะถูกบรรจุลงกล่อง โดยบนกล่องจะต้องลงวันผลิต วันหมดอายุอีกครั้ง กล่องที่บรรจุถุงกาแฟจะถูกจัดเก็บด้วยระบบ FIFO First in First out ซึ่งเป็นระบบที่ใช้บริหารสต็อกสินค้า โดยสินค้าที่เข้าคลังก่อนจะถูกหมุนเวีนส่งออกก่อนเพื่อไปยังร้านกาแฟ Cafe Amazon สาขาต่างๆ ทั่วประเทศ</p>
                     </div>
                 </div>
-            </div>
+            </div-->
 
             <div class="row">
                 <div class="columns small-12 medium-12 large-12 fonts_dbadmanx">

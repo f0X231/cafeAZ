@@ -33,6 +33,7 @@
         .margin-top50 { margin-top: 50px; }
         .margin-bottom25 { margin-bottom: 25px; }
         .margin-bottom50 { margin-bottom: 50px; }
+        .margin-left50 { margin-left: 50px; }
         .no-margin-bottom { margin-bottom: 0px; }
         .padding-zero { padding: 0; }
         .padding-top50 { padding-top: 50px; }
@@ -115,6 +116,9 @@
         }
         .btn-inline span i { color: #808080; }
         .btn-inline span i:hover { color: #000000; }
+        .ul_middle_dot {
+            list-style-type: disc;
+        }
 
 
 /* Element */
@@ -537,6 +541,7 @@
               font-style: italic;
               color: #888888;
           }
+          .add_news_pages { cursor: pointer; }
 
 
 /* Products Pages */
@@ -1020,15 +1025,14 @@
               margin: 10px 0 10px 0px;
               display: none;
               line-height: 22px;
-              min-height: 150px;
+              min-height: 80px;
           }
           .detail a {
               text-decoration: none;
-              color: #C0392B;
-              border: 1px solid #C0392B;
+              color: #274b2b;
               padding: 6px 10px 5px;
-              font-size: 13px;
               margin-right: 7px;
+              font-weight: bold;
           }
 
 
