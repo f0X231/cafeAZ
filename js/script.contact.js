@@ -1,7 +1,6 @@
 jQuery(document).ready(function(){
 
-    var amazonCafeCompany = {lat: 13.819315, lng: 100.556816};
-
+    var amazonCafeCompany = {lat: 13.817832, lng: 100.558165};
     $('#googlemap').gmap3({
       center: amazonCafeCompany,
       zoom: 16,
