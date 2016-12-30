@@ -116,6 +116,7 @@ function validateInputFormStep01() {
 						var inputTel 						= $('#request_tel').val();
 						var inputPhone 					= $('#request_phone').val();
 						var inputFax 						= $('#request_fax').val();
+						var inputEMail 					= $('#request_email').val();
 
 						var inputEXP 						= $("input[name='request_experience']:checked").val();
 						var inputEXPOther 			= $('#request_experience_other').val();
@@ -193,6 +194,7 @@ function checkFormStep01() {
 			var inputTel 						= $('#request_tel').val();
 			var inputPhone 					= $('#request_phone').val();
 			var inputFax 						= $('#request_fax').val();
+			var inputEMail 					= $('#request_email').val();
 
 			var inputEXP 						= $("input[name='request_experience']:checked").val();
 			var inputEXPOther 			= $('#request_experience_other').val();
@@ -557,6 +559,7 @@ jQuery(document).ready(function(){
 			inputDefaultValue('request_phone', 'โทรศัพท์บ้าน');
 			inputDefaultValue('request_tel', 'โทรศัพท์มือถือ');
 			inputDefaultValue('request_fax', 'แฟกซ์');
+			inputDefaultValue('request_email', 'อีเมล์');
 			/* Tabs 2 */
 			inputDefaultValue('request_addr_no', 'เลขที่');
 			inputDefaultValue('request_moo', 'หมู่');
