@@ -119,6 +119,7 @@
         .ul_middle_dot {
             list-style-type: disc;
         }
+        .noactive { display: none; }
 
 
 /* Element */
