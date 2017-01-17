@@ -38,21 +38,21 @@
 
 
 <!-- Menu Button -->
-<div class="menu-btn noactive"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
+<div class="menu-btn"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
 
 <!-- logo -->
-<div class="logo-of-website hide-for-small-only hide-for-medium-only noactive">
+<div class="logo-of-website hide-for-small-only hide-for-medium-only">
     <a href="index.php"><img src="images/logo.png" alt="logo amazon cafe" /></a>
 </div>
-<div class="logo-of-website-for-ipad show-for-medium-only noactive">
+<div class="logo-of-website-for-ipad show-for-medium-only">
     <a href="index.php"><img src="images/logo-for-ipad.png" alt="logo amazon cafe" /></a>
 </div>
-<div class="logo-of-website-for-mobile show-for-small-only noactive">
+<div class="logo-of-website-for-mobile show-for-small-only">
     <a href="index.php"><img src="images/logo-for-mobile.png" alt="logo amazon cafe" /></a>
 </div>
 
 <!-- Switch Language -->
-<div class="menu-switch-language noactive">
+<div class="menu-switch-language">
     <div class="switch-language-facebook hide-for-small-only">
         <a target="_blank" href="http://www.facebook.com/cafeamazonbyptt/">
             <div class="menu_share_facebook"></div>

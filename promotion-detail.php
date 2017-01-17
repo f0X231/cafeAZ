@@ -114,7 +114,7 @@
                                 <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=luckywindmill.com/amazon/promotion-detail.php">
                                     <img src="images/icon-fb.png" class="social-share2" />
                                 </a>
-                                <a target="_blank" href="https://plus.google.com/share?url=luckywindmill.com/amazon/promotion-detail.php">
+                                <a target="_blank" href="http://line.me/R/msg/text/?LINE%20it%21%0d%0ahttp%3a%2f%2fline%2enaver%2ejp%2f">
                                     <img src="images/icon-line.png" class="social-share2" />
                                 </a>
                                 <a href="javascript:void(0);" onclick="window.print(); return false;">

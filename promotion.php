@@ -35,7 +35,7 @@
 
         <!-- Promotion -->
         <div class="promotion-page">
-          <div class="row small-up-1 medium-up-3 large-up-3">
+          <div class="row small-up-1 medium-up-2 large-up-3">
               <div class="columns">
                   <a href="promotion-detail.php">
                       <p class="promotion-picture text-center"><img src="images/promotion/promotion01.jpg" class="promotion-thumbnail" alt=""></p>
