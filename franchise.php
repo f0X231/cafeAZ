@@ -133,6 +133,11 @@
                                                     <input type="text" name="request_fax" id="request_fax" class="request_fax borderradius" maxlength="16" />
                                                 </div>
                                             </div>
+                                            <div class="row">
+                                              <div class="columns small-12 medium-4 large-4">
+                                                  <input type="text" name="request_email" id="request_email" class="request_email borderradius" maxlength="80" />
+                                              </div>
+                                            </div>
                                       </div>
 
                                       <div class="columns small-12 medium-12 large-12">&nbsp;</div>

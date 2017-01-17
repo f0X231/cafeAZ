@@ -25,7 +25,7 @@
 
     <body>
         <!-- Cover -->
-        <!--div class="overlay">
+        <div class="overlay">
             <div class="leaf-icon-click blink"><img src="images/icon_scroll.png" /></div>
             <div class="cover leaf01"></div>
             <div class="cover leaf02"></div>
@@ -33,7 +33,7 @@
             <div class="cover leaf04"></div>
             <div class="cover leaf05"></div>
             <div class="cover leaf06"></div>
-        </div-->
+        </div>
 
         <!-- MENU -->
         <?php include('inc-menu.php'); ?>

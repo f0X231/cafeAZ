@@ -14,6 +14,11 @@ $(document).ready(function() {
 				$('.overlay').hide();
   		}, 5000);
 
+			$('.menu-switch-language').removeClass('noactive');
+			$('.logo-of-website').removeClass('noactive');
+			$('.logo-of-website-for-ipad').removeClass('noactive');
+			$('.logo-of-website-for-mobile').removeClass('noactive');
+			$('.menu-btn').removeClass('noactive');
 	});
 
 

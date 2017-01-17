@@ -228,12 +228,15 @@
 
 
             <div class="columns small-8 medium-10 large-10 fonts_dbadmanx text-center margin-top50">
-                <img src="images/icon_plus_readmore.png" class="add_news_pages" />
-                <!--ul class="pagination" role="navigation" aria-label="Pagination">
+                <!-- for Mobile -->
+                <img src="images/icon_plus_readmore.png" class="add_news_pages show-for-small-only" />
+
+                <!-- for Desktop -->
+                <ul class="pagination hide-for-small-only" role="navigation" aria-label="Pagination">
                     <li class="current"><a href="?pages=1" aria-label="Page 1">1</a></li>
                     <li><a href="?pages=2" aria-label="Page 2">2</a></li>
                     <li><a href="?pages=3" aria-label="Page 3">3</a></li>
-                </ul-->
+                </ul>
             </div>
             <div class="columns small-4 medium-2 large-2 fonts_dbadmanx text-center margin-top50">
                 <div class="next_page" onclick="nextpages()">ถัดไป <img src="images/icon_next_cir.png" /></div>

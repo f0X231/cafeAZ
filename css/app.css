@@ -119,6 +119,7 @@
         .ul_middle_dot {
             list-style-type: disc;
         }
+        .noactive { display: none; }
 
 
 /* Element */
@@ -333,8 +334,10 @@
           }
           .cover {
               position: absolute;
-              width: 55%;
-              height: 55%;
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 100%;
+              height: 100%;
 
               -vendor-animation-delay: 5s;
           }
@@ -349,12 +352,12 @@
               z-index: 231;
               cursor: pointer;
           }
-          .leaf01 { left: 0; top: 0; z-index: 12; background: red; }
-          .leaf02 { left: 0; bottom: 0; z-index: 11; background: yellow; }
-          .leaf03 { left: 20%; bottom: 0; z-index: 13; background: gray; }
-          .leaf04 { right: 0; bottom: 0; z-index: 14; background: green; }
-          .leaf05 { right: 0; top: 0; z-index: 15; background: blue; }
-          .leaf06 { right: 20%; top: 0; z-index: 16; background: orange; }
+          .leaf01 { left: 0; top: 0; z-index: 15; background-image: url('../images/leaves2.png'); }
+          .leaf02 { left: 0; bottom: 0; z-index: 11; background-image: url('../images/leaves4.png');  }
+          .leaf03 { left: 0; bottom: 0; z-index: 13; background-image: url('../images/leaves6.png');  }
+          .leaf04 { right: 0; bottom: 0; z-index: 14; background-image: url('../images/leaves3.png');  }
+          .leaf05 { right: 0; top: 0; z-index: 16; background-image: url('../images/leaves1.png'); }
+          .leaf06 { right: 0; top: 0; z-index: 12; background-image: url('../images/leaves5.png');  }
           .overlay {
               -webkit-animation-duration: 5s;
               -moz-animation-duration: 5s;

@@ -126,12 +126,13 @@
               </div>
 
               <div class="columns small-12 medium-12 large-12 fonts_dbadmanx text-center margin-top50">
-                  <img src="images/icon_plus_readmore.png" class="add_news_pages" />
-                  <!--ul class="pagination" role="navigation" aria-label="Pagination">
+                  <img src="images/icon_plus_readmore.png" class="add_news_pages show-for-small-only" />
+
+                  <ul class="pagination hide-for-small-only" role="navigation" aria-label="Pagination">
                       <li class="current"><a href="?pages=1" aria-label="Page 1">1</a></li>
                       <li><a href="?pages=2" aria-label="Page 2">2</a></li>
                       <li><a href="?pages=3" aria-label="Page 3">3</a></li>
-                  </ul-->
+                  </ul>
               </div>
         </div>
 
