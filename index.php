@@ -25,7 +25,7 @@
 
     <body>
         <!-- Cover -->
-        <div class="overlay">
+        <div class="overlay noactive">
             <div class="leaf-icon-click blink"><img src="images/icon_scroll.png" /></div>
             <div class="cover leaf01"></div>
             <div class="cover leaf02"></div>
