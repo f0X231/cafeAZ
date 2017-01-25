@@ -6,8 +6,6 @@ $(window).load(function () {
 
 		if(playIntro) {
 				if(now > (Number(playIntro) + hours*60*60*1000)) {
-						$('.overlay').removeClass('noactive');
-
 						$('.menu-switch-language').addClass('noactive');
 						$('.logo-of-website').addClass('noactive');
 						$('.logo-of-website-for-ipad').addClass('noactive');
@@ -33,13 +31,18 @@ $(window).load(function () {
 								$('.logo-of-website-for-mobile').removeClass('noactive');
 								$('.menu-btn').removeClass('noactive');
 						});
+
+						localStorage.setItem(name, now);
 				}
 				else {
+						$('.overlay').addClass('noactive');
 						$('.overlay').hide();
 						localStorage.setItem(name, now);
 				}
 		}
 		else {
+				$('.overlay').addClass('noactive');
+				$('.overlay').hide();
 				localStorage.setItem(name, now);
 		}
 });

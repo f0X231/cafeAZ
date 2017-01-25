@@ -542,7 +542,9 @@
 
                                       <div class="columns small-12 medium-12 large-12"><br /></div>
                                       <div class="columns small-12 medium-12 large-12 text-center">
-                                          <button class="btn-franchise-back btn-prev-panel1">กลับ</button><br class="show-for-small-only" />
+                                          <button class="btn-franchise-back btn-prev-panel1">กลับ</button>
+                                          <br class="show-for-small-only" />
+                                          <br class="show-for-small-only" />
                                           <button class="btn-aboutus btn-next-panel3">ถัดไป</button>
                                       </div>
                                   </div>
