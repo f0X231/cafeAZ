@@ -24,8 +24,9 @@
     </head>
 
     <body>
+
         <!-- Cover -->
-        <div class="overlay">
+        <div class="overlay noactive">
             <div class="leaf-icon-click blink"><img src="images/icon_scroll.png" /></div>
             <div class="cover leaf01"></div>
             <div class="cover leaf02"></div>
@@ -212,7 +213,58 @@
         <script src="js/jquery.devrama.slider.js"></script>
         <script src="js/app.js"></script>
         <script src="js/script.index.js"></script>
+        <script>
+            $(window).load(function () {
+                var hours = 24; // Reset when storage is more than 24hours
+                var now = new Date().getTime();
+                var name = 'playIntro';
+                var playIntro = localStorage.getItem(name);
 
+                if(!playIntro) {
+                    if(now > (Number(playIntro) + hours*60*60*1000)) {
+                        console.log('bbbbbbbbbb');
+                        $('.overlay').removeClass('noactive');
+
+                        $('.menu-switch-language').addClass('noactive');
+                        $('.logo-of-website').addClass('noactive');
+                        $('.logo-of-website-for-ipad').addClass('noactive');
+                        $('.logo-of-website-for-mobile').addClass('noactive');
+                        $('.menu-btn').addClass('noactive');
+
+                        $('.overlay').on('click', function () {
+                            $('.leaf01').addClass('animated fadeOutUp');
+                            $('.leaf02').addClass('animated fadeOutLeft');
+                            $('.leaf03').addClass('animated fadeOutDown');
+                            $('.leaf04').addClass('animated fadeOutDown');
+                            $('.leaf05').addClass('animated fadeOutRight');
+                            $('.leaf06').addClass('animated fadeOutUp');
+                            $('.overlay').addClass('animated fadeOut');
+
+                            setTimeout(function() {
+                              $('.overlay').hide();
+                            }, 5000);
+
+                            $('.menu-switch-language').removeClass('noactive');
+                            $('.logo-of-website').removeClass('noactive');
+                            $('.logo-of-website-for-ipad').removeClass('noactive');
+                            $('.logo-of-website-for-mobile').removeClass('noactive');
+                            $('.menu-btn').removeClass('noactive');
+                        });
+
+                        localStorage.setItem(name, now);
+                    }
+                    else {
+                        console.log('cccccccccccc');
+                        $('.overlay').hide();
+                        localStorage.setItem(name, now);
+                    }
+                }
+                else {
+                    $('.overlay').hide();
+                    localStorage.setItem(name, now);
+                }
+            });
+        </script>
     </body>
 
 </html>
