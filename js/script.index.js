@@ -1,3 +1,11 @@
+var defaultWidth = $(window).width();
+
+$(window).resize(function(){
+		if($(window).width()==defaultWidth)
+				return;
+
+		window.location.href = window.location.href;
+});
 
 $(document).ready(function() {
 
@@ -11,9 +19,6 @@ $(document).ready(function() {
 			}
 	}
 
-	$(window).resize(function(){
-			window.location.href = window.location.href;
-	});
 	$('.slide-animation').DrSlider({
 			width: $(window).width(),
 			height: ($(window).height() * paramMulti),

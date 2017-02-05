@@ -22,7 +22,7 @@ function menuGroups() {
 				$('body').removeClass('pushy-open-left');
 		});
 
-		if(deviceHeight >= 600) {
+		if(deviceHeight >= 640) {
 				$('#menu-footer-groups').addClass('menu-footer-groups');
 		}
 }

@@ -1168,6 +1168,9 @@
 /* Media Query */
 /* Small screens : max-width 640px, mobile-only styles, use when QAing mobile issues  */
 @media only screen and (max-width: 40em) {
+    body {
+      background-image: url('../images/bg_mobile.jpg');
+    }
     .margin-top4m { margin-top: 4px; }
     .fonts_size_slide_title {
         font-size: 2.125em;
