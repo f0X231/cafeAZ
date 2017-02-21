@@ -9,10 +9,10 @@
 		  <title></title>
 		  <meta name="description" content="">
 		  <meta name="viewport" content="width=device-width, initial-scale=1">
-		  
+
 		  <!-- Twitter Boostrap for Demo -->
 		  <link rel="stylesheet" href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		  
+
 		<style>
 			.container { position: relative }
 			.background-video {
@@ -69,19 +69,25 @@
 				padding: 0 30px 0 30px;
 				margin: 30px auto;
 			}
-			
+
 			#logo {
 				position: absolute;
 				top: 2%;
 				left: 2%;
+				z-index: 99;
 			}
 			#vidtop-content {
+				z-index: 100;
+				position: absolute;
 				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 67px;
 			}
-			.vid-info { 
-				position: absolute; 
-				bottom: 0; 
-				right: 0; 
+			.vid-info {
+				position: absolute;
+				bottom: 0;
+				right: 0;
 				width: 100%;
 				text-align: center;
 
@@ -89,17 +95,20 @@
 				background-repeat: repeat-x;
 				background-size: cover;
 			}
-			.vid-info a { 
-				display: block; 
-				text-decoration: none; 
-				text-align: center; 
+			.vid-info a {
+				display: block;
+				text-decoration: none;
+				text-align: center;
 				background-image: url('images/bg_goto_website.png');
 				background-repeat: no-repeat;
 				width: 118px;
 				height: 67px;
 				margin: 0 auto;
 			}
-			.icon_goto_home {	padding-top: 38px; }
+			.icon_goto_home {
+				padding-top: 38px;
+				z-index: 101;
+			}
 			.icon_sound {
 				position: absolute;
 				bottom: 8px;
@@ -115,30 +124,29 @@
 			}
 		</style>
 	</head>
-	
+
 	<body>
 
 		<div id="background-video" class="background-video">
-			<img src="images/bg_cover.jpg" alt="" class="placeholder-image">
+				<img src="images/bg_cover.jpg" alt="" class="placeholder-image hidden-xs">
+				<img src="images/bg_cover_mobile.jpg" alt="" class="placeholder-image visible-xs-block">
 		</div>
 
 		<div id="logo"><img src="images/logo_cover.png" /></div>
 		<div id="vidtop-content">
 			<div class="vid-info">
-	  			<a href="index.html">
-					<img src="images/text_goto_website.png" class="icon_goto_home" />
-				</a>
+	  			<a href="index.php"><img src="images/text_goto_website.png" class="icon_goto_home" /></a>
  			 </div>
 		</div>
 		<!--div class="icon_sound"></div-->
-	 
+
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<!-- ADD Jquery Video Background -->
 		<script src="js/jquery.youtubebackground.js"></script>
 		<script>
 			jQuery(function($) {
-				$('#module-video').YTPlayer({
-					
+				/*$('#module-video').YTPlayer({
+
 												fitToBackground: false,
 												videoId: 'CZIMUEcQyrQ',
 												mute: false,
@@ -152,29 +160,38 @@
 													rel: 0,
 													autohide: 0
 												}
-											});
-			  
+											});*/
+
 				$('#background-video').YTPlayer({
 					fitToBackground: true,
 					videoId: 'CZIMUEcQyrQ',
 					mute: false,
 					pauseOnScroll: true,
+					playerVars: {
+						modestbranding: 0,
+						autoplay: 1,
+						controls: 1,
+						showinfo: 0,
+						branding: 0,
+						rel: 0,
+						autohide: 0
+					},
 					callback: function() {
 						videoCallbackEvents();
 					}
 				});
-			  
+
 				var videoCallbackEvents = function() {
 					var player = $('#background-video').data('ytPlayer').player;
-			  
+
 					player.addEventListener('onStateChange', function(event){
 						console.log("Player State Change", event);
 
 						// OnStateChange Data
-						if (event.data === 0) {          
+						if (event.data === 0) {
 							console.log('video ended');
 						}
-						else if (event.data === 2) {          
+						else if (event.data === 2) {
 							console.log('paused');
 						}
 					});
