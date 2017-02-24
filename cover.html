@@ -12,6 +12,7 @@
 
 		  <!-- Twitter Boostrap for Demo -->
 		  <link rel="stylesheet" href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/universal_video_background.css">
 
 		<style>
 			.container { position: relative }
@@ -127,10 +128,17 @@
 
 	<body>
 
-		<div id="background-video" class="background-video">
+		<!--div id="background-video" class="background-video">
 				<img src="images/bg_cover.jpg" alt="" class="placeholder-image hidden-xs">
 				<img src="images/bg_cover_mobile.jpg" alt="" class="placeholder-image visible-xs-block">
-		</div>
+		</div-->
+		<div id="universal_video_background_default" style="display:none;">
+        	<!-- IMAGES -->
+          <ul class="universal_video_background_list">
+              <li data-bottom-thumb="images/bg_cover.jpg" data-youtube="CZIMUEcQyrQ"></li>
+              <li data-bottom-thumb="images/bg_cover_mobile.jpg" data-youtube="CZIMUEcQyrQ"></li>
+      		</ul>
+    </div>
 
 		<div id="logo"><img src="images/logo_cover.png" /></div>
 		<div id="vidtop-content">
@@ -142,61 +150,38 @@
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<!-- ADD Jquery Video Background -->
-		<script src="js/jquery.youtubebackground.js"></script>
+		<!--script src="js/jquery.youtubebackground.js"></script-->
+		<script src="js/universal_video_background.js"></script>
 		<script>
-			jQuery(function($) {
-				/*$('#module-video').YTPlayer({
+				jQuery(function() {
 
-												fitToBackground: false,
-												videoId: 'CZIMUEcQyrQ',
-												mute: false,
-												pauseOnScroll: false,
-												playerVars: {
-													modestbranding: 0,
-													autoplay: 1,
-													controls: 1,
-													showinfo: 0,
-													branding: 0,
-													rel: 0,
-													autohide: 0
-												}
-											});*/
+							jQuery('#universal_video_background_default').universal_video_background({
+									width: 1920,
+									height: 1200,
+									autoPlayFirstVideo:true,
+									width100Proc:true,
+									height100Proc:true,
+									responsive:true,
+									setAsBg:true,
+									showVideoControls:false,
+									showBottomNav:false,
+									showOnInitBottomNav:false,
+									autoHideBottomNav:true,
+									bottomNavPos:'right', //left/center/right
+									bottomNavLateralMargin:3,
 
-				$('#background-video').YTPlayer({
-					fitToBackground: true,
-					videoId: 'CZIMUEcQyrQ',
-					mute: false,
-					pauseOnScroll: true,
-					playerVars: {
-						modestbranding: 0,
-						autoplay: 1,
-						controls: 1,
-						showinfo: 0,
-						branding: 0,
-						rel: 0,
-						autohide: 0
-					},
-					callback: function() {
-						videoCallbackEvents();
-					}
+									borderWidth: 0,
+									borderColor: '#FFFFFF',
+
+									//texturePath:'skins/patternFullScreenBg_2.png',
+
+									thumbsBorderColorON:'#FF0000',
+									thumbsBorderColorOFF:'#000000',
+									thumbsWrapperBg:'transparent', //hexa or image
+									thumbsBgOffImgOpacity:30,
+									thumbsWrapperMarginTop:40
+							});
 				});
-
-				var videoCallbackEvents = function() {
-					var player = $('#background-video').data('ytPlayer').player;
-
-					player.addEventListener('onStateChange', function(event){
-						console.log("Player State Change", event);
-
-						// OnStateChange Data
-						if (event.data === 0) {
-							console.log('video ended');
-						}
-						else if (event.data === 2) {
-							console.log('paused');
-						}
-					});
-				}
-			});
 		</script>
 	</body>
 </html>

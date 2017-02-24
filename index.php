@@ -77,7 +77,14 @@
                 <div class="columns small-12 medium-6 large-6 text-center color_white franchise-txt">
                     <h2 class="fonts_dbadmanx fonts_size_title">แฟรนไชส์</h2>
                     <div class="franchise-txt-detail">การมีส่วนร่วมฟื้นฟูและอนุรักษ์ทรัพยากรธรรมชาติ และสิ่งแวดล้อมของท้องถิ่นโดยเฉพาะต้นน้ำ ในขณะเดียวกันคาเฟอเมซอนก็จะได้วัตถุดิบ เป็นเมล็ดกาแฟคุณภาพเพื่อผู้บริโภคที่มาใช้บริการ และผู้บริโภคก็ยังมีส่วนช่วยสนับสนุนเกษตรไทยให้มีสภาพความเป็นอยู่ที่ดีขึ้นอีกด้วย</div>
-                    <div><a href="franchise.php"><button class="btn-franchise">สมัครแฟรนไชน์</button></a></div>
+                    <div class="row">
+                      <div class="columns small-12 medium-6 large-6 text-center margin-top8">
+                        <a href="vars/pdf/register.pdf" target="_blank"><button class="btn-franchise">&nbsp;&nbsp;&nbsp;ใบสมัครแฟรนไชส์&nbsp;&nbsp;&nbsp;</button></a>
+                      </div>
+                      <div class="columns small-12 medium-6 large-6 text-center margin-top8">
+                        <a href="vars/pdf/howto.pdf"target="_blank"><button class="btn-franchise">ขั้นตอนการยื่นคำร้อง</button></a>
+                      </div>
+                    </div>
                 </div>
                 <div class="columns"></div>
             </div>
