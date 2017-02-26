@@ -556,8 +556,8 @@ jQuery(document).ready(function(){
 			inputDefaultValue('request_username', 'ชื่อ');
 			inputDefaultValue('request_surname', 'นามสกุล');
 			inputDefaultValue('request_company_name', 'ชื่อนิติบุคคล');
-			inputDefaultValue('request_phone', 'โทรศัพท์บ้าน');
-			inputDefaultValue('request_tel', 'โทรศัพท์มือถือ');
+			inputDefaultValue('request_phone', 'โทรศัพท์มือถือ');
+			inputDefaultValue('request_tel', 'โทรศัพท์บ้าน');
 			inputDefaultValue('request_fax', 'แฟกซ์');
 			inputDefaultValue('request_email', 'อีเมล์');
 			/* Tabs 2 */

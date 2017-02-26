@@ -90,7 +90,8 @@
                                       <div class="columns small-12 medium-4 large-4">&nbsp;</div>
 
                                       <div class="columns small-12 medium-12 large-12">
-                                          <label class="fonts_dbadmanx fonts_size_txt_head weight_bold">ประเภทผุ้ประกอบการ</label>
+                                          <label class="fonts_dbadmanx fonts_size_txt_head weight_bold displayInlineBlock">ประเภทผุ้ประกอบการ</label>
+                                          <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                       </div>
 
                                       <div class="columns small-12 medium-12 large-12">
@@ -100,10 +101,13 @@
                                                   <label for="type_of_company1" class="fonts_cordiaupc fonts_size_txt_title">บุคคลธรรมดา</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_username" id="request_username" class="request_username borderradius" maxlength="50" />
+                                                  <input type="text" name="request_username" id="request_username" class="request_username borderradius displayInlineBlock" maxlength="50" />
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
+
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                    <input type="text" name="request_surname" id="request_surname" class="request_surname borderradius" maxlength="50" />
+                                                  <input type="text" name="request_surname" id="request_surname" class="request_surname borderradius displayInlineBlock" maxlength="50" />
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                               </div>
                                           </div>
                                           <div class="row">
@@ -119,15 +123,16 @@
                                       </div>
 
                                       <div class="columns small-12 medium-12 large-12">
-                                            <label class="fonts_dbadmanx fonts_size_txt_head weight_bold">ช่องทางการติดต่อ</label>
+                                            <label class="fonts_dbadmanx fonts_size_txt_head weight_bold displayInlineBlock">ช่องทางการติดต่อ</label>
+                                            <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
 
                                             <div class="row">
                                                 <div class="columns small-12 medium-4 large-4">
-                                                    <input type="text" name="request_tel" id="request_tel" class="request_tel borderradius" maxlength="9" onkeypress="return isNumberKey(event)" />
+                                                    <input type="text" name="request_phone" id="request_phone" class="request_phone borderradius displayInlineBlock" maxlength="10" onkeypress="return isNumberKey(event)" />
+                                                    <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                 </div>
                                                 <div class="columns small-12 medium-4 large-4">
-                                                    <input type="text" name="request_phone" id="request_phone" class="request_tel borderradius displayInlineBlock" maxlength="10" onkeypress="return isNumberKey(event)" />
-                                                    <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
+                                                    <input type="text" name="request_tel" id="request_tel" class="request_tel borderradius" maxlength="9" onkeypress="return isNumberKey(event)" />
                                                 </div>
                                                 <div class="columns small-12 medium-4 large-4">
                                                     <input type="text" name="request_fax" id="request_fax" class="request_fax borderradius" maxlength="16" />
@@ -204,49 +209,55 @@
                                               </div>
 
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_addr_no" id="request_addr_no" class="request_addr_no borderradius full-width" />
+                                                  <input type="text" name="request_addr_no" id="request_addr_no" class="request_addr_no borderradius full-width-width-dot displayInlineBlock" />
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_moo" id="request_moo" class="request_moo borderradius full-width" />
+                                                  <input type="text" name="request_moo" id="request_moo" class="request_moo borderradius full-width-width-dot" />
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_build" id="request_build" class="request_build borderradius full-width" />
+                                                  <input type="text" name="request_build" id="request_build" class="request_build borderradius full-width-width-dot" />
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_floor" id="request_floor" class="request_floor borderradius full-width" />
+                                                  <input type="text" name="request_floor" id="request_floor" class="request_floor borderradius full-width-width-dot" />
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_room" id="request_room" class="request_room borderradius full-width" />
+                                                  <input type="text" name="request_room" id="request_room" class="request_room borderradius full-width-width-dot" />
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_road" id="request_road" class="request_road borderradius full-width" />
+                                                  <input type="text" name="request_road" id="request_road" class="request_road borderradius full-width-width-dot displayInlineBlock" />
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <select name="select_province" id="select_province" class="minimal margin-top4m">
+                                                  <select name="select_province" id="select_province" class="minimal margin-top4m displayInlineBlock full-width-width-dot">
                                                       <option>จังหวัด</option>
                                                       <option>กรุงเทพ</option>
                                                       <option>นครปฐม</option>
                                                       <option>สมุทรปราการ</option>
                                                   </select>
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <select name="select_district" id="select_district" class="minimal margin-top4m">
+                                                  <select name="select_district" id="select_district" class="minimal margin-top4m displayInlineBlock full-width-width-dot">
                                                       <option>อำเภอ</option>
                                                       <option>อำเภอ</option>
                                                       <option>อำเภอ</option>
                                                       <option>อำเภอ</option>
                                                   </select>
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <select name="select_tumbon" id="select_tumbon" class="minimal margin-top4m">
+                                                  <select name="select_tumbon" id="select_tumbon" class="minimal margin-top4m displayInlineBlock full-width-width-dot">
                                                       <option>ตำบล</option>
                                                       <option>ตำบล</option>
                                                       <option>ตำบล</option>
                                                       <option>ตำบล</option>
                                                   </select>
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_postnumber" id="request_postnumber" class="request_postnumber borderradius full-width margin-top8" />
+                                                  <input type="text" name="request_postnumber" id="request_postnumber" maxlength="5" class="request_postnumber borderradius full-width-width-dot margin-top8 displayInlineBlock" />
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                               </div>
                                               <div class="columns small-8 medium-8 large-8">&nbsp;</div>
                                           </div>
@@ -299,7 +310,10 @@
                                           <label class="fonts_dbadmanx fonts_size_txt_head weight_bold displayInlineBlock">พื้นที่ตารางเมตร
                                               <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label> :
                                           </label>
-                                          <div><input type="text" name="request_area" id="request_area" class="request_area borderradius" /></div>
+                                          <div>
+                                              <input type="text" name="request_area" id="request_area" class="request_area borderradius displayInlineBlock" />
+                                              <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
+                                          </div>
                                       </div>
                                       <div class="columns small-12 medium-6 large-6">
                                           <label class="fonts_dbadmanx fonts_size_txt_head weight_bold displayInlineBlock">ค่าเช่าต่อเดือน (โดยประมาณ)
@@ -307,6 +321,7 @@
                                           <div>
                                               <input type="text" name="request_price_per_month" id="request_price_per_month" class="request_price_per_month borderradius displayInlineBlock" />&nbsp;
                                               <label class="displayInlineBlock">บาท</label>
+                                              <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                           </div>
                                       </div>
 
@@ -317,7 +332,7 @@
 
                                           <div class="row">
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <select name="select_location" id="select_location" class="minimal">
+                                                  <select name="select_location" id="select_location" class="minimal full-width-width-dot">
                                                       <option>กรุณาเลือก</option>
                                                       <option>กรุณาเลือก</option>
                                                       <option>กรุณาเลือก</option>
@@ -325,13 +340,14 @@
                                                   </select>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <input type="text" name="request_name_place" id="request_name_place" class="request_name_place borderradius full-width margin-top4m" />
+                                                  <input type="text" name="request_name_place" id="request_name_place" class="request_name_place borderradius full-width-width-dot margin-top4m displayInlineBlock" />
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <input type="text" name="request_lat" id="request_lat" class="request_lat borderradius full-width" />
+                                                  <input type="text" name="request_lat" id="request_lat" class="request_lat borderradius full-width-width-dot" />
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <input type="text" name="request_lng" id="request_lng" class="request_lng borderradius full-width" />
+                                                  <input type="text" name="request_lng" id="request_lng" class="request_lng borderradius full-width-width-dot" />
                                               </div>
 
                                             </div>
@@ -501,7 +517,8 @@
 
                                       <div class="columns small-12 medium-12 large-12">
                                           <label class="fonts_dbadmanx fonts_size_txt_head displayInlineBlock">แนบไฟล์แผนที่แสดงที่ตั้งร้านและสถานที่สำคัญโดยรอบรัศมี 1 กิโลเมตร : </label>
-                                          <label>แผนที่แสดงที่ตั้ง (ไฟล์ภาพนามสกุล .jpg , .png , .pdf ขนาดไม่เกิน 5 MB)</label>
+                                          <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
+                                          <label>แผนที่แสดงที่ตั้งร้าน/รูปแปลนโครงการพร้อมระบุตำแหน่งตั้งร้าน <span class="color_red weight_bold require_dot fonts_size_txt_head">*</span> (ไฟล์ภาพนามสกุล .jpg , .png , .pdf ขนาดไม่เกิน 5 MB)</label>
                                           <!--div id="upload_map" class="fs-upload-target"></div-->
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-12">
@@ -516,7 +533,7 @@
 
                                       <div class="columns small-12 medium-12 large-12">
                                           <br />
-                                          <label>ภาพถ่ายสถานที่สำคัญโดยรอบ (ไฟล์ภาพนามสุกล .jpg , .png , .pdf ขนาดไม่เกิน 5 MB)</label>
+                                          <label>ภาพถ่ายสถานที่สำคัญโดยรอบ <span class="color_red weight_bold require_dot fonts_size_txt_head">*</span> (ไฟล์ภาพนามสุกล .jpg , .png , .pdf ขนาดไม่เกิน 5 MB)</label>
                                           <!--div id="upload_file" class="fs-upload-target"></div-->
                                           <div class="image-upload">
                                               <label for="file-input"><img src="images/icon_select_file.png" class="image-icon-input-file" /></label>
@@ -553,8 +570,8 @@
                             <div class="tabs-panel" id="panel3">
                                 <div class="row">
                                     <div class="columns small-12 medium-12 large-12">
-                                          <div class="row padding-top50">
-                                                <div class="columns small-12 medium-6 large-6 tab3-text-right fonts_size_txt_text fonts_dbadmanx weight_bold">รายละเอียดผู้ยื่นคำร้อง</div>
+                                          <div class="row padding-top50 fonts_size_txt_text">
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right fonts_size_txt_title fonts_dbadmanx weight_bold">รายละเอียดผู้ยื่นคำร้อง</div>
                                                 <div class="columns small-12 medium-6 large-6">&nbsp;</div>
 
                                                 <div class="columns small-12 medium-6 large-6 tab3-text-right">วันที่ยื่นคำร้อง : </div>
@@ -570,8 +587,8 @@
                                                 <div class="columns small-12 medium-6 large-6">ไม่มี</div>
                                           </div>
 
-                                          <div class="row padding-top50">
-                                                <div class="columns small-12 medium-6 large-6 tab3-text-right fonts_size_txt_text fonts_dbadmanx weight_bold">รายละเอียดพื้นที่</div>
+                                          <div class="row padding-top50 fonts_size_txt_text">
+                                                <div class="columns small-12 medium-6 large-6 tab3-text-right fonts_size_txt_title fonts_dbadmanx weight_bold">รายละเอียดพื้นที่</div>
                                                 <div class="columns small-12 medium-6 large-6">&nbsp;</div>
 
                                                 <div class="columns small-12 medium-6 large-6 tab3-text-right">ประเภทสถานีบริการ<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
@@ -620,7 +637,7 @@
                                                 <div class="columns small-12 medium-6 large-6"><a href="#" target="_blank">pic01.jpg</a><br /><a href="#" target="_blank">pic02.jpg</a></div>
                                           </div>
 
-                                          <div class="row padding-top50">
+                                          <div class="row padding-top50 fonts_size_txt_text">
                                               <div class="columns small-12 medium-12 large-12 text-center fonts_size_txt_text">
                                                 รายละเอียดเพิ่มเติมสามารถติดต่อเจ้าหน้าที่ได้ที่<br />
                                                 โทร. <b>025372391</b> อีเมล์ <a href="mailto:"><b>franchiseamazon@pttplc.com</b></a>
