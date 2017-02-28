@@ -40,7 +40,7 @@
     /* Class All */
         .full-height {  height: 100%; }
         .full-width { width: 100% !important; }
-        .full-width-width-dot { width: 96% !important; }
+        .full-width-width-dot { width: 90% !important; }
         .lineHeight25 { line-height: 20px; }
         .displayInline { display: inline !important; }
         .displayInlineBlock { display: inline-block; }
@@ -400,6 +400,10 @@
           .franchise-txt-detail {
               font-family: "CordiaUPC";
               margin-bottom: 25px;
+              font-size: 1.25em;
+          }
+          #request_notic_page_2 {
+              text-align: left;
               font-size: 1.25em;
           }
 
@@ -785,9 +789,9 @@
           .tabs-title-01.is-active > a { color: #274b2b !important; }
           .tabs-title-02.is-active > a { color: #48a841 !important; }
           .tabs-title-03.is-active > a { color: #fbb814 !important; }
-          .tabs-title-01.is-active > a .tabs-form-number { border-color: #274b2b !important; }
-          .tabs-title-02.is-active > a .tabs-form-number { border-color: #48a841 !important; }
-          .tabs-title-03.is-active > a .tabs-form-number { border-color: #fbb814 !important; }
+          .tabs-title-01.is-active > a .tabs-form-number { border-color: #274b2b !important; background-color: #274b2b; color: #fff; }
+          .tabs-title-02.is-active > a .tabs-form-number { border-color: #48a841 !important; background-color: #48a841; color: #fff; }
+          .tabs-title-03.is-active > a .tabs-form-number { border-color: #fbb814 !important; background-color: #fbb814; color: #fff; }
 
           .request_datetime { display: inline-block; }
           .require_dot { vertical-align: top; }

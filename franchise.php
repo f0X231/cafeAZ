@@ -47,7 +47,7 @@
             </div>
 
             <div class="row margin-top25">
-                <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2 fonts_size_txt_title weight_bold">
+                <div class="columns small-12 medium-10 medium-offset-1 large-10 large-offset-1 fonts_size_txt_title weight_bold">
                     <i class="fa fa-pencil" aria-hidden="true"></i> กรอกข้อมูลเพิ่มคำร้อง
                 </div>
             </div>
@@ -140,7 +140,8 @@
                                             </div>
                                             <div class="row">
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_email" id="request_email" class="request_email borderradius" maxlength="80" />
+                                                  <input type="text" name="request_email" id="request_email" class="request_email borderradius displayInlineBlock" maxlength="80" />
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                               </div>
                                             </div>
                                       </div>
@@ -571,8 +572,8 @@
                                 <div class="row">
                                     <div class="columns small-12 medium-12 large-12">
                                           <div class="row padding-top50 fonts_size_txt_text">
-                                                <div class="columns small-12 medium-6 large-6 tab3-text-right fonts_size_txt_title fonts_dbadmanx weight_bold">รายละเอียดผู้ยื่นคำร้อง</div>
-                                                <div class="columns small-12 medium-6 large-6">&nbsp;</div>
+                                                <div class="columns small-12 medium-12 large-12 fonts_size_txt_title fonts_dbadmanx weight_bold text-center">รายละเอียดผู้ยื่นคำร้อง</div>
+                                                <div class="columns small-12 medium-12 large-12">&nbsp;</div>
 
                                                 <div class="columns small-12 medium-6 large-6 tab3-text-right">วันที่ยื่นคำร้อง : </div>
                                                 <div class="columns small-12 medium-6 large-6">25 ต.ค. 59</div>
@@ -588,8 +589,8 @@
                                           </div>
 
                                           <div class="row padding-top50 fonts_size_txt_text">
-                                                <div class="columns small-12 medium-6 large-6 tab3-text-right fonts_size_txt_title fonts_dbadmanx weight_bold">รายละเอียดพื้นที่</div>
-                                                <div class="columns small-12 medium-6 large-6">&nbsp;</div>
+                                                <div class="columns small-12 medium-12 large-12 fonts_size_txt_title fonts_dbadmanx weight_bold text-center">รายละเอียดพื้นที่</div>
+                                                <div class="columns small-12 medium-12 large-12">&nbsp;</div>
 
                                                 <div class="columns small-12 medium-6 large-6 tab3-text-right">ประเภทสถานีบริการ<label class="displayInlineBlock color_red require_dot fonts_size_txt_head lineHeight25">*</label> : </div>
                                                 <div class="columns small-12 medium-6 large-6">นอกสถานีบริการ</div>
