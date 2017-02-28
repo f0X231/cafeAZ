@@ -762,6 +762,10 @@
 
 
 /* Franchise */
+          .show-error {
+              color: #ff0000;
+              font-size: 0.825em;
+          }
           .tabs-form {
               display: inline-block;
               margin-bottom: 0px;
