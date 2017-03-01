@@ -765,7 +765,10 @@
           .show-error {
               color: #ff0000;
               font-size: 0.825em;
+              display: none;
           }
+          .border-error { border:2px solid red !important; }
+          .show-error-active { display: block; }
           .tabs-form {
               display: inline-block;
               margin-bottom: 0px;

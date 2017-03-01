@@ -118,7 +118,7 @@
                                                   <label for="type_of_company2" class="fonts_cordiaupc fonts_size_txt_title">นิติบุคคล</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <div><input type="text" name="request_company_name" id="request_company_name" class="request_company_name borderradius displayInlineBlock" maxlength="150" disabled="disabled" /></div>
+                                                  <input type="text" name="request_company_name" id="request_company_name" class="request_company_name borderradius displayInlineBlock" maxlength="150" disabled="disabled" />
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                   <p class="show-error request_company_name_error">กรุณากรอกข้อมูล</p>
                                               </div>
@@ -235,39 +235,40 @@
                                               <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_road" id="request_road" class="request_road borderradius full-width-width-dot displayInlineBlock" />
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
+                                                  <p class="show-error request_road_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
                                                   <select name="select_province" id="select_province" class="minimal margin-top4m displayInlineBlock full-width-width-dot">
-                                                      <option>จังหวัด</option>
-                                                      <option>กรุงเทพ</option>
-                                                      <option>นครปฐม</option>
-                                                      <option>สมุทรปราการ</option>
+                                                      <option value="0">จังหวัด</option>
+                                                      <option value="1">กรุงเทพ</option>
+                                                      <option value="2">นครปฐม</option>
+                                                      <option value="3">สมุทรปราการ</option>
                                                   </select>
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                   <p class="show-error select_province_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
                                                   <select name="select_district" id="select_district" class="minimal margin-top4m displayInlineBlock full-width-width-dot">
-                                                      <option>อำเภอ</option>
-                                                      <option>อำเภอ</option>
-                                                      <option>อำเภอ</option>
-                                                      <option>อำเภอ</option>
+                                                      <option value="0">อำเภอ</option>
+                                                      <option value="1">อำเภอ</option>
+                                                      <option value="2">อำเภอ</option>
+                                                      <option value="3">อำเภอ</option>
                                                   </select>
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                   <p class="show-error select_district_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
                                                   <select name="select_tumbon" id="select_tumbon" class="minimal margin-top4m displayInlineBlock full-width-width-dot">
-                                                      <option>ตำบล</option>
-                                                      <option>ตำบล</option>
-                                                      <option>ตำบล</option>
-                                                      <option>ตำบล</option>
+                                                      <option value="0">ตำบล</option>
+                                                      <option value="1">ตำบล</option>
+                                                      <option value="2">ตำบล</option>
+                                                      <option value="3">ตำบล</option>
                                                   </select>
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                   <p class="show-error select_tumbon_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_postnumber" id="request_postnumber" maxlength="5" class="request_postnumber borderradius full-width-width-dot margin-top8 displayInlineBlock" />
+                                                  <input type="text" name="request_postnumber" id="request_postnumber" maxlength="5" class="request_postnumber borderradius full-width-width-dot margin-top8 displayInlineBlock" onkeypress="return isNumberKey(event)" />
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                   <p class="show-error request_postnumber_error">กรุณากรอกข้อมูล</p>
                                               </div>
@@ -282,15 +283,19 @@
                                               </div>
 
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <select name="select_country" id="select_country" class="minimal" disabled="disabled">
-                                                      <option>ประเทศ</option>
-                                                      <option>ไทย</option>
-                                                      <option>เวียดนาม</option>
-                                                      <option>เมียนม่า</option>
+                                                  <select name="select_country" id="select_country" class="minimal displayInlineBlock full-width-width-dot" disabled="disabled">
+                                                      <option value="0">ประเทศ</option>
+                                                      <option value="1">ไทย</option>
+                                                      <option value="2">เวียดนาม</option>
+                                                      <option value="3">เมียนม่า</option>
                                                   </select>
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
+                                                  <p class="show-error select_country_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <input type="text" name="request_city" id="request_city" class="request_city borderradius margin-top4m full-width" disabled="disabled" />
+                                                  <input type="text" name="request_city" id="request_city" class="request_city borderradius margin-top4m full-width-width-dot displayInlineBlock" disabled="disabled" />
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
+                                                  <p class="show-error request_city_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                           </div>
                                       </div>
@@ -323,7 +328,7 @@
                                               <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label> :
                                           </label>
                                           <div>
-                                              <input type="text" name="request_area" id="request_area" class="request_area borderradius displayInlineBlock" />
+                                              <input type="text" name="request_area" id="request_area" class="request_area borderradius displayInlineBlock" onkeypress="return isNumberKey(event)" />
                                               <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                               <p class="show-error request_area_error">กรุณากรอกข้อมูล</p>
                                           </div>
@@ -332,9 +337,8 @@
                                           <label class="fonts_dbadmanx fonts_size_txt_head weight_bold displayInlineBlock">ค่าเช่าต่อเดือน (โดยประมาณ)
                                             <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">&nbsp;</label> :</label>
                                           <div>
-                                              <input type="text" name="request_price_per_month" id="request_price_per_month" class="request_price_per_month borderradius displayInlineBlock" />&nbsp;
-                                              <label class="displayInlineBlock">บาท</label>
-                                              <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
+                                              <input type="text" name="request_price_per_month" id="request_price_per_month" class="request_price_per_month borderradius displayInlineBlock" onkeypress="return isNumberKey(event)" />&nbsp;
+                                              <label class="displayInlineBlock">บาท <span class="color_red weight_bold require_dot fonts_size_txt_head">*</span></label>
                                               <p class="show-error request_price_per_month_error">กรุณากรอกข้อมูล</p>
                                           </div>
                                       </div>
@@ -347,10 +351,10 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-6 large-6">
                                                   <select name="select_location" id="select_location" class="minimal full-width-width-dot">
-                                                      <option>กรุณาเลือก</option>
-                                                      <option>กรุณาเลือก</option>
-                                                      <option>กรุณาเลือก</option>
-                                                      <option>กรุณาเลือก</option>
+                                                      <option value="0">กรุณาเลือก</option>
+                                                      <option value="1">กรุณาเลือก</option>
+                                                      <option value="2">กรุณาเลือก</option>
+                                                      <option value="3">กรุณาเลือก</option>
                                                   </select>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
@@ -531,9 +535,8 @@
                                       </div>
 
                                       <div class="columns small-12 medium-12 large-12">
-                                          <label class="fonts_dbadmanx fonts_size_txt_head displayInlineBlock">แนบไฟล์แผนที่แสดงที่ตั้งร้านและสถานที่สำคัญโดยรอบรัศมี 1 กิโลเมตร : </label>
-                                          <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
-                                          <label>แผนที่แสดงที่ตั้งร้าน/รูปแปลนโครงการพร้อมระบุตำแหน่งตั้งร้าน <span class="color_red weight_bold require_dot fonts_size_txt_head">*</span> (ไฟล์ภาพนามสกุล .jpg , .png , .pdf ขนาดไม่เกิน 5 MB)</label>
+                                          <label class="fonts_dbadmanx fonts_size_txt_head">แนบไฟล์แผนที่แสดงที่ตั้งร้านและสถานที่สำคัญโดยรอบรัศมี 1 กิโลเมตร : <span class="color_red weight_bold require_dot fonts_size_txt_head">*</span></label>
+                                          <label class="fonts_dbadmanx fonts_size_txt_head">แผนที่แสดงที่ตั้งร้าน/รูปแปลนโครงการพร้อมระบุตำแหน่งตั้งร้าน <span class="color_red weight_bold require_dot fonts_size_txt_head">*</span> (ไฟล์ภาพนามสกุล .jpg , .png , .pdf ขนาดไม่เกิน 5 MB)</label>
                                           <!--div id="upload_map" class="fs-upload-target"></div-->
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-12">
@@ -548,7 +551,7 @@
 
                                       <div class="columns small-12 medium-12 large-12">
                                           <br />
-                                          <label>ภาพถ่ายสถานที่สำคัญโดยรอบ <span class="color_red weight_bold require_dot fonts_size_txt_head">*</span> (ไฟล์ภาพนามสุกล .jpg , .png , .pdf ขนาดไม่เกิน 5 MB)</label>
+                                          <label class="fonts_dbadmanx fonts_size_txt_head">ภาพถ่ายสถานที่สำคัญโดยรอบ <span class="color_red weight_bold require_dot fonts_size_txt_head">*</span> (ไฟล์ภาพนามสุกล .jpg , .png , .pdf ขนาดไม่เกิน 5 MB)</label>
                                           <!--div id="upload_file" class="fs-upload-target"></div-->
                                           <div class="image-upload">
                                               <label for="file-input"><img src="images/icon_select_file.png" class="image-icon-input-file" /></label>

@@ -1,3 +1,7 @@
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
 
 function selectTab01() {
 		$('.tabs-title-01').click(function() {
@@ -126,24 +130,67 @@ function validateInputFormStep01() {
 
 						if(inputDateTime.length != 10) {
 								errorStatus += 1;
+								$('#request_datetime').addClass('border-error');
+								$('.request_datetime_error').addClass('show-error-active ');
 						}
 
 						if(inputTypeOfCompany == 'person') {
-									if(inputName.length < 2 ) {
+								$('#request_company_name').removeClass('border-error');
+								$('.request_company_name_error').removeClass('show-error-active ');
+
+									if(inputName.length < 2 || inputName == 'ชื่อ') {
 											errorStatus += 1;
+											$('#request_username').addClass('border-error');
+											$('.request_username_error').addClass('show-error-active');
+									} else {
+											$('#request_username').removeClass('border-error');
+											$('.request_username_error').removeClass('show-error-active');
 									}
-									if(inputSurname.length < 2) {
+									if(inputSurname.length < 2 || inputSurname == 'นามสกุล') {
 											errorStatus += 1;
+											$('#request_surname').addClass('border-error');
+											$('.request_surname_error').addClass('show-error-active ');
+									}
+									else {
+											$('#request_surname').removeClass('border-error');
+											$('.request_surname_error').removeClass('show-error-active ');
 									}
 						}
 						else {
-									if(inputCompanyName.length < 2) {
+									$('#request_username').removeClass('border-error');
+									$('.request_username_error').removeClass('show-error-active');
+									$('#request_surname').removeClass('border-error');
+									$('.request_surname_error').removeClass('show-error-active ');
+
+									if(inputCompanyName.length < 2 || inputCompanyName == 'ชื่อนิติบุคคล') {
 											errorStatus += 1;
+											$('#request_company_name').addClass('border-error');
+											$('.request_company_name_error').addClass('show-error-active ');
+									}
+									else {
+											$('#request_company_name').removeClass('border-error');
+											$('.request_company_name_error').removeClass('show-error-active ');
 									}
 						}
 
 						if(inputPhone.length != 10) {
 								errorStatus += 1;
+								$('#request_phone').addClass('border-error');
+								$('.request_phone_error').addClass('show-error-active ');
+						}
+						else {
+								$('#request_phone').removeClass('border-error');
+								$('.request_phone_error').removeClass('show-error-active ');
+						}
+
+						if(inputEMail.length < 5 || !validateEmail(inputEMail)) {
+								errorStatus += 1;
+								$('#request_email').addClass('border-error');
+								$('.request_email_error').addClass('show-error-active ');
+						}
+						else {
+								$('#request_email').removeClass('border-error');
+								$('.request_email_error').removeClass('show-error-active ');
 						}
 
 						if(errorStatus > 0) {
@@ -242,6 +289,7 @@ function validateInputFormStep02() {
 				var inputCity 				= $('#request_city').val();
 
 				var inputAreaName 				= $('#request_area').val();
+				var inputPPM 							= $('#request_price_per_month').val();
 				var inputSelectLocation 	= $('#select_location').val();
 				var inputNamePlace 				= $('#request_name_place').val();
 				var inputLatitude 				= $('#request_lat').val();
@@ -250,26 +298,121 @@ function validateInputFormStep02() {
 				var errorStatus = 0;
 
 				if(branchLocation == 'thailand') {
-							if(inputAddr.length <= 0  )				errorStatus += 1;
-							if(inputMoo.length <= 0) 					errorStatus += 1;
-							if(inputBuild.length <= 0  )			errorStatus += 1;
-							if(inputFloor.length <= 0) 				errorStatus += 1;
-							if(inputRoom.length <= 0  )				errorStatus += 1;
-							if(inputRoad.length <= 0) 				errorStatus += 1;
-							if(inputProvince.length <= 0  )		errorStatus += 1;
-							if(inputDistrict.length <= 0) 		errorStatus += 1;
-							if(inputTumbon.length <= 0  )			errorStatus += 1;
-							if(inputPostNumber.length <= 0) 	errorStatus += 1;
+							if(inputAddr.length <= 0 || inputAddr == 'เลขที่')	{
+									errorStatus += 1;
+									$('#request_addr_no').addClass('border-error');
+									$('.request_addr_no_error').addClass('show-error-active ');
+							}	else {
+									$('#request_addr_no').removeClass('border-error');
+									$('.request_addr_no_error').removeClass('show-error-active ');
+							}
+
+							if(inputRoad.length <= 0 || inputRoad == 'ถนน') {
+									errorStatus += 1;
+									$('#request_road').addClass('border-error');
+									$('.request_road_error').addClass('show-error-active ');
+							} else {
+									$('#request_road').removeClass('border-error');
+									$('.request_road_error').removeClass('show-error-active ');
+							}
+
+							if(inputProvince == 0 ) {
+									errorStatus += 1;
+									$('#select_province').addClass('border-error');
+									$('.select_province_error').addClass('show-error-active ');
+							} else {
+									$('#select_province').removeClass('border-error');
+									$('.select_province_error').removeClass('show-error-active ');
+							}
+
+							if(inputDistrict == 0) {
+									errorStatus += 1;
+									$('#select_district').addClass('border-error');
+									$('.select_district_error').addClass('show-error-active ');
+							} else {
+									$('#select_district').removeClass('border-error');
+									$('.select_district_error').removeClass('show-error-active ');
+							}
+
+							if(inputTumbon == 0 ) {
+									errorStatus += 1;
+									$('#select_tumbon').addClass('border-error');
+									$('.select_tumbon_error').addClass('show-error-active ');
+							} else {
+									$('#select_tumbon').removeClass('border-error');
+									$('.select_tumbon_error').removeClass('show-error-active ');
+							}
+
+							if(inputPostNumber != 5) {
+									errorStatus += 1;
+									$('#request_postnumber').addClass('border-error');
+									$('.request_postnumber_error').addClass('show-error-active ');
+							} else {
+									$('#request_postnumber').removeClass('border-error');
+									$('.request_postnumber_error').removeClass('show-error-active ');
+							}
 				}
 				else {
-							if(inputCountry.length <= 0  )		errorStatus += 1;
-							if(inputCity.length <= 0) 				errorStatus += 1;
+							if(inputCountry <= 0 ) {
+									errorStatus += 1;
+									$('#select_country').addClass('border-error');
+									$('.select_country_error').addClass('show-error-active ');
+							} else {
+									$('#select_country').removeClass('border-error');
+									$('.select_country_error').removeClass('show-error-active ');
+							}
+
+							if(inputCity.length <= 0) {
+									errorStatus += 1;
+									$('#request_city').addClass('border-error');
+									$('.request_city_error').addClass('show-error-active ');
+							} else {
+									$('#request_city').removeClass('border-error');
+									$('.request_city_error').removeClass('show-error-active ');
+							}
 				}
 
-				if(inputAreaName.length <= 0) 					errorStatus += 1;
-				if(inputSelectLocation.length <= 0) 		errorStatus += 1;
-				if(inputNamePlace.length <= 0) 					errorStatus += 1;
-				if(inputLatitude.length <= 0) 					errorStatus += 1;
+				if(inputAreaName.length <= 0)  {
+						errorStatus += 1;
+						$('#request_area').addClass('border-error');
+						$('.request_area_error').addClass('show-error-active ');
+				} else {
+						$('#request_area').removeClass('border-error');
+						$('.request_area_error').removeClass('show-error-active');
+				}
+
+				if(inputPPM.length <= 0) {
+						errorStatus += 1;
+						$('#request_price_per_month').addClass('border-error');
+						$('.request_price_per_month_error').addClass('show-error-active');
+				} else {
+						$('#request_price_per_month').removeClass('border-error');
+						$('.request_price_per_month_error').removeClass('show-error-active');
+				}
+
+				if(inputSelectLocation.length <= 0) {
+						errorStatus += 1;
+						$('#request_name_place').addClass('border-error');
+						$('.request_price_per_month_error').addClass('show-error-active');
+				} else {
+					$('#request_price_per_month').addClass('border-error');
+					$('.request_price_per_month_error').addClass('show-error-active');
+				}
+
+				if(inputNamePlace.length <= 0) {
+						errorStatus += 1;
+						$('#select_location').addClass('border-error');
+				} else {
+						$('#select_location').removeClass('border-error');
+				}
+
+				if(inputLatitude.length <= 0) {
+						errorStatus += 1;
+						$('#select_location').addClass('border-error');
+				} else {
+
+				}
+
 				if(inputLongitude.length <= 0) 					errorStatus += 1;
 
 				if(errorStatus > 0) {
@@ -358,7 +501,9 @@ function checkFormStep02() {
 							if(inputCity.length <= 0) 				errorStatus += 1;
 				}
 
-				if(inputAreaName.length <= 0) 					errorStatus += 1;
+				if(inputAreaName.length <= 0) {
+						errorStatus += 1;
+				}
 				if(inputSelectLocation.length <= 0) 		errorStatus += 1;
 				if(inputNamePlace.length <= 0) 					errorStatus += 1;
 				if(inputLatitude.length <= 0) 					errorStatus += 1;
