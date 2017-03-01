@@ -102,12 +102,12 @@
                                                   <label for="type_of_company1" class="fonts_cordiaupc fonts_size_txt_title">บุคคลธรรมดา</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_username" id="request_username" class="request_username borderradius displayInlineBlock" maxlength="50" />
+                                                  <input type="text" name="request_username" id="request_username" class="request_username borderradius displayInlineBlock" maxlength="50" onkeypress="return isNotNumberKey(event)" />
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                   <p class="show-error request_username_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_surname" id="request_surname" class="request_surname borderradius displayInlineBlock" maxlength="50" />
+                                                  <input type="text" name="request_surname" id="request_surname" class="request_surname borderradius displayInlineBlock" maxlength="50" onkeypress="return isNotNumberKey(event)" />
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                   <p class="show-error request_surname_error">กรุณากรอกข้อมูล</p>
                                               </div>
@@ -118,7 +118,7 @@
                                                   <label for="type_of_company2" class="fonts_cordiaupc fonts_size_txt_title">นิติบุคคล</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_company_name" id="request_company_name" class="request_company_name borderradius displayInlineBlock" maxlength="150" disabled="disabled" />
+                                                  <input type="text" name="request_company_name" id="request_company_name" class="request_company_name borderradius displayInlineBlock" maxlength="150" disabled="disabled" onkeypress="return isNotNumberKey(event)"  />
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                   <p class="show-error request_company_name_error">กรุณากรอกข้อมูล</p>
                                               </div>
@@ -140,12 +140,12 @@
                                                     <input type="text" name="request_tel" id="request_tel" class="request_tel borderradius" maxlength="9" onkeypress="return isNumberKey(event)" />
                                                 </div>
                                                 <div class="columns small-12 medium-4 large-4">
-                                                    <input type="text" name="request_fax" id="request_fax" class="request_fax borderradius" maxlength="16" />
+                                                    <input type="text" name="request_fax" id="request_fax" class="request_fax borderradius" maxlength="16" onkeypress="return isNumberKey(event)" />
                                                 </div>
                                             </div>
                                             <div class="row">
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_email" id="request_email" class="request_email borderradius displayInlineBlock" maxlength="80" />
+                                                  <input type="text" name="request_email" id="request_email" class="request_email borderradius displayInlineBlock" maxlength="150"  onkeypress="return isEngKeyOnly(event)" />
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                   <p class="show-error request_email_error">กรุณากรอกข้อมูล</p>
                                               </div>
@@ -216,12 +216,12 @@
                                               </div>
 
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_addr_no" id="request_addr_no" class="request_addr_no borderradius full-width-width-dot displayInlineBlock" />
+                                                  <input type="text" name="request_addr_no" id="request_addr_no" class="request_addr_no borderradius full-width-width-dot displayInlineBlock" onkeypress="return isNumberKey(event)" />
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
                                                   <p class="show-error request_addr_no_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_moo" id="request_moo" class="request_moo borderradius full-width-width-dot" />
+                                                  <input type="text" name="request_moo" id="request_moo" class="request_moo borderradius full-width-width-dot" onkeypress="return isNumberKey(event)" />
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_build" id="request_build" class="request_build borderradius full-width-width-dot" />
@@ -350,23 +350,25 @@
 
                                           <div class="row">
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <select name="select_location" id="select_location" class="minimal full-width-width-dot">
+                                                  <select name="select_location" id="select_location" class="minimal full-width-width-dot displayInlineBlock">
                                                       <option value="0">กรุณาเลือก</option>
                                                       <option value="1">กรุณาเลือก</option>
                                                       <option value="2">กรุณาเลือก</option>
                                                       <option value="3">กรุณาเลือก</option>
                                                   </select>
+                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
+                                                  <p class="show-error select_location_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="text" name="request_name_place" id="request_name_place" class="request_name_place borderradius full-width-width-dot margin-top4m displayInlineBlock" />
                                                   <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
-                                                  <p class="show-error request_name_placeh_error">กรุณากรอกข้อมูล</p>
+                                                  <p class="show-error request_name_place_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <input type="text" name="request_lat" id="request_lat" class="request_lat borderradius full-width-width-dot" />
+                                                  <input type="text" name="request_lat" id="request_lat" class="request_lat borderradius full-width-width-dot" maxlength="10" onkeypress="return isLatitudeLongitude(event)" />
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
-                                                  <input type="text" name="request_lng" id="request_lng" class="request_lng borderradius full-width-width-dot" />
+                                                  <input type="text" name="request_lng" id="request_lng" class="request_lng borderradius full-width-width-dot" maxlength="10" onkeypress="return isLatitudeLongitude(event)" />
                                               </div>
 
                                             </div>
@@ -523,7 +525,7 @@
                                           <label class="fonts_dbadmanx fonts_size_txt_head displayInlineBlock">ปริมาณคนโดยเฉลี่ยต่อวัน (โดยประมาณ) ในบริเวณที่นำเสนอ</label>
 
                                           <div>
-                                              <input type="text" name="request_price_per_month" id="request_price_per_month" class="request_price_per_month borderradius displayInlineBlock" />&nbsp;
+                                              <input type="text" name="request_price_per_month" id="request_price_per_month" class="request_price_per_month borderradius displayInlineBlock" onkeypress="return isNumberKey(event)" />&nbsp;
                                               <label class="displayInlineBlock"> คน</label>
                                           </div>
                                       </div>
