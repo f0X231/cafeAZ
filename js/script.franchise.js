@@ -358,14 +358,14 @@ function validateInputFormStep02() {
 									$('.request_addr_no_error').removeClass('show-error-active ');
 							}
 
-							if(inputRoad.length <= 0 || inputRoad == 'ถนน') {
+							/*if(inputRoad.length <= 0 || inputRoad == 'ถนน') {
 									errorStatus += 1;
 									$('#request_road').addClass('border-error');
 									$('.request_road_error').addClass('show-error-active ');
 							} else {
 									$('#request_road').removeClass('border-error');
 									$('.request_road_error').removeClass('show-error-active ');
-							}
+							}*/
 
 							if(inputProvince == 0 ) {
 									errorStatus += 1;
@@ -540,14 +540,14 @@ function checkFormStep02() {
                   $('.request_addr_no_error').removeClass('show-error-active ');
               }
 
-              if(inputRoad.length <= 0 || inputRoad == 'ถนน') {
+              /*if(inputRoad.length <= 0 || inputRoad == 'ถนน') {
                   errorStatus += 1;
                   $('#request_road').addClass('border-error');
                   $('.request_road_error').addClass('show-error-active ');
               } else {
                   $('#request_road').removeClass('border-error');
                   $('.request_road_error').removeClass('show-error-active ');
-              }
+              }*/
 
               if(inputProvince == 0 ) {
                   errorStatus += 1;

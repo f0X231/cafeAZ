@@ -233,8 +233,8 @@
                                                   <input type="text" name="request_room" id="request_room" class="request_room borderradius full-width-width-dot" />
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
-                                                  <input type="text" name="request_road" id="request_road" class="request_road borderradius full-width-width-dot displayInlineBlock" />
-                                                  <label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label>
+                                                  <input type="text" name="request_road" id="request_road" class="request_road borderradius full-width-width-dot" />
+                                                  <!--label class="displayInlineBlock color_red weight_bold require_dot fonts_size_txt_head">*</label-->
                                                   <p class="show-error request_road_error">กรุณากรอกข้อมูล</p>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
