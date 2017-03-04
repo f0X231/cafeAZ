@@ -30,16 +30,16 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/faq/banner-faq.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">คำถามที่พบบ่อย</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">คำถามที่พบบ่อย</h1>
         </div>
 
 
         <!-- FAQ -->
-        <div class="amazon-faq fonts_cordiaupc fonts_size_txt_text">
+        <div class="amazon-faq fonts_cordiaupc fonts_size_txt_text2">
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
 
-                    <div class="integration-list fonts_dbadmanx fonts_size_txt_text">
+                    <div class="integration-list fonts_dbadmanx fonts_size_txt_text2">
                         <ul>
                             <li>
                                 <a class="expand">

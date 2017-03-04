@@ -64,12 +64,12 @@
 
 
                     <div class="tips-detail-txt">
-                        <p class="fonts_size_txt_head no-margin-bottom">กาแฟอราบิก้า</p>
+                        <p class="fonts_size_txt_head2 no-margin-bottom">กาแฟอราบิก้า</p>
                         <p>ปลูกได้ดีในสภาพอากาศเย็นบนดอยสูง อุณหภูมิเฉลี่ย 15-23 C ระดับความสูงตั้งแต่ 1,000 เมตร</p>
                     </div>
 
                     <div class="tips-detail-txt">
-                        <p class="fonts_size_txt_head no-margin-bottom">กาแฟโรบัสต้า</p>
+                        <p class="fonts_size_txt_head2 no-margin-bottom">กาแฟโรบัสต้า</p>
                         <p>ปลูกได้ดีในสภาพอากาศร้อนชื้น อุณหภูมิเฉลี่ย 15-23 C ระดับความสูงตั้งแต่ระดับน้ำทะเล ไปจนถึง 1,000 เมตร</p>
                     </div>
                 </div>

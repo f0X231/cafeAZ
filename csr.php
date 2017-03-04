@@ -29,7 +29,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/csr/banner-csr-detail.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">ความรับผิดชอบต่อสังคม ชุมชน สิ่งแวดล้อม</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">ความรับผิดชอบต่อสังคม ชุมชน สิ่งแวดล้อม</h1>
         </div>
 
 
@@ -57,7 +57,7 @@
                         <div class="news-carousel news-content-0">
               							<a href="csr-detail-1.php">
               								  <h2 class="fonts_dbadmanx fonts_size_txt_title no-margin-bottom">CSR (ใส่ใจสิ่งแวดล้อม)<br />Amazon Bio Cup </h2>
-              								  <p class="news-datetime-slide">1 มกราคม 2560</p>
+              								  <p class="news-datetime-slide2">1 มกราคม 2560</p>
               							</a>
                         </div>
                         <!--div class="news-carousel news-content-1">

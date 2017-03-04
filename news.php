@@ -58,13 +58,13 @@
                         <div class="news-carousel news-content-0">
                             <a href="news-detail.php">
                                 <h2 class="fonts_dbadmanx fonts_size_txt_title no-margin-bottom">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน<br />Cafe Amazon Awake Award</h2>
-                                <p class="news-datetime-slide">27 พฤษภาคม 2559</p>
+                                <p class="news-datetime-slide2">27 พฤษภาคม 2559</p>
                             </a>
                         </div>
                         <div class="news-carousel news-content-1">
                             <a href="news-detail.php">
                                 <h2 class="fonts_dbadmanx fonts_size_txt_title no-margin-bottom">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน<br />Cafe Amazon Awake Award</h2>
-                                <p class="news-datetime-slide">28 พฤษภาคม 2559</p>
+                                <p class="news-datetime-slide2">28 พฤษภาคม 2559</p>
                             </a>
                         </div>
                     </div>

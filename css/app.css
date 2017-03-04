@@ -7,9 +7,11 @@
         .fonts_cordiaupc { font-family: "CordiaUPC"; }
     /* Font Size */
         .fonts_size_in_banner_h1 { font-size: 3.5em; }
-        .fonts_size_txt_title { font-size: 1.5em; }
-        .fonts_size_txt_text { font-size: 1.125em; }
+        .fonts_size_txt_title { font-size: 1.6em; }
+        .fonts_size_txt_text { font-size: 1.375em; }
+        .fonts_size_txt_text2 { font-size: 1.215em; }
         .fonts_size_txt_head { font-size: 1.25em; }
+        .fonts_size_txt_head2 { font-size: 1.4em; }
         .fonts_size_title { font-size: 2.75em; }
         .fonts_size_slide_title { font-size: 2.25em; }  /* for Slide */
         .fonts_size_slide_txt { font-size: 1.375em; }   /* for Slide */
@@ -535,7 +537,7 @@
           }
           .news-description {
               font-family: "DBAdmanX";
-              font-size: 1.25rem;
+              font-size: 1.6em;
               line-height: 22px;
               margin-bottom: 0px;
               height: 44px;
@@ -545,7 +547,7 @@
           }
           .news-datetime {
               font-family: "CordiaUPC";
-              font-size: 1.125rem;
+              font-size: 1.5em;
               font-style: italic;
               color: #888888;
           }
@@ -706,7 +708,7 @@
           }
           .promotion-description {
               font-family: "DBAdmanX";
-              font-size: 1.25rem;
+              font-size: 1.5em;
               color: #000000;
               height: 70px;
               min-height: 70px;
@@ -721,7 +723,7 @@
           }
           .promotion-datetime {
               font-family: "CordiaUPC";
-              font-size: 1em;
+              font-size: 1.4em;
               font-style: italic;
               color: #808080;
               margin: 0 auto;
@@ -746,7 +748,7 @@
           .promotions-detail-header-l2 {  border-bottom: 1px solid #000; }
           .promotions-detail-txt {
               margin: 25px 0 50px 0;
-              font-size: 1.125em;
+              font-size: 1.4em;
           }
           .btn-branch {
               font-family: "DBAdmanX";
@@ -835,11 +837,14 @@
               padding-top: 15px;
           }
           .news-carousel { display: none; }
-          .news-datetime-slide {
+          .news-datetime-slide, .news-datetime-slide2 {
               font-family: "CordiaUPC";
-              font-size: 1.125rem;
+              font-size: 1.125em;
               font-style: italic;
               color: #888888;
+          }
+          .news-datetime-slide2 {
+              font-size: 1.5em;
           }
           .news-filter {
               margin-bottom: 35px;
