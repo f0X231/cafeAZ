@@ -8,19 +8,41 @@ $.fn.extend({
 });
 
 function isNumberKey(evt) {
-   var charCode = (evt.which) ? evt.which : event.keyCode
+   var charCode = (evt.which) ? evt.which : event.keyCode;
    if (charCode > 31 && (charCode < 48 || charCode > 57))
       return false;
 
    return true;
 }
 
-function isLatitudeLongitude(evt) {
-   var charCode = (evt.which) ? evt.which : event.keyCode
-   if (charCode > 31 && (charCode < 48 || charCode > 57) && charCode != 190)
-      return false;
 
-   return true;
+function isNotNumberKey(evt) {
+   var charCode = (evt.which) ? evt.which : event.keyCode;
+   if (charCode < 48 || charCode > 57)
+      return true;
+
+   return false;
+}
+
+
+function isEngKeyOnly(evt) {
+   var charCode = (evt.which) ? evt.which : event.keyCode;
+
+   if ( charCode == 8 || charCode == 45 || charCode == 46 || (charCode >= 48 && charCode <= 57) || (charCode >= 64 && charCode <= 90) || charCode == 95  || (charCode >= 97 && charCode <= 122) )
+      return true;
+
+   return false;
+}
+
+
+function isLatitudeLongitude(evt) {
+    var charCode = (evt.which) ? evt.which : event.keyCode;
+
+    if(charCode == 46 || charCode == 8)
+          return true;
+    else if (charCode > 31 && (charCode < 48 || charCode > 57) )
+          return false;
+    else  return true;
 }
 
 function menuGroups() {
