@@ -33,7 +33,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/franchise/banner-franchise.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">แฟรนไชส์</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">แฟรนไชส์</h1>
         </div>
 
 

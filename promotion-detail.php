@@ -30,7 +30,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/promotion/banner-promotion.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">โปรโมชั่น</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">โปรโมชั่น</h1>
         </div>
 
 

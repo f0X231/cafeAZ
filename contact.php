@@ -30,7 +30,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/contact/banner-contact.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">ติดต่อเรา</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">ติดต่อเรา</h1>
         </div>
 
 

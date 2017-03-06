@@ -29,7 +29,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/tips/banner-tips.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">เกร็ดความรู้ เรื่องกาแฟ</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">เกร็ดความรู้ เรื่องกาแฟ</h1>
         </div>
 
         <!-- Slider -->

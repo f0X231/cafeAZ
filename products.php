@@ -29,7 +29,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/products/products-banner-layer1.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">เครื่องดื่ม</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">เครื่องดื่ม</h1>
         </div>
 
         <!-- Slider -->

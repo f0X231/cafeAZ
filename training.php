@@ -31,7 +31,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/training/banner-training.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">ศูนย์ฝึกอบรมบาริสต้า</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">ศูนย์ฝึกอบรมบาริสต้า</h1>
         </div>
 
         <!-- Slider -->

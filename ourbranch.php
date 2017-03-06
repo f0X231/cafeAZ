@@ -30,7 +30,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/banner-ourbranch.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">ร้าน และ สาขา</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">ร้าน และ สาขา</h1>
         </div>
 
 

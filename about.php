@@ -29,7 +29,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/about/banner-about.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">เกี่ยวกับ คาเฟ่ อเมซอน</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">เกี่ยวกับ คาเฟ่ อเมซอน</h1>
         </div>
 
 

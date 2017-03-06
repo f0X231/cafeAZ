@@ -31,7 +31,7 @@
 
         <!-- Banner -->
         <div id="landing-content" style="background-image: url('images/factory/banner-factory.png');">
-            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1">โรงคั่วกาแฟ คาเฟ่ อเมซอน</h1>
+            <h1 class="fonts_dbadmanx fonts_size_in_banner_h1 weight_bold">โรงคั่วกาแฟ คาเฟ่ อเมซอน</h1>
         </div>
 
         <!-- Slider -->
