@@ -36,6 +36,7 @@
         .margin-bottom25 { margin-bottom: 25px; }
         .margin-bottom50 { margin-bottom: 50px; }
         .margin-left50 { margin-left: 50px; }
+        .margin-left80 { margin-left: 80px; }
         .no-margin-bottom { margin-bottom: 0px; }
         .padding-zero { padding: 0; }
         .padding-top50 { padding-top: 50px; }
@@ -46,6 +47,8 @@
         .lineHeight25 { line-height: 20px; }
         .displayInline { display: inline !important; }
         .displayInlineBlock { display: inline-block; }
+        .indextZero { text-indent: 0px; }
+        .indextText { text-indent: 35px; }
         button, .button {
             display: inline-block;
             /*margin: 0.55rem;*/
@@ -941,7 +944,7 @@
 /* AICA */
           .aica-exhibition {
               list-style: decimal;
-              padding-left: 50px;
+              /*padding-left: 50px;*/
               margin-bottom: 25px;
           }
 
