@@ -35,7 +35,7 @@
 
 
         <!-- Contact Us -->
-        <div class="contact-us fonts_cordiaupc fonts_size_txt_text">
+        <div class="contact-us fonts_dbadmanx fonts_size_txt_text">
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
                     <h2 class="text-center fonts_dbadmanx fonts_size_txt_title no-margin-bottom weight_bold">ฝ่ายธุรกิจคาเฟ่อเมซอน<br />บริษัท ปตท. จำกัด (มหาชน)</h2>

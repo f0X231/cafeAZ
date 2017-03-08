@@ -60,7 +60,7 @@
 
 
         <!-- Factory -->
-        <div class="factory fonts_cordiaupc fonts_size_txt_text margin-top50 ">
+        <div class="factory fonts_dbadmanx fonts_size_txt_text margin-top50 ">
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
                     <h2 class="text-center fonts_dbadmanx fonts_size_txt_title">โรงคั่วกาแฟ คาเฟ่ อเมซอน<br />Cafe Amazon Roasting plant</h2>

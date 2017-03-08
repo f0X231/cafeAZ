@@ -75,7 +75,7 @@
 
 
         <!-- News -->
-        <div class="amazon-news margin-top50 fonts_cordiaupc">
+        <div class="amazon-news margin-top50 fonts_dbadmanx">
               <div class="row">
                   <div class="columns small-12 medium-12 large-8 large-offset-2 news-filter">
                       <div class="row">

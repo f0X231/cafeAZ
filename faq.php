@@ -35,7 +35,7 @@
 
 
         <!-- FAQ -->
-        <div class="amazon-faq fonts_cordiaupc fonts_size_txt_text2">
+        <div class="amazon-faq fonts_dbadmanx fonts_size_txt_text2">
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
 

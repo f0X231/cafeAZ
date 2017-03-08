@@ -59,7 +59,7 @@
 
 
         <!-- News Detail -->
-        <div class="news-detail margin-top50 fonts_cordiaupc">
+        <div class="news-detail margin-top50 fonts_dbadmanx">
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
                     <h2 class="fonts_dbadmanx fonts_size_txt_title">ประกาศผลรางวัลโครงการประกวดออกแบบร้าน<br />Cafe Amazon Awake Award</h2>

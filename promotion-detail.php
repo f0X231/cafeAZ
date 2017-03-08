@@ -72,7 +72,7 @@
                     </div>
                 </div>
 
-                <div class="columns small-12 medium-6 large-7 fonts_cordiaupc product-detail-content">
+                <div class="columns small-12 medium-6 large-7 fonts_dbadmanx product-detail-content">
                     <div class="promotions-detail-header">4 เมนูสุขภาพ</div>
                     <div class="promotions-detail-header-l2">ดื่มได้ตลอดเทศกาลเจ</div>
                     <div class="promotions-detail-txt">

@@ -158,7 +158,7 @@
                     <div class="row aica-middle">
                         <div class="aica-content">
                             <div class="fonts_dbadmanx aica-content-title">Amazon Inspiring Campus</div>
-                            <div class="fonts_cordiaupc aica-content-txt">ศูนย์ธุรกิจคาเฟ่ อเมซอน หรือ Amazon Inspiring Campus (AICA) แหล่งการเรียนรู้แห่งใหม่ท่ามกลางบรรยากาศธรรมชาติตามแบบ Cafe Amazon จะพาให้ทุกเรื่องราวเกี่ยวกับกาแฟ แล้วมาดูกันว่าเบื้อหลังกาแฟแต่ละแก้ของ Cafe Amazon นั้น ผ่านกระบวนการกรรมวิธีอย่างไรบ้าง สัมผัสกับประสบการณ์การเล่าเรื่องผ่าน Interactive Media และ 4D ได้ที่ศูนย์ธุรกิจคาเฟ่ อเมซอน ศูนย์การเรียนรุ้ธุรกิจกาแฟ Cafe Amazon และโรงคั่วกาแฟ จ.พระนครศรีอยุธยา</div>
+                            <div class="fonts_dbadmanx aica-content-txt">ศูนย์ธุรกิจคาเฟ่ อเมซอน หรือ Amazon Inspiring Campus (AICA) แหล่งการเรียนรู้แห่งใหม่ท่ามกลางบรรยากาศธรรมชาติตามแบบ Cafe Amazon จะพาให้ทุกเรื่องราวเกี่ยวกับกาแฟ แล้วมาดูกันว่าเบื้อหลังกาแฟแต่ละแก้ของ Cafe Amazon นั้น ผ่านกระบวนการกรรมวิธีอย่างไรบ้าง สัมผัสกับประสบการณ์การเล่าเรื่องผ่าน Interactive Media และ 4D ได้ที่ศูนย์ธุรกิจคาเฟ่ อเมซอน ศูนย์การเรียนรุ้ธุรกิจกาแฟ Cafe Amazon และโรงคั่วกาแฟ จ.พระนครศรีอยุธยา</div>
                             <div><a href="aica.php"><button class="btn-aica">อ่านต่อ</button></a></div>
                         </div>
                     </div>

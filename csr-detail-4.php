@@ -59,7 +59,7 @@
 
 
         <!-- CSR -->
-        <div class="amazon-csr-detail fonts_cordiaupc fonts_size_txt_text">
+        <div class="amazon-csr-detail fonts_dbadmanx fonts_size_txt_text">
             <div class="row">
 
                 <div class="columns small-12 medium-12 large-10 large-offset-1">

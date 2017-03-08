@@ -35,7 +35,7 @@
 
 
         <!-- Contact Us -->
-        <div class="contact-us fonts_cordiaupc fonts_size_txt_text margin-top50">
+        <div class="contact-us fonts_dbadmanx fonts_size_txt_text margin-top50">
             <div class="row">
                 <div class="columns small-12 medium-12 large-10 large-offset-1">
                     <div class="row">

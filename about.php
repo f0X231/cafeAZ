@@ -34,7 +34,7 @@
 
 
         <!-- Cafe About -->
-        <div class="cafe-about fonts_cordiaupc fonts_size_txt_text">
+        <div class="cafe-about fonts_dbadmanx fonts_size_txt_text">
             <div class="row">
                 <div class="columns small-12 medium-12 large-12 fonts_dbadmanx">
                     <h2 class="text-center fonts_dbadmanx fonts_size_txt_title">คาเฟ่ อเมซอน</h2>

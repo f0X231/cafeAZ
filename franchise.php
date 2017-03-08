@@ -99,7 +99,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-4 large-3 large-offset-1">
                                                   <input type="radio" name="type_of_company" id="type_of_company1" value="person" checked="checked" />&nbsp;&nbsp;
-                                                  <label for="type_of_company1" class="fonts_cordiaupc fonts_size_txt_title">บุคคลธรรมดา</label>
+                                                  <label for="type_of_company1" class="fonts_dbadmanx fonts_size_txt_title">บุคคลธรรมดา</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_username" id="request_username" class="request_username borderradius displayInlineBlock" maxlength="50" onkeypress="return isNotNumberKey(event)" />
@@ -115,7 +115,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-4 large-3 large-offset-1">
                                                   <input type="radio" name="type_of_company" id="type_of_company2" value="company" />&nbsp;&nbsp;
-                                                  <label for="type_of_company2" class="fonts_cordiaupc fonts_size_txt_title">นิติบุคคล</label>
+                                                  <label for="type_of_company2" class="fonts_dbadmanx fonts_size_txt_title">นิติบุคคล</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-4">
                                                   <input type="text" name="request_company_name" id="request_company_name" class="request_company_name borderradius displayInlineBlock" maxlength="150" disabled="disabled" onkeypress="return isNotNumberKey(event)"  />
@@ -161,11 +161,11 @@
                                             <div class="row">
                                                 <div class="columns small-12 medium-12 large-11 large-offset-1">
                                                     <input type="radio" name="request_experience" id="request_experience_no" value="noexp" checked="checked" />&nbsp;&nbsp;
-                                                    <label for="request_experience_no" class="fonts_cordiaupc fonts_size_txt_title">ไม่มีประสบการณ์</label>
+                                                    <label for="request_experience_no" class="fonts_dbadmanx fonts_size_txt_title">ไม่มีประสบการณ์</label>
                                                 </div>
                                                 <div class="columns small-12 medium-4 large-3 large-offset-1">
                                                     <input type="radio" name="request_experience" id="request_experience_yes" value="hasexp" />&nbsp;&nbsp;
-                                                    <label for="request_experience_yes" class="fonts_cordiaupc fonts_size_txt_title">มีประสบการณ์</label>
+                                                    <label for="request_experience_yes" class="fonts_dbadmanx fonts_size_txt_title">มีประสบการณ์</label>
                                                 </div>
                                                 <div class="columns small-11 small-offset-1 medium-7 large-7">
                                                     <input type="text" name="request_experience_other" id="request_experience_other" class="request_experience_other borderradius" disabled="disabled" maxlength="180" />
@@ -193,7 +193,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-11 large-offset-1">
                                                   <input type="radio" name="request_station" id="request_station" value="out off stations" checked="checked">&nbsp;&nbsp;
-                                                  <label for="request_station" class="fonts_cordiaupc fonts_size_txt_title">นอกสถานีบริการ</label>
+                                                  <label for="request_station" class="fonts_dbadmanx fonts_size_txt_title">นอกสถานีบริการ</label>
                                               </div>
                                           </div>
                                       </div>
@@ -212,7 +212,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="radio" name="request_local_branch" id="request_local_branch_th" value="thailand" checked="checked">&nbsp;&nbsp;
-                                                  <label for="request_local_branch_th" class="fonts_cordiaupc fonts_size_txt_title">สาขาในประเทศไทย</label>
+                                                  <label for="request_local_branch_th" class="fonts_dbadmanx fonts_size_txt_title">สาขาในประเทศไทย</label>
                                               </div>
 
                                               <div class="columns small-12 medium-4 large-4">
@@ -279,7 +279,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="radio" name="request_local_branch" id="request_local_branch_other" value="other">&nbsp;&nbsp;
-                                                  <label for="request_local_branch_other" class="fonts_cordiaupc fonts_size_txt_title">สาขาต่างประเทศ</label>
+                                                  <label for="request_local_branch_other" class="fonts_dbadmanx fonts_size_txt_title">สาขาต่างประเทศ</label>
                                               </div>
 
                                               <div class="columns small-12 medium-6 large-6">
@@ -314,11 +314,11 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="radio" name="request_area_owen_ornot" id="request_area_owen" value="owen area" checked="checked">&nbsp;&nbsp;
-                                                  <label for="request_area_owen" class="fonts_cordiaupc fonts_size_txt_title">เป็นเจ้าของพื้นที่</label>
+                                                  <label for="request_area_owen" class="fonts_dbadmanx fonts_size_txt_title">เป็นเจ้าของพื้นที่</label>
                                               </div>
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="radio" name="request_area_owen_ornot" id="request_area_rest" value="rest ares">&nbsp;&nbsp;
-                                                  <label for="request_area_rest" class="fonts_cordiaupc fonts_size_txt_title">เช่าพื้นที่จากเจ้าของพื้นที่</label>
+                                                  <label for="request_area_rest" class="fonts_dbadmanx fonts_size_txt_title">เช่าพื้นที่จากเจ้าของพื้นที่</label>
                                               </div>
                                           </div>
                                       </div>
@@ -386,23 +386,23 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="radio" name="request_environment" id="street" value="เป็นถนนสายหลัก">&nbsp;&nbsp;
-                                                  <label for="street" class="fonts_cordiaupc fonts_size_txt_title">เป็นถนนสายหลัก</label>
+                                                  <label for="street" class="fonts_dbadmanx fonts_size_txt_title">เป็นถนนสายหลัก</label>
                                               </div>
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="radio" name="request_environment" id="road" value="เป็นถนนในซอย">&nbsp;&nbsp;
-                                                  <label for="road" class="fonts_cordiaupc fonts_size_txt_title">เป็นถนนในซอย</label>
+                                                  <label for="road" class="fonts_dbadmanx fonts_size_txt_title">เป็นถนนในซอย</label>
                                               </div>
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="radio" name="request_environment" id="building" value="อาคาร">&nbsp;&nbsp;
-                                                  <label for="building" class="fonts_cordiaupc fonts_size_txt_title">อาคาร</label>
+                                                  <label for="building" class="fonts_dbadmanx fonts_size_txt_title">อาคาร</label>
                                               </div>
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="radio" name="request_environment" id="department" value="ห้างสรรพสินค้า">&nbsp;&nbsp;
-                                                  <label for="department" class="fonts_cordiaupc fonts_size_txt_title">ห้างสรรพสินค้า</label>
+                                                  <label for="department" class="fonts_dbadmanx fonts_size_txt_title">ห้างสรรพสินค้า</label>
                                               </div>
                                               <div class="columns small-12 medium-4 large-3">
                                                   <input type="radio" name="request_environment" id="other" value="other">&nbsp;&nbsp;
-                                                  <label for="other" class="fonts_cordiaupc fonts_size_txt_title">อื่นๆ โปรดระบุ</label>
+                                                  <label for="other" class="fonts_dbadmanx fonts_size_txt_title">อื่นๆ โปรดระบุ</label>
                                               </div>
                                               <div class="columns small-12 medium-8 large-9">
                                                   <input type="text" name="request_environment_other" id="request_environment_other" class="request_environment_other borderradius" disabled="disabled" />
@@ -416,11 +416,11 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="radio" name="request_carpark" id="carpark_yes" value="มี">&nbsp;&nbsp;
-                                                  <label for="carpark_yes" class="fonts_cordiaupc fonts_size_txt_title">มี</label>
+                                                  <label for="carpark_yes" class="fonts_dbadmanx fonts_size_txt_title">มี</label>
                                               </div>
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="radio" name="request_carpark" id="carpark_no" value="ไม่มี">&nbsp;&nbsp;
-                                                  <label for="carpark_no" class="fonts_cordiaupc fonts_size_txt_title">ไม่มี</label>
+                                                  <label for="carpark_no" class="fonts_dbadmanx fonts_size_txt_title">ไม่มี</label>
                                               </div>
                                           </div>
                                       </div>
@@ -431,7 +431,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="checkbox" name="has_department" id="has_department" value="ห้างสรรถสินค้า">&nbsp;&nbsp;
-                                                  <label for="has_department" class="fonts_cordiaupc fonts_size_txt_title displayInline">ห้างสรรถสินค้า โปรดระบุชื่อ</label>
+                                                  <label for="has_department" class="fonts_dbadmanx fonts_size_txt_title displayInline">ห้างสรรถสินค้า โปรดระบุชื่อ</label>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="text" name="has_department_name" id="has_department_name" class="has_department_name borderradius" disabled="disabled" />
@@ -440,7 +440,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="checkbox" name="has_coffee" id="has_coffee" value="ร้านกาแฟยี่ห้ออื่น">&nbsp;&nbsp;
-                                                  <label for="has_coffee" class="fonts_cordiaupc fonts_size_txt_title displayInline">ร้านกาแฟยี่ห้ออื่น โปรดระบุชื่อ</label>
+                                                  <label for="has_coffee" class="fonts_dbadmanx fonts_size_txt_title displayInline">ร้านกาแฟยี่ห้ออื่น โปรดระบุชื่อ</label>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="text" name="has_coffee_name" id="has_coffee_name" class="has_coffee_name borderradius" disabled="disabled" />
@@ -449,7 +449,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="checkbox" name="has_company" id="has_company" value="สำนักงาน">&nbsp;&nbsp;
-                                                  <label for="has_company" class="fonts_cordiaupc fonts_size_txt_title displayInline">สำนักงาน โปรดระบุชื่อ</label>
+                                                  <label for="has_company" class="fonts_dbadmanx fonts_size_txt_title displayInline">สำนักงาน โปรดระบุชื่อ</label>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="text" name="has_company_name" id="has_company_name" class="has_company_name borderradius" disabled="disabled" />
@@ -458,7 +458,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-6">
                                                   <input type="checkbox" name="has_condo" id="has_condo" value="คอนโด อพาร์ทเม้นท์ หรือที่พักอาศัยอื่นๆ">&nbsp;&nbsp;
-                                                  <label for="has_condo" class="fonts_cordiaupc fonts_size_txt_title displayInline">คอนโด อพาร์ทเม้นท์ หรือที่พักอาศัยอื่นๆ โปรดระบุชื่อ</label>
+                                                  <label for="has_condo" class="fonts_dbadmanx fonts_size_txt_title displayInline">คอนโด อพาร์ทเม้นท์ หรือที่พักอาศัยอื่นๆ โปรดระบุชื่อ</label>
                                               </div>
                                               <div class="columns small-12 medium-12 large-6">
                                                   <input type="text" name="has_condo_name" id="has_condo_name" class="has_condo_name borderradius" disabled="disabled" />
@@ -467,7 +467,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-6">
                                                   <input type="checkbox" name="has_university" id="has_university" value="สถานศึกษา">&nbsp;&nbsp;
-                                                  <label for="has_university" class="fonts_cordiaupc fonts_size_txt_title displayInline">สถานศึกษา เช่น โรงเรียน มหาวิทยาลัย โปรดระบุชื่อ</label>
+                                                  <label for="has_university" class="fonts_dbadmanx fonts_size_txt_title displayInline">สถานศึกษา เช่น โรงเรียน มหาวิทยาลัย โปรดระบุชื่อ</label>
                                               </div>
                                               <div class="columns small-12 medium-12 large-6">
                                                   <input type="text" name="has_university_name" id="has_university_name" class="has_university_name borderradius" disabled="disabled" />
@@ -476,7 +476,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="checkbox" name="has_gasstation" id="has_gasstation" value="สถานีน้ำมัน">&nbsp;&nbsp;
-                                                  <label for="has_gasstation" class="fonts_cordiaupc fonts_size_txt_title displayInline">สถานีน้ำมัน โปรดระบุชื่อ</label>
+                                                  <label for="has_gasstation" class="fonts_dbadmanx fonts_size_txt_title displayInline">สถานีน้ำมัน โปรดระบุชื่อ</label>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="text" name="has_gasstation_name" id="has_gasstation_name" class="has_gasstation_name borderradius" disabled="disabled" />
@@ -485,7 +485,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="checkbox" name="has_market" id="has_market" value="ชุมชนหรือตลาด">&nbsp;&nbsp;
-                                                  <label for="has_market" class="fonts_cordiaupc fonts_size_txt_title displayInline">ชุมชนหรือตลาด โปรดระบุชื่อ</label>
+                                                  <label for="has_market" class="fonts_dbadmanx fonts_size_txt_title displayInline">ชุมชนหรือตลาด โปรดระบุชื่อ</label>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="text" name="has_market_name" id="has_market_name" class="has_market_name borderradius" disabled="disabled" />
@@ -494,7 +494,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-6">
                                                   <input type="checkbox" name="has_shortcut" id="has_shortcut" value="เส้นทางลัด">&nbsp;&nbsp;
-                                                  <label for="has_shortcut" class="fonts_cordiaupc fonts_size_txt_title displayInline">เส้นทางลัด หรือ จุดแวะพัก โปรดระบุชื่อ</label>
+                                                  <label for="has_shortcut" class="fonts_dbadmanx fonts_size_txt_title displayInline">เส้นทางลัด หรือ จุดแวะพัก โปรดระบุชื่อ</label>
                                               </div>
                                               <div class="columns small-12 medium-12 large-6">
                                                   <input type="text" name="has_shortcut_name" id="has_shortcut_name" class="has_shortcut_name borderradius" disabled="disabled" />
@@ -503,7 +503,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="checkbox" name="has_otherthing" id="has_otherthing" value="อื่นๆ">&nbsp;&nbsp;
-                                                  <label for="has_otherthing" class="fonts_cordiaupc fonts_size_txt_title displayInline">อื่นๆ โปรดระบุชื่อ</label>
+                                                  <label for="has_otherthing" class="fonts_dbadmanx fonts_size_txt_title displayInline">อื่นๆ โปรดระบุชื่อ</label>
                                               </div>
                                               <div class="columns small-12 medium-6 large-6">
                                                   <input type="text" name="has_otherthing_name" id="has_otherthing_name" class="has_otherthing_name borderradius" disabled="disabled" />
@@ -512,7 +512,7 @@
                                           <div class="row">
                                               <div class="columns small-12 medium-12 large-12">
                                                   <input type="checkbox" name="has_reason" id="has_reason" value="เหตุผล">&nbsp;&nbsp;
-                                                  <label for="has_reason" class="fonts_cordiaupc fonts_size_txt_title">โปรดระบุเหตุผลในการสมัครทำธุรกิจแฟรนไชส์ร้านกาแฟ Cafe Amazon</label>
+                                                  <label for="has_reason" class="fonts_dbadmanx fonts_size_txt_title">โปรดระบุเหตุผลในการสมัครทำธุรกิจแฟรนไชส์ร้านกาแฟ Cafe Amazon</label>
                                               </div>
                                               <div class="columns small-12 medium-12 large-12">
                                                   <textarea name="require_reason" id="require_reason" class="require_reason borderradius" disabled="disabled"></textarea>

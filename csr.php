@@ -74,7 +74,7 @@
 
 
         <!-- CSR -->
-        <div class="amazon-csr margin-top50 fonts_cordiaupc">
+        <div class="amazon-csr margin-top50 fonts_dbadmanx">
               <div class="columns small-12 medium-12 large-12 csr-container">
 
                   <div class="row small-up-1 medium-up-2 large-up-2 csr-page" id="csr-page-1">
