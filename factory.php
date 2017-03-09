@@ -63,7 +63,7 @@
         <div class="factory fonts_dbadmanx fonts_size_txt_text margin-top50 ">
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
-                    <h2 class="text-center fonts_dbadmanx fonts_size_txt_title">โรงคั่วกาแฟ คาเฟ่ อเมซอน<br />Cafe Amazon Roasting plant</h2>
+                    <h2 class="text-center fonts_dbadmanx fonts_size_txt_title weight_bold">โรงคั่วกาแฟ คาเฟ่ อเมซอน<br />Cafe Amazon Roasting plant</h2>
 
                     <div class="text-center">โรงคั่วกาแฟคาเฟ่ อเมซอน จัดตั้งเพื่อให้คนไทยได้รับบริการและดื่มกาแฟที่มีรสชาติตามมาตรฐานคาเฟ่อเมซอนในราคาที่เข้าถึงได้ และมีการใส่ใจในทุกขั้นตอนการผลิตตั้งแต่การคัดเลือกและรับซื้อเมล็ดกาแฟที่ได้คุณภาพเพื่อนำมาคั่วให้ได้ตามมาตรฐานที่ดีเยี่ยม และนำไปผลิตเป็นเครื่องดื่มจนถึงมือลูกค้า โรงคั่วกาแฟคาเฟ่ อเมซอนเป็นโรงคั่วกาแฟที่ผ่านการรับรองระบบมาตรฐาน วิธีการปฏิบัติที่ดีในการผลิตอาหารตามมาตรฐานสากล (Good Manufacturing Practice: GMP Codex) มีกำลังการผลิต 2,700 ตันต่อปี</div>
                 </div>

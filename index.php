@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="columns small-12 medium-12 large-12 margin-top25-mobile-0">
-                    <h2 class="text-center fonts_dbadmanx fonts_size_title">สินค้า</h2>
+                    <h2 class="text-center fonts_dbadmanx fonts_size_title weight_bold">สินค้า</h2>
                 </div>
 
                 <div class="columns small-12 medium-1 large-2">&nbsp;</div>
@@ -75,7 +75,7 @@
         <div class="franchise">
             <div class="row franchise-row">
                 <div class="columns small-12 medium-6 large-6 text-center color_white franchise-txt">
-                    <h2 class="fonts_dbadmanx fonts_size_title">แฟรนไชส์</h2>
+                    <h2 class="fonts_dbadmanx fonts_size_title weight_bold">แฟรนไชส์</h2>
                     <div class="franchise-txt-detail">การมีส่วนร่วมฟื้นฟูและอนุรักษ์ทรัพยากรธรรมชาติ และสิ่งแวดล้อมของท้องถิ่นโดยเฉพาะต้นน้ำ ในขณะเดียวกันคาเฟอเมซอนก็จะได้วัตถุดิบ เป็นเมล็ดกาแฟคุณภาพเพื่อผู้บริโภคที่มาใช้บริการ และผู้บริโภคก็ยังมีส่วนช่วยสนับสนุนเกษตรไทยให้มีสภาพความเป็นอยู่ที่ดีขึ้นอีกด้วย</div>
                     <div class="row">
                       <div class="columns small-12 medium-6 large-6 text-center margin-top8">
@@ -104,7 +104,7 @@
         <div class="vdo margin-top25 margin-bottom25">
             <div class="row">
                 <div class="columns small-12 medium-10 large-10 medium-offset-1 large-offset-1 text-center margin-top25 margin-bottom25">
-                    <h2 class="fonts_dbadmanx fonts_size_title">วีดีโอ</h2>
+                    <h2 class="fonts_dbadmanx fonts_size_title weight_bold">วีดีโอ</h2>
                     <!--div class="video-container">
                         <iframe src="https://www.youtube.com/embed/vRgLgrhsdjU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div>
@@ -157,7 +157,7 @@
                 <div class="columns small-12 medium-6 large-6 aica-txt" data-equalizer-watch="aica">
                     <div class="row aica-middle">
                         <div class="aica-content">
-                            <div class="fonts_dbadmanx aica-content-title">Amazon Inspiring Campus</div>
+                            <div class="fonts_dbadmanx aica-content-title weight_bold">Amazon Inspiring Campus</div>
                             <div class="fonts_dbadmanx aica-content-txt">ศูนย์ธุรกิจคาเฟ่ อเมซอน หรือ Amazon Inspiring Campus (AICA) แหล่งการเรียนรู้แห่งใหม่ท่ามกลางบรรยากาศธรรมชาติตามแบบ Cafe Amazon จะพาให้ทุกเรื่องราวเกี่ยวกับกาแฟ แล้วมาดูกันว่าเบื้อหลังกาแฟแต่ละแก้ของ Cafe Amazon นั้น ผ่านกระบวนการกรรมวิธีอย่างไรบ้าง สัมผัสกับประสบการณ์การเล่าเรื่องผ่าน Interactive Media และ 4D ได้ที่ศูนย์ธุรกิจคาเฟ่ อเมซอน ศูนย์การเรียนรุ้ธุรกิจกาแฟ Cafe Amazon และโรงคั่วกาแฟ จ.พระนครศรีอยุธยา</div>
                             <div><a href="aica.php"><button class="btn-aica">อ่านต่อ</button></a></div>
                         </div>
@@ -182,7 +182,7 @@
         <!-- News -->
         <div class="news margin-top25 margin-bottom25">
             <div class="row">
-                <h2 class="columns small-12 medium-12 large-12 text-center fonts_dbadmanx fonts_size_title margin-top25">ข่าว และ อัพเดท</h2>
+                <h2 class="columns small-12 medium-12 large-12 text-center fonts_dbadmanx fonts_size_title margin-top25 weight_bold">ข่าว และ อัพเดท</h2>
             </div>
             <div class="row small-up-1 medium-up-3 large-up-3">
                 <div class="columns">
