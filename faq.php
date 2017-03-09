@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
 
-                    <div class="integration-list fonts_dbadmanx fonts_size_txt_text2">
+                    <div class="integration-list fonts_dbadmanx fonts_size_txt_text3">
                         <ul>
                             <li>
                                 <a class="expand">

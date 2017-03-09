@@ -8,11 +8,15 @@
     /* Font Size */
         .fonts_size_in_banner_h1 { font-size: 3.5em; }
         .fonts_size_txt_title { font-size: 1.6em; }
+        .fonts_size_txt_title2 { font-size: 1.3em; }
+        .fonts_size_txt_title3 { font-size: 1.25em; }
         .fonts_size_txt_text { font-size: 1.375em; }
         .fonts_size_txt_text2 { font-size: 1.215em; }
+        .fonts_size_txt_text3 { font-size: 1.125em; }
         .fonts_size_txt_head { font-size: 1.25em; }
         .fonts_size_txt_head2 { font-size: 1.4em; }
         .fonts_size_title { font-size: 2.75em; }
+        .fonts_size_dot { font-size: 16px; }
         .fonts_size_slide_title { font-size: 2.25em; }  /* for Slide */
         .fonts_size_slide_txt { font-size: 1.375em; }   /* for Slide */
         /*.fonts_size_subtitle { font-size: 2.625rem; } */
