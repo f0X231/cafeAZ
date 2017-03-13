@@ -102,7 +102,7 @@
                       <div class="columns">&nbsp;</div>
 
                       <div class="row margin-top50">
-                          <div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2">
+                          <div class="columns small-12 medium-10 medium-offset-1 large-10 large-offset-1">
                               <div class="row news-inline">
                                   <div class="columns small-12 medium-6 large-6 padding-zero news-inline-image">
                                         <div class="amazon-csr-divleft news-divleft as-same-sa-height bg_white">
