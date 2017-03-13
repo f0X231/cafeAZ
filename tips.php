@@ -60,16 +60,16 @@
         <div class="amazon-tips fonts_cordiaupc fonts_size_txt_text margin-top50">
             <div class="row">
                 <div class="columns small-12 medium-12 large-10 large-offset-1">
-                    <h2 class="fonts_dbadmanx fonts_size_txt_title text-center">ต้นทางแก่งกาแฟคุณภาพ</h2>
+                    <h2 class="fonts_dbadmanx fonts_size_txt_title text-center weight_bold">ต้นทางแก่งกาแฟคุณภาพ</h2>
 
 
                     <div class="tips-detail-txt">
-                        <p class="fonts_size_txt_head2 no-margin-bottom">กาแฟอราบิก้า</p>
+                        <p class="fonts_size_txt_head2 no-margin-bottom weight_bold">กาแฟอราบิก้า</p>
                         <p>ปลูกได้ดีในสภาพอากาศเย็นบนดอยสูง อุณหภูมิเฉลี่ย 15-23 C ระดับความสูงตั้งแต่ 1,000 เมตร</p>
                     </div>
 
                     <div class="tips-detail-txt">
-                        <p class="fonts_size_txt_head2 no-margin-bottom">กาแฟโรบัสต้า</p>
+                        <p class="fonts_size_txt_head2 no-margin-bottom weight_bold">กาแฟโรบัสต้า</p>
                         <p>ปลูกได้ดีในสภาพอากาศร้อนชื้น อุณหภูมิเฉลี่ย 15-23 C ระดับความสูงตั้งแต่ระดับน้ำทะเล ไปจนถึง 1,000 เมตร</p>
                     </div>
                 </div>

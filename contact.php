@@ -40,10 +40,10 @@
                 <div class="columns small-12 medium-12 large-12">
                     <h2 class="text-center fonts_dbadmanx fonts_size_txt_title no-margin-bottom weight_bold">ฝ่ายธุรกิจคาเฟ่อเมซอน<br />บริษัท ปตท. จำกัด (มหาชน)</h2>
 
-                    <div class="contact-us-addr text-center fonts_size_txt_title fonts_dbadmanx">555 ถนนวิภาวดีรังสิต แขวงจตุจักร เขตจตุจักร กรุงเทพฯ 10900 </div>
+                    <div class="contact-us-addr text-center fonts_size_txt_text fonts_dbadmanx">555 ถนนวิภาวดีรังสิต แขวงจตุจักร เขตจตุจักร กรุงเทพฯ 10900 </div>
                     <div class="text-center contact-us-call">
-                        <p class="fonts_size_txt_title no-margin-bottom">ร้องเรียนสินค้าและบริการโทร.</p>
-                        <p class="fonts_size_txt_title no-margin-bottom color_green">PTT Contact Center : 1365</p>
+                        <p class="fonts_size_txt_text no-margin-bottom">ร้องเรียนสินค้าและบริการโทร.</p>
+                        <p class="fonts_size_txt_text no-margin-bottom color_green">PTT Contact Center : 1365</p>
                     </div>
 
                     <div id="googlemap"></div>

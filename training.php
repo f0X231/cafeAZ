@@ -63,7 +63,7 @@
         <div class="training fonts_cordiaupc fonts_size_txt_text margin-top50 ">
             <div class="row">
                 <div class="columns small-12 medium-12 large-12">
-                    <h2 class="text-center fonts_dbadmanx fonts_size_txt_title">ศูนย์ฝึกอบรมบาริสต้า<br />Training Center </h2>
+                    <h2 class="text-center fonts_dbadmanx fonts_size_txt_title weight_bold">ศูนย์ฝึกอบรมบาริสต้า<br />Training Center </h2>
 
                     <div class="text-center">ศูนย์ฝึกอบรมบาริสต้า หรือ Training Center  ตั้งขึ้นเพื่ออบรมให้แก่เจ้าของหรือผู้บริหารร้านกาแฟ Café Amazon เพื่ออบรมทั้งภาคทฤษฎีและภาคปฏิบัติ รวมทั้งการอบรมการบริหารร้านอย่างมีประสิทธิภาพ นอกจากนี้เรายังมีหลักสูตรฝึกอบรม Re-Training สําหรับร้านที่เปิดดําเนินการขายไปแล้ว ทั้งนี้เพื่อให้ Café Amazon ทุกสาขาสามารถให้บริการอย่างมีมาตรฐานในระดับสากล ส่งต่อกาแฟคุณภาพดีถึงมือผู้บริโภค</div>
                 </div>
